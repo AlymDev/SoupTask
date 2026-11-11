@@ -37,3 +37,10 @@ heartbeat-03.txt	heartbeat_test.py, mutation no_cancel_in_heartbeat	FAIL (expect
 
 Файл	Команда	Результат	Примечание
 chaos-14.txt	run.py --jobs 1000 --no-kill, после apply clock_behind	PASS (13/13), 0 retries, 0 reaper actions	Не использовать как доказательство: в шапке нет строки MUTATION ACTIVE, состояние мутации не подтверждено. Повтор см. ниже
+
+|File|	Command	Result	|Note
+
+| chaos-13.txt | run.py --jobs 1000 --no-kill | <RESULT from the earlier command> | NO mutation marker in header: control run, clean code |
+| chaos-14.txt | run.py --jobs 1000 --no-kill | PASS (13/13) | NO mutation marker: control run, clean code |
+| chaos-15.txt | run.py --jobs 300 --no-kill, mutation clock_behind | FAIL (expected) | 199/300 claimed >1x, 437 stale writes rejected, 9 'failed' with healthy workers |
+| chaos-16.txt | run.py --jobs 1000 --no-kill, mutation isolation_rr | PASS (13/13) but 144 create + 2 cancel HTTP 500 | invariants hold, availability does not; harness does not count HTTP errors as failures |

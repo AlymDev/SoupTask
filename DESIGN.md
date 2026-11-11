@@ -193,3 +193,11 @@ Worker froze for 25s after a 9s job. Attempt 2 was claimed at ~31s and was still
 
 
 ИИ предсказал двойные захваты при clock_behind. Первый прогон (chaos-14) прошёл без единого retry; я не принял это как опровержение, проверил наличие метки мутации и кода в контейнере, и повторил (chaos-15)
+
+### Isolation level mutation (chaos-16)
+- Mutation: database default isolation changed from READ COMMITTED to REPEATABLE READ (API and workers).
+- Result: all 13 invariants passed, yet the API returned HTTP 500 for 144 creates and 2 cancels, with "could not serialize access due to concurrent update" in api and worker logs. 2 worker loop errors. One job stayed 'running' about 20s after the queue emptied and was finished by the reaper as cancelled (interpretation, to be confirmed from the worker log).
+- No double effect and no lost job: fencing and UNIQUE constraints still hold. Creates were saved by client retries with the same key; the 2 failed cancels were not retried.
+- Takeaway: correctness of effects does not depend on the isolation level, availability does. The code has no retry on serialization failure and relies on the database default.
+- Harness gap: HTTP 500s are only printed, not counted as a failed invariant, so this run says PASS. Found by reading the stats, not the PASS line.
+- Limits: one run, no kills, only the global default changed (not SERIALIZABLE), cause of create 500s inferred from Postgres documentation.

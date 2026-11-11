@@ -1,0 +1,16 @@
+STARVATION TEST 01 started 2026-11-11T14:04:18  {'work_s': 80, 'bound_s': 40, 'workers': 8, 'label': 'baseline, clean code'}
+label: baseline, clean code
+running worker containers: 8 (expected 8)
+created 8 jobs of 80s
+all 8 workers are busy
+KILL -9 container e837bd22c739 (worker e837bd22c739-1-ee8096) holding job e5705ba9-2b1a-45b0-aec0-211dbea669fd (attempt 1); NOT restarting it
+[t=kill+  0.3s] orphan job: status=running attempt=1 worker=e837bd22c739-1-ee8096
+[t=kill+ 79.7s] orphan job: status=running attempt=2 worker=e7cdb3ff8e1a-1-44552b
+
+reaper log lines since start: 1
+   worker-7  | 2026-11-11 08:05:39,358 INFO reaper handled 1 expired job(s)
+
+cleanup: restarting all workers, emptying tables
+
+orphan recovered 79.7s after the kill (bound 40s, lease 30s)
+RESULT: FAIL: recovery took 79.7s > 40s. While all other workers were busy, nobody ran the reaper.
