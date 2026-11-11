@@ -56,3 +56,21 @@ chaos-14.txt	run.py --jobs 1000 --no-kill, после apply clock_behind	PASS (1
 
 | freeze-01.txt | freeze_test.py, clean code | PASS | worker paused 40s mid-work; 'lost lease, abandoning' logged after unpause; one effect from attempt 2 |
 | freeze-02.txt | freeze_test.py, mutation heartbeat_no_attempt | FAIL (expected) | no 'lost lease'; stale write rejected only at finish (ZOMBIE); still one effect from attempt 2 |
+
+| load-01.txt | load_test.py --duration-s 20, clean code | PASS | trial, 100 req/s mixed |
+| load-02.txt | load_test.py, clean code | PASS | 6000 req at 100/s, p50 19ms p95 37ms p99 226ms, 0 errors, queue peak 5; only 4 cancels hit a live job (jobs last 50ms) |
+| pagination-01.txt | pagination_test.py | PASS | 500 jobs, 14 pages, no dup/gap; inserts during walk: no dup, no old job lost |
+
+
+| failcancel-02.txt | fail_cancel_test.py, clean code | FAIL (real bug) | job with payload fail=true, cancel accepted (HTTP 202) while running, ended 'failed' instead of 'cancelled'; FINISH_FAIL_SQL ignores cancel_requested |
+
+| failcancel-03.txt | fail_cancel_test.py after "fix" | FAIL | image digest identical to the previous build: the edit to worker.py was not applied; not a result for the fix |
+
+
+| failcancel-02.txt | fail_cancel_test.py, clean code | final status 'failed' | real bug: accepted cancel ended 'failed'. NOTE: the RESULT line is unreliable, the test had a bug (cancel code overwritten) and could never print PASS |
+| failcancel-03.txt | same, after a "fix" | final status 'failed' | the edit to worker.py had not been applied (image digest unchanged); same test bug |
+| failcancel-04.txt | same, fix applied (verified by grep in the container) | final status 'cancelled', no effect | RESULT line says FAIL because of the test bug, not the code |
+| failcancel-05.txt | fixed test | <fill> | |
+| chaos-19.txt | run.py --jobs 2000 | PASS (12/12) | ran on code WITHOUT the fail/cancel fix |
+
+| chaos-20.txt | run.py --jobs 1000 --no-kill, mutation isolation_rr, after explicit READ COMMITTED | PASS (14/14) | 0 HTTP 500 (chaos-16 without the fix: 144 create + 2 cancel 500s). Prior SHOW not rerun |

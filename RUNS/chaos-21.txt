@@ -1,0 +1,385 @@
+CHAOS RUN 21  started 2026-11-11T15:08:09
+args: {'jobs': 10000, 'workers': 8, 'kill_interval': 2.0, 'kill_mode': 'mixed', 'cancels': 1000, 'dup_threads': 2, 'producers': 16, 'parallel_dup_fraction': 0.2, 'max_attempts': 5, 'timeout': 1200, 'base_url': 'http://localhost:8000', 'seed': None, 'no_kill': False, 'allow_worker_mismatch': False}  seed=665797255
+python 3.14.2; git commit: 1b91f55
+NAME                IMAGE             COMMAND                  SERVICE   CREATED              STATUS                 PORTS
+souptask-api-1      souptask-api      "uvicorn app.main:ap…"   api       About a minute ago   Up About a minute      0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+souptask-db-1       postgres:16       "docker-entrypoint.s…"   db        23 hours ago         Up 4 hours (healthy)   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+souptask-worker-1   souptask-worker   "python -m app.worker"   worker    About a minute ago   Up About a minute      
+souptask-worker-2   souptask-worker   "python -m app.worker"   worker    About a minute ago   Up About a minute      
+souptask-worker-3   souptask-worker   "python -m app.worker"   worker    About a minute ago   Up About a minute      
+souptask-worker-4   souptask-worker   "python -m app.worker"   worker    About a minute ago   Up About a minute      
+souptask-worker-5   souptask-worker   "python -m app.worker"   worker    About a minute ago   Up About a minute      
+souptask-worker-6   souptask-worker   "python -m app.worker"   worker    About a minute ago   Up About a minute      
+souptask-worker-7   souptask-worker   "python -m app.worker"   worker    About a minute ago   Up About a minute      
+souptask-worker-8   souptask-worker   "python -m app.worker"   worker    About a minute ago   Up About a minute
+running worker containers: 8 (expected 8)
+resetting tables (TRUNCATE effects, jobs)
+[t=   7.5s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=   8.3s] created=691/10000 queued=527 running=8 succeeded=147 cancelled=6 failed=0 kills=1 cancels=12 dups=70
+[t=   9.5s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  11.8s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  13.9s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  14.3s] created=1307/10000 queued=1007 running=11 succeeded=277 cancelled=12 failed=0 kills=4 cancels=22 dups=133
+[t=  16.5s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  18.7s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  20.4s] created=1891/10000 queued=1455 running=13 succeeded=400 cancelled=20 failed=0 kills=6 cancels=35 dups=195
+[t=  20.9s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  23.8s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  25.3s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  27.5s] created=2447/10000 queued=1866 running=17 succeeded=529 cancelled=28 failed=0 kills=9 cancels=46 dups=258
+[t=  28.1s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  30.6s] KILL -9 souptask-worker-8 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  32.2s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  33.9s] created=2923/10000 queued=2221 running=19 succeeded=649 cancelled=33 failed=0 kills=12 cancels=59 dups=314
+[t=  34.3s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  36.4s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  38.3s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  40.1s] created=3398/10000 queued=2564 running=17 succeeded=766 cancelled=44 failed=0 kills=15 cancels=73 dups=370
+[t=  40.2s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  41.5s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  43.2s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  45.1s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  46.2s] created=3895/10000 queued=2959 running=18 succeeded=865 cancelled=54 failed=0 kills=19 cancels=86 dups=426
+[t=  46.7s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  48.2s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  49.8s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  51.9s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  52.0s] created=4425/10000 queued=3362 running=20 succeeded=978 cancelled=61 failed=0 kills=23 cancels=97 dups=485
+[t=  53.9s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  56.1s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  57.8s] created=4993/10000 queued=3809 running=20 succeeded=1093 cancelled=70 failed=0 kills=25 cancels=108 dups=544
+[t=  58.2s] KILL -9 souptask-worker-8 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  60.1s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  62.1s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  63.7s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  63.7s] created=5561/10000 queued=4250 running=21 succeeded=1210 cancelled=77 failed=0 kills=29 cancels=120 dups=604
+[t=  65.2s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  67.0s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  69.6s] created=6085/10000 queued=4660 running=22 succeeded=1315 cancelled=87 failed=0 kills=31 cancels=131 dups=660
+[t=  69.9s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  71.1s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  72.9s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  74.7s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  75.8s] created=6624/10000 queued=5065 running=21 succeeded=1434 cancelled=95 failed=0 kills=35 cancels=144 dups=719
+[t=  76.6s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  78.7s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  80.8s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  81.7s] created=7161/10000 queued=5487 running=21 succeeded=1548 cancelled=101 failed=0 kills=38 cancels=156 dups=779
+[t=  83.0s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  85.2s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  87.6s] created=7714/10000 queued=5908 running=21 succeeded=1671 cancelled=111 failed=0 kills=40 cancels=169 dups=839
+[t=  88.0s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  90.1s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  91.4s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  93.3s] created=8250/10000 queued=6330 running=20 succeeded=1778 cancelled=120 failed=0 kills=43 cancels=180 dups=897
+[t=  93.5s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  95.5s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  98.1s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  99.2s] created=8820/10000 queued=6776 running=20 succeeded=1893 cancelled=128 failed=0 kills=46 cancels=191 dups=960
+[t= 100.5s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 102.1s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 103.9s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 105.1s] created=9363/10000 queued=7196 running=20 succeeded=2006 cancelled=138 failed=0 kills=49 cancels=203 dups=1019
+[t= 107.2s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 108.7s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 110.5s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 111.1s] created=9897/10000 queued=7610 running=19 succeeded=2118 cancelled=147 failed=0 kills=52 cancels=215 dups=1077
+[t= 112.6s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 114.1s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 115.5s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 117.1s] created=10000/10000 queued=7594 running=20 succeeded=2227 cancelled=159 failed=0 kills=55 cancels=231 dups=1221
+[t= 117.8s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 120.1s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 121.4s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 122.8s] created=10000/10000 queued=7472 running=20 succeeded=2332 cancelled=176 failed=0 kills=58 cancels=248 dups=1379
+[t= 123.1s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 124.6s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 126.7s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 128.5s] created=10000/10000 queued=7349 running=20 succeeded=2442 cancelled=189 failed=0 kills=61 cancels=268 dups=1535
+[t= 128.7s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 130.5s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 132.1s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 134.1s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 134.2s] created=10000/10000 queued=7218 running=19 succeeded=2559 cancelled=204 failed=0 kills=65 cancels=285 dups=1688
+[t= 135.6s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 138.3s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 139.7s] created=10000/10000 queued=7091 running=20 succeeded=2673 cancelled=216 failed=0 kills=67 cancels=304 dups=1842
+[t= 140.2s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 142.1s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 143.7s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 145.2s] created=10000/10000 queued=6961 running=19 succeeded=2790 cancelled=230 failed=0 kills=70 cancels=322 dups=2003
+[t= 145.6s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 147.9s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 149.9s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 150.9s] created=10000/10000 queued=6836 running=21 succeeded=2897 cancelled=246 failed=0 kills=73 cancels=341 dups=2158
+[t= 151.1s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 152.6s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 154.6s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 156.5s] created=10000/10000 queued=6698 running=21 succeeded=3023 cancelled=258 failed=0 kills=76 cancels=356 dups=2318
+[t= 156.8s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 158.3s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 161.0s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 162.0s] created=10000/10000 queued=6564 running=22 succeeded=3138 cancelled=276 failed=0 kills=79 cancels=376 dups=2479
+[t= 162.7s] KILL -9 souptask-worker-8 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 164.3s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 166.6s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 167.4s] created=10000/10000 queued=6443 running=21 succeeded=3249 cancelled=287 failed=0 kills=82 cancels=390 dups=2639
+[t= 168.7s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 170.6s] KILL -9 souptask-worker-8 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 172.4s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 172.9s] created=10000/10000 queued=6320 running=23 succeeded=3354 cancelled=303 failed=0 kills=85 cancels=408 dups=2798
+[t= 174.4s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 176.5s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 178.4s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 178.5s] created=10000/10000 queued=6187 running=22 succeeded=3475 cancelled=316 failed=0 kills=88 cancels=427 dups=2961
+[t= 180.0s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 182.0s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 184.0s] created=10000/10000 queued=6053 running=22 succeeded=3596 cancelled=329 failed=0 kills=90 cancels=448 dups=3124
+[t= 184.0s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 186.3s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 188.5s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 189.4s] created=10000/10000 queued=5917 running=22 succeeded=3719 cancelled=342 failed=0 kills=93 cancels=467 dups=3284
+[t= 190.9s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 192.7s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 194.2s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 194.9s] created=10000/10000 queued=5786 running=22 succeeded=3835 cancelled=357 failed=0 kills=96 cancels=485 dups=3446
+[t= 196.6s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 198.8s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 200.3s] created=10000/10000 queued=5658 running=22 succeeded=3952 cancelled=368 failed=0 kills=98 cancels=503 dups=3610
+[t= 200.4s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 202.6s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 204.9s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 205.8s] created=10000/10000 queued=5523 running=22 succeeded=4071 cancelled=384 failed=0 kills=101 cancels=521 dups=3774
+[t= 206.7s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 208.6s] KILL -9 souptask-worker-8 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 210.2s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 211.2s] created=10000/10000 queued=5399 running=22 succeeded=4185 cancelled=394 failed=0 kills=104 cancels=537 dups=3934
+[t= 212.5s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 214.9s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 216.6s] created=10000/10000 queued=5268 running=21 succeeded=4304 cancelled=407 failed=0 kills=106 cancels=552 dups=4095
+[t= 217.4s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 219.4s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 221.9s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 222.1s] created=10000/10000 queued=5133 running=21 succeeded=4429 cancelled=417 failed=0 kills=109 cancels=569 dups=4257
+[t= 224.3s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 226.2s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 227.8s] created=10000/10000 queued=5003 running=21 succeeded=4543 cancelled=433 failed=0 kills=111 cancels=588 dups=4426
+[t= 228.4s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 230.1s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 231.8s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 233.5s] created=10000/10000 queued=4870 running=21 succeeded=4667 cancelled=442 failed=0 kills=114 cancels=608 dups=4588
+[t= 233.6s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 235.6s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 238.1s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 239.2s] created=10000/10000 queued=4750 running=20 succeeded=4779 cancelled=451 failed=0 kills=117 cancels=624 dups=4752
+[t= 239.6s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 241.7s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 243.7s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 244.9s] created=10000/10000 queued=4618 running=20 succeeded=4900 cancelled=462 failed=0 kills=120 cancels=642 dups=4916
+[t= 245.5s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 247.6s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 249.3s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 250.7s] created=10000/10000 queued=4496 running=20 succeeded=5012 cancelled=472 failed=0 kills=123 cancels=660 dups=5079
+[t= 251.2s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 252.9s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 254.7s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 256.6s] created=10000/10000 queued=4348 running=20 succeeded=5146 cancelled=486 failed=0 kills=126 cancels=681 dups=5247
+[t= 256.9s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 259.1s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 260.8s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 262.3s] created=10000/10000 queued=4218 running=20 succeeded=5263 cancelled=499 failed=0 kills=129 cancels=701 dups=5407
+[t= 263.1s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 265.3s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 267.2s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 268.0s] created=10000/10000 queued=4088 running=20 succeeded=5382 cancelled=510 failed=0 kills=132 cancels=718 dups=5569
+[t= 269.4s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 271.3s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 273.8s] created=10000/10000 queued=3956 running=21 succeeded=5499 cancelled=524 failed=0 kills=134 cancels=739 dups=5736
+[t= 274.0s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 276.2s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 278.3s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 279.6s] created=10000/10000 queued=3832 running=21 succeeded=5615 cancelled=532 failed=0 kills=137 cancels=757 dups=5900
+[t= 280.1s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 282.6s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 284.4s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 285.3s] created=10000/10000 queued=3710 running=20 succeeded=5730 cancelled=540 failed=0 kills=140 cancels=775 dups=6066
+[t= 286.3s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 287.8s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 289.9s] KILL -9 souptask-worker-8 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 291.1s] created=10000/10000 queued=3590 running=20 succeeded=5841 cancelled=549 failed=0 kills=143 cancels=794 dups=6228
+[t= 291.9s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 293.5s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 295.2s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 296.9s] created=10000/10000 queued=3472 running=20 succeeded=5949 cancelled=559 failed=0 kills=146 cancels=812 dups=6393
+[t= 297.2s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 298.9s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 300.3s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 302.3s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 302.6s] created=10000/10000 queued=3351 running=20 succeeded=6060 cancelled=569 failed=0 kills=150 cancels=831 dups=6556
+[t= 304.0s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 306.3s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 308.4s] created=10000/10000 queued=3227 running=20 succeeded=6170 cancelled=583 failed=0 kills=152 cancels=849 dups=6720
+[t= 308.7s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 310.3s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 312.0s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 313.7s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 314.1s] created=10000/10000 queued=3103 running=21 succeeded=6285 cancelled=591 failed=0 kills=156 cancels=866 dups=6884
+[t= 315.2s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 317.3s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 319.5s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 319.8s] created=10000/10000 queued=2968 running=22 succeeded=6407 cancelled=603 failed=0 kills=159 cancels=885 dups=7045
+[t= 321.7s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 324.0s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 325.5s] created=10000/10000 queued=2828 running=20 succeeded=6534 cancelled=618 failed=0 kills=161 cancels=903 dups=7213
+[t= 325.8s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 327.8s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 329.8s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 331.3s] created=10000/10000 queued=2709 running=21 succeeded=6639 cancelled=631 failed=0 kills=164 cancels=920 dups=7377
+[t= 331.7s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 333.2s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 335.0s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 337.0s] created=10000/10000 queued=2584 running=20 succeeded=6754 cancelled=642 failed=0 kills=167 cancels=941 dups=7544
+[t= 337.1s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 339.6s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 341.5s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 342.6s] created=10000/10000 queued=2452 running=20 succeeded=6871 cancelled=657 failed=0 kills=170 cancels=957 dups=7706
+[t= 343.5s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 345.4s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 347.2s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 348.2s] created=10000/10000 queued=2325 running=21 succeeded=6989 cancelled=665 failed=0 kills=173 cancels=978 dups=7872
+[t= 349.8s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 352.0s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 353.6s] created=10000/10000 queued=2187 running=20 succeeded=7116 cancelled=677 failed=0 kills=175 cancels=997 dups=8032
+[t= 353.7s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 356.1s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 358.4s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 359.0s] created=10000/10000 queued=2065 running=21 succeeded=7235 cancelled=679 failed=0 kills=178 cancels=1000 dups=8194
+[t= 359.7s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 361.8s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 363.4s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 364.4s] created=10000/10000 queued=1944 running=21 succeeded=7354 cancelled=681 failed=0 kills=181 cancels=1000 dups=8356
+[t= 364.9s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 367.5s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 369.6s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 369.9s] created=10000/10000 queued=1819 running=20 succeeded=7480 cancelled=681 failed=0 kills=184 cancels=1000 dups=8519
+[t= 371.3s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 373.9s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 375.4s] created=10000/10000 queued=1690 running=21 succeeded=7607 cancelled=682 failed=0 kills=186 cancels=1000 dups=8684
+[t= 375.5s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 378.0s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 379.8s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 380.9s] created=10000/10000 queued=1570 running=21 succeeded=7725 cancelled=684 failed=0 kills=189 cancels=1000 dups=8848
+[t= 381.5s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 383.1s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 385.4s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 386.4s] created=10000/10000 queued=1440 running=21 succeeded=7854 cancelled=685 failed=0 kills=192 cancels=1000 dups=9012
+[t= 387.3s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 389.4s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 391.9s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 392.0s] created=10000/10000 queued=1321 running=19 succeeded=7975 cancelled=685 failed=0 kills=195 cancels=1000 dups=9184
+[t= 393.3s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 395.7s] KILL -9 souptask-worker-6 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 397.1s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 397.5s] created=10000/10000 queued=1203 running=22 succeeded=8090 cancelled=685 failed=0 kills=198 cancels=1000 dups=9347
+[t= 400.0s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 401.3s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 402.9s] created=10000/10000 queued=1091 running=22 succeeded=8202 cancelled=685 failed=0 kills=200 cancels=1000 dups=9508
+[t= 403.5s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 405.0s] KILL -9 souptask-worker-6 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 406.7s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 408.4s] created=10000/10000 queued=968 running=22 succeeded=8325 cancelled=685 failed=0 kills=203 cancels=1000 dups=9673
+[t= 409.5s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 411.8s] KILL -9 souptask-worker-2 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 413.4s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 413.8s] created=10000/10000 queued=846 running=22 succeeded=8447 cancelled=685 failed=0 kills=206 cancels=1000 dups=9835
+[t= 415.3s] KILL -9 souptask-worker-8 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 417.4s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 419.3s] created=10000/10000 queued=725 running=22 succeeded=8568 cancelled=685 failed=0 kills=208 cancels=1000 dups=9997
+[t= 419.8s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 421.5s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 423.4s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 424.6s] created=10000/10000 queued=599 running=22 succeeded=8694 cancelled=685 failed=0 kills=211 cancels=1000 dups=10156
+[t= 426.0s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 428.3s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 430.1s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 430.2s] created=10000/10000 queued=477 running=20 succeeded=8818 cancelled=685 failed=0 kills=214 cancels=1000 dups=10318
+[t= 432.5s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 434.1s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 435.6s] created=10000/10000 queued=357 running=21 succeeded=8937 cancelled=685 failed=0 kills=216 cancels=1000 dups=10479
+[t= 435.9s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 438.3s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 440.3s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 440.9s] created=10000/10000 queued=231 running=20 succeeded=9064 cancelled=685 failed=0 kills=219 cancels=1000 dups=10636
+[t= 442.3s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 444.2s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 446.5s] created=10000/10000 queued=89 running=20 succeeded=9206 cancelled=685 failed=0 kills=221 cancels=1000 dups=10800
+[t= 446.5s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 448.3s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 449.6s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 451.8s] created=10000/10000 queued=0 running=14 succeeded=9301 cancelled=685 failed=0 kills=224 cancels=1000 dups=10961
+[t= 452.1s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 454.4s] KILL -9 souptask-worker-3 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 456.9s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 457.2s] created=10000/10000 queued=0 running=11 succeeded=9304 cancelled=685 failed=0 kills=227 cancels=1000 dups=11119
+[t= 458.6s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 460.6s] KILL -9 souptask-worker-8 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 462.1s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 462.6s] created=10000/10000 queued=0 running=8 succeeded=9307 cancelled=685 failed=0 kills=230 cancels=1000 dups=11280
+[t= 463.8s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 466.1s] KILL -9 souptask-worker-1 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 467.9s] created=10000/10000 queued=0 running=7 succeeded=9308 cancelled=685 failed=0 kills=232 cancels=1000 dups=11436
+[t= 468.4s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 470.6s] KILL -9 souptask-worker-4 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 472.8s] KILL -9 souptask-worker-7 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 473.3s] created=10000/10000 queued=0 running=5 succeeded=9310 cancelled=685 failed=0 kills=235 cancels=1000 dups=11596
+[t= 474.4s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 476.6s] KILL -9 souptask-worker-5 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 478.7s] created=10000/10000 queued=0 running=2 succeeded=9313 cancelled=685 failed=0 kills=237 cancels=1000 dups=11759
+[t= 478.8s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 481.1s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 483.4s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 484.1s] created=10000/10000 queued=0 running=1 succeeded=9314 cancelled=685 failed=0 kills=240 cancels=1000 dups=11918
+[t= 485.1s] KILL -9 souptask-worker-3 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 487.0s] KILL -9 souptask-worker-7 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 489.5s] created=10000/10000 queued=0 running=1 succeeded=9314 cancelled=685 failed=0 kills=242 cancels=1000 dups=12080
+[t= 489.7s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 491.7s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 493.5s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 494.9s] created=10000/10000 queued=0 running=1 succeeded=9314 cancelled=685 failed=0 kills=245 cancels=1000 dups=12240
+[t= 496.1s] KILL -9 souptask-worker-1 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 497.6s] KILL -9 souptask-worker-5 (picked: busy) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 500.3s] created=10000/10000 queued=0 running=0 succeeded=9315 cancelled=685 failed=0 kills=247 cancels=1000 dups=12400
+[t= 500.4s] KILL -9 souptask-worker-4 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 501.6s] KILL -9 souptask-worker-2 (picked: random) -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t= 503.4s] chaos stopped, checking invariants
+
+=== INVARIANTS ===
+[PASS] no_job_lost: 0 violation(s). every key the API confirmed exists in the DB with the same id
+[INFO] rows in DB the harness never got a 2xx for: 0 (possible only if every retry of a create timed out)
+[PASS] row_count: DB has 10000 jobs, harness confirmed 10000
+[PASS] idempotent_create: 0 violation(s). one key => one id, and at most one 201 (includes the parallel-duplicate keys)
+[PASS] duplicate_posts_behave: 0 violation(s). 12400 repeated POSTs: same payload => 200 + same id, other payload => 409
+[PASS] no_http_errors: 0 violation(s). no transport errors or unexpected HTTP codes (500s count as failures; availability matters)
+[PASS] no_double_effect: 0 violation(s). no job has more than one effect row
+[PASS] none_stuck: 0 violation(s). after settling nothing is queued or running
+[PASS] succeeded_has_effect: 0 violation(s). every succeeded job has exactly one effect
+[PASS] effect_only_if_succeeded: 0 violation(s). cancelled / failed jobs have no effect
+[PASS] effect_from_final_attempt: 0 violation(s). the effect was written by the job's last attempt (fencing)
+[PASS] failed_only_if_exhausted: 0 violation(s). no job fails unless it used all 5 attempts
+[PASS] terminal_has_no_lease: 0 violation(s). finished jobs hold no lease
+[PASS] cancel_is_honoured: 0 violation(s). accepted cancels end 'cancelled'; terminal jobs never change afterwards
+
+=== STATS (to judge whether the chaos actually did anything) ===
+final status counts : cancelled=685, succeeded=9315
+attempts per job    : 0x=281, 1x=9590, 2x=127, 3x=2
+jobs claimed more than once (killed/expired and retried): 129
+kills performed      : 249  (picked busy worker=127, random=122; restarted by harness instead of docker: 249)
+average gap between kills: 2.0s (wanted about 2.0s)
+cancel responses    : HTTP 200/cancelled=296, HTTP 200/succeeded=275, HTTP 202/running=429
+repeated POSTs sent  : 12400
+transport/unexpected errors: none
+timed out waiting to settle: False
+worker logs since 2026-11-11T09:08:11Z saved to chaos-21-worker-logs.txt: ZOMBIE rejections=0, lost lease=0, reaper actions (requeue OR cancel-finish OR fail)=213, worker loop errors=0, worker (re)starts=245
+[PASS] no_fenced_writes: 0 stale write(s) rejected by the attempt check. This run freezes no worker, so a rejection means a double claim (or a lease that expired on a live worker).
+
+RESULT: PASS (13 invariants held in this run). A pass in one run is not a proof; see 'what the harness does not catch'.

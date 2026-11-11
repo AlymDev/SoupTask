@@ -207,3 +207,27 @@ Worker froze for 25s after a 9s job. Attempt 2 was claimed at ~31s and was still
 - Chaos runs with jobs under 0.5s hid this completely.
 - Fix: the reaper runs in a background thread in every worker process. Re-test: orphan recovered at 29.9s. Chaos run 17 (2000 jobs, 60 kills): 12/12 invariants. Mutation no_reaper still fails the tests (chaos-18), so the tests did not become vacuous.
 - Still open: a frozen process freezes its reaper thread too; if all worker processes die nobody reaps; 8 reapers poll every 2s.
+
+### Freeze during work (freeze-01)
+- A 50s job; its worker's container was paused (docker pause) 3s after start for 40s (lease 30s). Another worker's reaper requeued it, attempt 2 started at 31.6s. After unpause the old worker immediately hit its overdue heartbeat, found the lease gone ("lost lease ... abandoning") and stopped. One effect, from attempt 2.
+- First run of the lost-lease branch. Limits: one run, one freeze point; pause during finish, between heartbeats and of the reaper thread itself not tested; log-line-to-container mapping inferred from timing.
+
+### Freeze test mutation (freeze-02)
+- Without the attempt check in the heartbeat the frozen worker never noticed it had lost the job; its write was rejected only at finish ("ZOMBIE write rejected"). Final data still correct: one effect, from attempt 2.
+- Takeaway: the heartbeat fence saves wasted work; correctness rests on the fence at finish plus UNIQUE(job_id).
+- Not shown: whether such a worker could extend the new attempt's lease (it did not finish its work in this run, timing inferred).
+
+### Load (load-01, load-02) and pagination (pagination-01)
+- 100 req/s mixed (50% create, 30% get, 10% list, 10% cancel), 60s, open-loop client, 50ms jobs: 0 errors, p99 226ms, queue never above 5, 0 double effects. Client lag ~1ms, so numbers describe the server.
+- Limits: one run, one machine, jobs of 50ms. Job throughput = workers / job duration, so with real long jobs the queue grows regardless of API speed; this test says nothing about that. Only 4 cancels hit running jobs. p99/p95 tail not investigated. p99 threshold (500ms) is arbitrary.
+- Pagination: no duplicates or gaps, also during concurrent inserts. Late-committing rows with an older created_at are untested. Test not yet shown able to fail.
+
+### Cancel vs fail (failcancel-02, found by reading code, confirmed on clean code)
+- A job that was going to fail and was cancelled while running (HTTP 202) ended 'failed': FINISH_FAIL_SQL ignored cancel_requested. No effect row, so data stayed correct, but the API's promise was broken. The chaos runs never used the 'fail' payload, so they could not see it.
+- Fix: FINISH_FAIL_SQL now uses the same CASE as FINISH_OK_SQL. Re-test: see failcancel-03.
+- Limits: one scenario, one run; a cancel arriving between heartbeats of a failing job is not tested separately.
+
+### Explicit isolation (chaos-20)
+- The app now sets READ COMMITTED on every connection instead of relying on the DB default. Repeating the isolation_rr mutation: 0 HTTP 500 and 14/14 invariants (chaos-16 before the fix: 144 create + 2 cancel 500s).
+- Added no_http_errors to the harness so availability problems fail a run.
+- Limits: one 1000-job run, no kills; no_http_errors not yet shown to fail; the DB-level setting was not re-read with SHOW before this run.
