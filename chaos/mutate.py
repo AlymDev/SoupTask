@@ -78,6 +78,21 @@ MUTATIONS = {
         "test": "python chaos/run.py --jobs 500 --timeout 150",
         "expect": "FAIL none_stuck + settled_before_timeout: jobs of killed workers stay 'running' forever",
     },
+        "clock_behind": {
+        "desc": "claim computes lease_until from the WORKER clock, which is 40s behind (lease 30s => already expired)",
+        "edits": [
+            ("import uuid\n", "import uuid\nimport datetime as _dt\n"),
+            ("lease_until = now() + make_interval(secs => %(lease)s::double precision),\n                  updated_at = now()\nFROM picked",
+             "lease_until = %(lease_until)s,\n                  updated_at = now()\nFROM picked"),
+            ('return conn.execute(CLAIM_SQL, {"worker": WORKER_ID, "lease": LEASE_SECONDS}).fetchone()',
+             'return conn.execute(CLAIM_SQL, {"worker": WORKER_ID, "lease": LEASE_SECONDS, '
+             '"lease_until": _dt.datetime.now(_dt.timezone.utc) - _dt.timedelta(seconds=40) '
+             '+ _dt.timedelta(seconds=LEASE_SECONDS)}).fetchone()'),
+        ],
+        "drop_unique": False,
+        "test": "python chaos/run.py --jobs 1000 --no-kill",
+        "expect": "hypothesis: reaper requeues jobs that are still running => attempt>1 without kills, ZOMBIE rejections (no_double_claim_without_kills / no_fenced_writes fail); effects should stay unique thanks to fencing",
+    },
 }
 
 RESTORE_UNIQUE_SQL = """
