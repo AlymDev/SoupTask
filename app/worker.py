@@ -77,7 +77,8 @@ RETURNING status
 """
 
 FINISH_FAIL_SQL = """
-UPDATE jobs SET status = 'failed', finished_at = now(), lease_until = NULL, updated_at = now()
+UPDATE jobs SET status = CASE WHEN cancel_requested THEN 'cancelled' ELSE 'failed' END,
+                finished_at = now(), lease_until = NULL, updated_at = now()
 WHERE id = %(id)s AND attempt = %(attempt)s AND status = 'running'
 RETURNING status
 """

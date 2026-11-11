@@ -41,8 +41,8 @@ def main():
     else:
         sys.exit("never running")
     time.sleep(3)
-    code, body = h.http("POST", f"/jobs/{jid}/cancel")
-    log(f"cancel -> HTTP {code}, status in response: {body and body.get('status')}")
+    cancel_code, body = h.http("POST", f"/jobs/{jid}/cancel")
+    log(f"cancel -> HTTP {cancel_code}, status in response: {body and body.get('status')}")
     final = None
     t1 = time.time()
     while time.time() - t1 < 40:
@@ -53,7 +53,7 @@ def main():
     effects = h.psql(f"SELECT attempt FROM effects WHERE job_id = '{jid}'")
     log(f"final status: {final and final['status']}, attempt {final and final['attempt']}, effects: {effects}")
     log("")
-    if code != 202 or not final or final["status"] != "cancelled" or effects:
+    if cancel_code != 202 or not final or final["status"] != "cancelled" or effects:
         log("RESULT: FAIL (accepted cancel did not end 'cancelled', or an effect exists)")
         sys.exit(1)
     log("RESULT: PASS")
@@ -61,4 +61,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
