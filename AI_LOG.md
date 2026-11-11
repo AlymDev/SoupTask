@@ -19,14 +19,14 @@ then AI wrote chaos/run.py. I ran it with N jobs. Results are in RUNS/
 - AI wrote the harness. I ran it three times (RUNS/chaos-01..03).
 - What I checked: read the stats rather than trusting the PASS lines. The run itself printed a warning that no job was retried.
 - AI mistakes I caught:
-  1. AI said workers would restart automatically after `docker kill` (restart: always). In all my runs the harness had to start them. <your manual check result>
+  1. AI said workers would restart automatically after `docker kill` (restart: always). In all my runs the harness had to start them. I also confirmed manually that a killed worker remained `Exited (137)` until it was started again.
   2. AI's canceller hid the retry path: crashed jobs were cancelled instead of retried. I found this by comparing "kills=72" with "retried=7".
   3. AI's log counts leaked lines from earlier runs, and its kill interval was ~4.7s, not 2s.
 - AI then patched the harness (cancel targeting, scheduled kills, per-run logs). I re-ran after the patch (see runs below).
 
 ## 2026-11-10: Zombie test (chaos/zombie_test.py)
 - AI wrote it. Also changed worker.py so the freeze hook applies only to attempt 1 (otherwise the retry would freeze too).
-- Result: <fill in after you run it>
+- Result: PASS. The worker was frozen past the 30-second lease, another worker reclaimed the job as attempt 2, and the original worker's stale write was rejected. Exactly one effect row was created, from attempt 2.
 
 - AI claimed its canceller change fixed the cancel/retry interference. Run 04 showed it did not for short runs; I noticed from "retried: 0" and the cancelled count rising after the queue was empty.
 - AI's harness only warned about running 7 workers instead of 8; I noticed from the container list in the run headers.
