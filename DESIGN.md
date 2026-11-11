@@ -152,3 +152,34 @@ After the queue drained, the only running jobs were orphans, and the canceller k
 - Heartbeat/lease extension: no chaos job ran longer than the 10s heartbeat interval.
 - Zombie under load: kill -9 produces no zombies; need a freeze (docker pause) actor.
 - Docker restart policy does not restart containers after `docker kill` (confirmed by hand: Exited (137)); cause unknown.
+
+### Runs 08 and 09: first valid 8-worker runs
+- 10,000 jobs, 218 and 223 kills at an average gap of 2.0s, 119 and 115 jobs retried, all 12 invariants held.
+- ~450 cancels per run were accepted while a job was running; all ended "cancelled".
+- Steady state shows ~14 jobs in "running" with a dead worker (kill every 2s x 30s lease). Recovery latency for a crashed worker's job is the lease length.
+- Throughput ~22 jobs/s with kills (25/s without, run 02). Creates accepted at ~130/s. Latency not measured.
+- No bug found so far. I do not treat that as proof: the harness has not yet been shown to fail (mutation test planned), and the heartbeat and zombie paths did not run under load.
+
+### Zombie test 02: PASS (same as 01)
+
+
+### Overlap zombie test on clean code (zombie-03, zombie-04): PASS
+Worker froze for 25s after a 9s job. Attempt 2 was claimed at ~31s and was still running when the old worker woke at ~35s. The stale write was rejected ("ZOMBIE write rejected attempt=1") about 5s before attempt 2 finished. At that moment the job status was 'running', so only the attempt check could reject it. One effect row, from attempt 2.
+
+
+### Mutation testing (5 deliberate breakages, all detected; files zombie-05/06, chaos-10/11/12)
+- Removing the attempt check: the stale write won silently (effect from attempt 1, job row still says "succeeded, attempt 2"). Only the effect.attempt = jobs.attempt check caught it.
+- Removing attempt + status checks + UNIQUE: 2 effect rows for one job.
+- Claim without SKIP LOCKED: 103 of 1000 jobs claimed twice, yet all original invariants passed because fencing discarded the loser's write. Only a new no-kill check caught it. So SKIP LOCKED prevents duplicated work; fencing keeps the result correct. For an external side effect this would be a real duplicate execution.
+- Finish ignoring cancel_requested: all 50 accepted cancels ended "succeeded".
+- Reaper disabled: 9 jobs stayed "running" for 150s (lease is 30s); cancels accepted on them were never completed.
+- Harness gap found: in kill runs a double claim looks like an ordinary retry. Fix: ZOMBIE rejections in runs without frozen workers now fail the run (no_fenced_writes). Runs 08 and 09 had 0 rejections, so no double claims occurred in them.
+- Limits: mutation 2 removed three protections at once; heartbeat, idempotent create, isolation level and the cancel statement are not mutation-tested yet.
+
+
+### Heartbeat test (heartbeat-01..03)
+- Clean code: a 45s job survived a 30s lease (attempt stayed 1, lease_until moved forward 40s, one effect). A running job cancelled 3.8s after start was cancelled 6.4s later; the worker logged "cancel observed".
+- No heartbeat: the job was re-claimed at 30.4s while its worker was alive; the cancel was only completed by the reaper after the lease expired (26.6s).
+- Heartbeat without cancel check: the lease was still extended, but a cancelled 60s job ran to the end (56.9s). Result correct (cancelled, no effect), work wasted.
+- Design consequence: cancel of a running job takes up to one heartbeat interval (10s). Heartbeat writes scale with running jobs / 10s.
+- Not covered: the "lost lease, abandon" branch has never executed; the heartbeat runs in the same loop as the work, so a real blocking job would need a heartbeat thread, which brings the opposite problem (hung job with a live heartbeat holds its lease forever).

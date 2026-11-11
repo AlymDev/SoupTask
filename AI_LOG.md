@@ -30,3 +30,12 @@ then AI wrote chaos/run.py. I ran it with N jobs. Results are in RUNS/
 
 - AI claimed its canceller change fixed the cancel/retry interference. Run 04 showed it did not for short runs; I noticed from "retried: 0" and the cancelled count rising after the queue was empty.
 - AI's harness only warned about running 7 workers instead of 8; I noticed from the container list in the run headers.
+
+- AI suggested the invariants and stats; I read the stats rather than only the PASS lines. I noticed that 7-worker runs (04-06) were invalid and re-ran 05/06 as 08/09 with 8 workers.
+- I could not independently verify why Docker did not restart killed containers. I confirmed by hand that the container stayed Exited (137).
+
+- AI wrote chaos/mutate.py and predicted the outcome of each of the 5 breakages. I ran all 5 myself; all matched the predictions. That does not prove the tests catch faults the AI did not think of.
+- One thing I found only after running: plain_claim passed all 12 original invariants (fencing hid the double claims). I added no_double_claim_without_kills and no_fenced_writes because of it.
+
+
+- AI wrote chaos/heartbeat_test.py and checked its logic against a simulated server before I ran it; that found a flaw (a re-claimed job's new lease was counted as a lease extension), fixed before my runs. I ran the baseline and both mutations on the real system: results matched what the AI predicted.
