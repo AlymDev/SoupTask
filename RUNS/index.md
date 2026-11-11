@@ -51,3 +51,8 @@ chaos-14.txt	run.py --jobs 1000 --no-kill, после apply clock_behind	PASS (1
 | starvation-02.txt | starvation_test.py, reaper in background thread | PASS | orphan recovered at 29.9s (lease 30s) |
 | chaos-17.txt | run.py --jobs 2000, after reaper fix | PASS (12/12) | 60 kills, 15 retried, 0 double effects |
 | chaos-18.txt | run.py --jobs 500 --timeout 150, mutation no_reaper (after fix) | FAIL (expected) | 10 jobs stuck 'running', 25 accepted cancels never completed |
+
+| freeze-01.txt | freeze_test.py, clean code (reaper thread) | PASS | worker paused 40s mid-work; attempt 2 claimed at 31.6s; old worker logged 'lost lease, abandoning' right after unpause; one effect from attempt 2 |
+
+| freeze-01.txt | freeze_test.py, clean code | PASS | worker paused 40s mid-work; 'lost lease, abandoning' logged after unpause; one effect from attempt 2 |
+| freeze-02.txt | freeze_test.py, mutation heartbeat_no_attempt | FAIL (expected) | no 'lost lease'; stale write rejected only at finish (ZOMBIE); still one effect from attempt 2 |

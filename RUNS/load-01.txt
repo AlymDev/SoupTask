@@ -1,0 +1,21 @@
+LOAD TEST 01 started 2026-11-11T14:42:36  {'rate': 100, 'duration_s': 20.0, 'work_ms': 50, 'threads': 64, 'drain_timeout_s': 180, 'p99_ms': 500, 'label': 'short trial'}
+label: short trial
+running worker containers: 8; git commit: 03e3634
+[t=  5.4s] queued=0 running=4 succeeded=263 cancelled=4 failed=0
+[t= 11.0s] queued=7 running=6 succeeded=546 cancelled=4 failed=0
+[t= 16.9s] queued=3 running=5 succeeded=853 cancelled=4 failed=0
+[t= 20.0s] load stopped: 2000 requests scheduled over 20.0s (achieved send rate 100.0/s)
+
+=== LATENCY (ms, from scheduled time) ===
+create  n= 1028  p50=   19.9  p95=   57.4  p99=  223.1  max=  287.7
+get     n=  595  p50=   14.2  p95=   44.2  p99=  229.4  max=  283.6
+list    n=  195  p50=   20.3  p95=  131.7  p99=  258.1  max=  260.9
+cancel  n=  182  p50=   18.4  p95=   70.9  p99=  272.8  max=  294.3
+ALL     n= 2000  p50=   17.8  p95=   60.3  p99=  232.4
+client dispatch lag (request started minus scheduled): p95=1.2 ms, max=21.9 ms  (large => the Python client itself is the bottleneck)
+errors / unexpected status codes: none
+
+queue: peak queued (sampled every 5s) = 7; drained 0.4s after the load stopped
+integrity: jobs in DB=1028, creates confirmed=1028, double effects=0, still queued/running=0
+
+RESULT: PASS (on this machine, this mix, this duration; not a capacity proof)

@@ -1,0 +1,9 @@
+PAGINATION TEST 01 started 2026-11-11T14:44:26
+created 500 jobs
+part 1: 500 items in 14 pages (expected 14 pages)
+part 2 (inserts during the walk): 519 items in 15 pages, 28 jobs inserted meanwhile
+status filter: walk(status=succeeded) returned 528, DB says 528 (jobs may still be finishing)
+bad cursor -> HTTP 400 (expected 400)
+limit=0 -> HTTP 422 (expected 422)
+
+RESULT: PASS (one run, ms-scale inserts; late-committing rows with an older created_at are the known untested case)

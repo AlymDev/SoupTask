@@ -1,0 +1,29 @@
+LOAD TEST 02 started 2026-11-11T14:43:20  {'rate': 100, 'duration_s': 60, 'work_ms': 50, 'threads': 64, 'drain_timeout_s': 180, 'p99_ms': 500, 'label': '100 req/s, clean code'}
+label: 100 req/s, clean code
+running worker containers: 8; git commit: 03e3634
+[t=  5.4s] queued=2 running=2 succeeded=257 cancelled=4 failed=0
+[t= 10.8s] queued=5 running=1 succeeded=525 cancelled=4 failed=0
+[t= 16.5s] queued=2 running=2 succeeded=786 cancelled=4 failed=0
+[t= 21.9s] queued=1 running=3 succeeded=1037 cancelled=4 failed=0
+[t= 27.2s] queued=0 running=3 succeeded=1298 cancelled=4 failed=0
+[t= 32.7s] queued=1 running=2 succeeded=1564 cancelled=4 failed=0
+[t= 38.0s] queued=0 running=2 succeeded=1836 cancelled=4 failed=0
+[t= 43.5s] queued=2 running=3 succeeded=2107 cancelled=4 failed=0
+[t= 48.9s] queued=1 running=1 succeeded=2370 cancelled=4 failed=0
+[t= 54.3s] queued=1 running=3 succeeded=2643 cancelled=4 failed=0
+[t= 59.7s] queued=0 running=2 succeeded=2917 cancelled=4 failed=0
+[t= 60.0s] load stopped: 6000 requests scheduled over 60.0s (achieved send rate 100.0/s)
+
+=== LATENCY (ms, from scheduled time) ===
+create  n= 2939  p50=   20.9  p95=   39.9  p99=  251.7  max=  356.9
+get     n= 1829  p50=   16.4  p95=   33.8  p99=  192.4  max=  340.2
+list    n=  639  p50=   20.3  p95=   40.1  p99=  147.6  max=  275.0
+cancel  n=  593  p50=   16.6  p95=   33.0  p99=  164.9  max=  313.7
+ALL     n= 6000  p50=   19.1  p95=   37.4  p99=  226.4
+client dispatch lag (request started minus scheduled): p95=1.0 ms, max=76.2 ms  (large => the Python client itself is the bottleneck)
+errors / unexpected status codes: none
+
+queue: peak queued (sampled every 5s) = 5; drained 0.3s after the load stopped
+integrity: jobs in DB=2939, creates confirmed=2939, double effects=0, still queued/running=0
+
+RESULT: PASS (on this machine, this mix, this duration; not a capacity proof)
