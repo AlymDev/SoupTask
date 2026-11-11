@@ -1,0 +1,61 @@
+CHAOS RUN 01  started 2026-11-10T16:26:42
+args: {'jobs': 200, 'workers': 8, 'kill_interval': 2.0, 'cancels': 1000, 'dup_threads': 2, 'producers': 16, 'parallel_dup_fraction': 0.2, 'max_attempts': 5, 'timeout': 1200, 'base_url': 'http://localhost:8000', 'seed': None, 'no_kill': False}  seed=865177634
+python 3.14.2; git commit: 8c5c78b
+NAME                IMAGE             COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+souptask-api-1      souptask-api      "uvicorn app.main:ap…"   api       38 minutes ago   Up 38 minutes             0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+souptask-db-1       postgres:16       "docker-entrypoint.s…"   db        38 minutes ago   Up 38 minutes (healthy)   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+souptask-worker-1   souptask-worker   "python -m app.worker"   worker    38 minutes ago   Up 38 minutes             
+souptask-worker-2   souptask-worker   "python -m app.worker"   worker    38 minutes ago   Up 38 minutes             
+souptask-worker-3   souptask-worker   "python -m app.worker"   worker    38 minutes ago   Up 38 minutes             
+souptask-worker-4   souptask-worker   "python -m app.worker"   worker    38 minutes ago   Up 38 minutes             
+souptask-worker-5   souptask-worker   "python -m app.worker"   worker    38 minutes ago   Up 38 minutes             
+souptask-worker-6   souptask-worker   "python -m app.worker"   worker    38 minutes ago   Up 38 minutes             
+souptask-worker-7   souptask-worker   "python -m app.worker"   worker    38 minutes ago   Up 38 minutes             
+souptask-worker-8   souptask-worker   "python -m app.worker"   worker    38 minutes ago   Up 38 minutes
+running worker containers: 8 (expected 8)
+resetting tables (TRUNCATE effects, jobs)
+[t=   6.0s] KILL -9 souptask-worker-4 -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=   6.8s] created=200/200 queued=56 running=9 succeeded=126 cancelled=9 failed=0 kills=1 cancels=15 dups=134
+[t=  10.6s] KILL -9 souptask-worker-8 -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  12.7s] created=200/200 queued=0 running=2 succeeded=188 cancelled=10 failed=0 kills=2 cancels=32 dups=308
+[t=  15.8s] KILL -9 souptask-worker-6 -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  18.7s] created=200/200 queued=0 running=2 succeeded=188 cancelled=10 failed=0 kills=3 cancels=53 dups=481
+[t=  20.8s] KILL -9 souptask-worker-1 -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  24.1s] created=200/200 queued=0 running=2 succeeded=188 cancelled=10 failed=0 kills=4 cancels=69 dups=642
+[t=  25.7s] KILL -9 souptask-worker-8 -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  29.6s] created=200/200 queued=0 running=2 succeeded=188 cancelled=10 failed=0 kills=5 cancels=87 dups=805
+[t=  30.0s] KILL -9 souptask-worker-8 -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  34.5s] KILL -9 souptask-worker-4 -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  35.0s] created=200/200 queued=0 running=1 succeeded=188 cancelled=11 failed=0 kills=7 cancels=105 dups=966
+[t=  39.2s] KILL -9 souptask-worker-3 -> restarted by HARNESS had to `docker start` it (restart policy did not)
+[t=  40.5s] created=200/200 queued=0 running=0 succeeded=188 cancelled=12 failed=0 kills=8 cancels=125 dups=1130
+[t=  42.7s] chaos stopped, checking invariants
+
+=== INVARIANTS ===
+[PASS] no_job_lost: 0 violation(s). every key the API confirmed exists in the DB with the same id
+[INFO] rows in DB the harness never got a 2xx for: 0 (possible only if every retry of a create timed out)
+[PASS] row_count: DB has 200 jobs, harness confirmed 200
+[PASS] idempotent_create: 0 violation(s). one key => one id, and at most one 201 (includes the parallel-duplicate keys)
+[PASS] duplicate_posts_behave: 0 violation(s). 1130 repeated POSTs: same payload => 200 + same id, other payload => 409
+[PASS] no_double_effect: 0 violation(s). no job has more than one effect row
+[PASS] none_stuck: 0 violation(s). after settling nothing is queued or running
+[PASS] succeeded_has_effect: 0 violation(s). every succeeded job has exactly one effect
+[PASS] effect_only_if_succeeded: 0 violation(s). cancelled / failed jobs have no effect
+[PASS] effect_from_final_attempt: 0 violation(s). the effect was written by the job's last attempt (fencing)
+[PASS] failed_only_if_exhausted: 0 violation(s). no job fails unless it used all 5 attempts
+[PASS] terminal_has_no_lease: 0 violation(s). finished jobs hold no lease
+[PASS] cancel_is_honoured: 0 violation(s). accepted cancels end 'cancelled'; terminal jobs never change afterwards
+
+=== STATS (to judge whether the chaos actually did anything) ===
+final status counts : cancelled=12, succeeded=188
+attempts per job    : 0x=5, 1x=195
+jobs claimed more than once (killed/expired and retried): 0
+kills performed      : 8  (restarted by harness instead of docker: 8)
+cancel responses    : HTTP 200/cancelled=8, HTTP 200/succeeded=55, HTTP 202/running=62
+repeated POSTs sent  : 1130
+transport/unexpected errors: none
+timed out waiting to settle: False
+WARNING: no job was ever retried. The chaos had no effect on any job; the invariants above are vacuous.
+worker logs saved to chaos-01-worker-logs.txt: ZOMBIE rejections=0, lost lease=0, reaper runs that requeued jobs=2, worker loop errors=0, worker starts=16
+
+RESULT: PASS (12 invariants held in this run). A pass in one run is not a proof; see 'what the harness does not catch'.

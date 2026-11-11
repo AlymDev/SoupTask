@@ -1,0 +1,48 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: soup
+      POSTGRES_PASSWORD: soup
+      POSTGRES_DB: soup
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports:
+      - "5432:5432"          # exposed so the chaos harness can run SQL checks from the host
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U soup -d soup"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    environment: &app_env
+      DATABASE_URL: postgresql://soup:soup@db:5432/soup
+      LEASE_SECONDS: "30"        # how long a claim is valid without a heartbeat
+      HEARTBEAT_SECONDS: "10"    # how often a worker extends its lease
+      MAX_ATTEMPTS: "5"          # after this many claims a job goes to 'failed'
+      WORK_MIN_MS: "50"          # simulated execution time range
+      WORK_MAX_MS: "500"
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  worker:
+    build: .
+    command: python -m app.worker
+    environment: *app_env
+    deploy:
+      replicas: 8              # task requires >= 4; the chaos test uses 8
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: always            # a worker killed with kill -9 comes back
+
+volumes:
+  pgdata:
