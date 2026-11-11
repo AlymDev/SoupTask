@@ -1,0 +1,56 @@
+CHAOS RUN 20  started 2026-11-11T15:05:40
+args: {'jobs': 1000, 'workers': 8, 'kill_interval': 2.0, 'kill_mode': 'mixed', 'cancels': 1000, 'dup_threads': 2, 'producers': 16, 'parallel_dup_fraction': 0.2, 'max_attempts': 5, 'timeout': 1200, 'base_url': 'http://localhost:8000', 'seed': None, 'no_kill': True, 'allow_worker_mismatch': False}  seed=19090473
+*** MUTATION ACTIVE: isolation_rr  (deliberately broken worker; a FAIL is the expected result) ***
+python 3.14.2; git commit: 2cc54af
+NAME                IMAGE             COMMAND                  SERVICE   CREATED          STATUS                 PORTS
+souptask-api-1      souptask-api      "uvicorn app.main:ap…"   api       20 seconds ago   Up 11 seconds          0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+souptask-db-1       postgres:16       "docker-entrypoint.s…"   db        23 hours ago     Up 4 hours (healthy)   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+souptask-worker-1   souptask-worker   "python -m app.worker"   worker    20 seconds ago   Up 10 seconds          
+souptask-worker-2   souptask-worker   "python -m app.worker"   worker    20 seconds ago   Up 10 seconds          
+souptask-worker-3   souptask-worker   "python -m app.worker"   worker    20 seconds ago   Up 10 seconds          
+souptask-worker-4   souptask-worker   "python -m app.worker"   worker    20 seconds ago   Up 10 seconds          
+souptask-worker-5   souptask-worker   "python -m app.worker"   worker    20 seconds ago   Up 10 seconds          
+souptask-worker-6   souptask-worker   "python -m app.worker"   worker    20 seconds ago   Up 10 seconds          
+souptask-worker-7   souptask-worker   "python -m app.worker"   worker    20 seconds ago   Up 11 seconds          
+souptask-worker-8   souptask-worker   "python -m app.worker"   worker    20 seconds ago   Up 10 seconds
+running worker containers: 8 (expected 8)
+resetting tables (TRUNCATE effects, jobs)
+[t=   7.0s] created=793/1000 queued=625 running=8 succeeded=146 cancelled=9 failed=0 kills=0 cancels=14 dups=74
+[t=  12.3s] created=1000/1000 queued=686 running=8 succeeded=280 cancelled=26 failed=0 kills=0 cancels=33 dups=209
+[t=  17.7s] created=1000/1000 queued=537 running=8 succeeded=414 cancelled=41 failed=0 kills=0 cancels=53 dups=368
+[t=  23.0s] created=1000/1000 queued=385 running=8 succeeded=554 cancelled=53 failed=0 kills=0 cancels=69 dups=520
+[t=  28.3s] created=1000/1000 queued=240 running=8 succeeded=687 cancelled=65 failed=0 kills=0 cancels=86 dups=679
+[t=  33.7s] created=1000/1000 queued=91 running=8 succeeded=822 cancelled=79 failed=0 kills=0 cancels=104 dups=839
+[t=  39.0s] created=1000/1000 queued=0 running=0 succeeded=914 cancelled=86 failed=0 kills=0 cancels=120 dups=994
+[t=  42.2s] chaos stopped, checking invariants
+
+=== INVARIANTS ===
+[PASS] no_job_lost: 0 violation(s). every key the API confirmed exists in the DB with the same id
+[INFO] rows in DB the harness never got a 2xx for: 0 (possible only if every retry of a create timed out)
+[PASS] row_count: DB has 1000 jobs, harness confirmed 1000
+[PASS] idempotent_create: 0 violation(s). one key => one id, and at most one 201 (includes the parallel-duplicate keys)
+[PASS] duplicate_posts_behave: 0 violation(s). 995 repeated POSTs: same payload => 200 + same id, other payload => 409
+[PASS] no_http_errors: 0 violation(s). no transport errors or unexpected HTTP codes (500s count as failures; availability matters)
+[PASS] no_double_effect: 0 violation(s). no job has more than one effect row
+[PASS] none_stuck: 0 violation(s). after settling nothing is queued or running
+[PASS] succeeded_has_effect: 0 violation(s). every succeeded job has exactly one effect
+[PASS] effect_only_if_succeeded: 0 violation(s). cancelled / failed jobs have no effect
+[PASS] effect_from_final_attempt: 0 violation(s). the effect was written by the job's last attempt (fencing)
+[PASS] failed_only_if_exhausted: 0 violation(s). no job fails unless it used all 5 attempts
+[PASS] terminal_has_no_lease: 0 violation(s). finished jobs hold no lease
+[PASS] cancel_is_honoured: 0 violation(s). accepted cancels end 'cancelled'; terminal jobs never change afterwards
+[PASS] no_double_claim_without_kills: 0 violation(s). in a run without kills no job may be claimed more than once
+
+=== STATS (to judge whether the chaos actually did anything) ===
+final status counts : cancelled=86, succeeded=914
+attempts per job    : 0x=26, 1x=974
+jobs claimed more than once (killed/expired and retried): 0
+kills performed      : 0  (picked busy worker=0, random=0; restarted by harness instead of docker: 0)
+cancel responses    : HTTP 200/cancelled=28, HTTP 200/succeeded=32, HTTP 202/running=60
+repeated POSTs sent  : 995
+transport/unexpected errors: none
+timed out waiting to settle: False
+worker logs since 2026-11-11T09:05:41Z saved to chaos-20-worker-logs.txt: ZOMBIE rejections=0, lost lease=0, reaper actions (requeue OR cancel-finish OR fail)=0, worker loop errors=0, worker (re)starts=0
+[PASS] no_fenced_writes: 0 stale write(s) rejected by the attempt check. This run freezes no worker, so a rejection means a double claim (or a lease that expired on a live worker).
+
+RESULT: PASS (14 invariants held in this run). A pass in one run is not a proof; see 'what the harness does not catch'.

@@ -307,6 +307,9 @@ def run_checks(args):
     check_py(results, "duplicate_posts_behave",
              f"{st.dup_sent} repeated POSTs: same payload => 200 + same id, other payload => 409",
              [f"{k}: {m}" for k, m in st.dup_anomalies])
+    check_py(results, "no_http_errors",
+             "no transport errors or unexpected HTTP codes (500s count as failures; availability matters)",
+             [f"{k}: {v}" for k, v in st.errors.items()])
 
     # 3. effects
     check_sql(results, "no_double_effect", "no job has more than one effect row",

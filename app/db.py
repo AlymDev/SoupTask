@@ -4,6 +4,7 @@ import os
 
 from psycopg.rows import dict_row
 from psycopg_pool import ConnectionPool
+import psycopg
 
 DATABASE_URL = os.environ["DATABASE_URL"]
 LEASE_SECONDS = int(os.getenv("LEASE_SECONDS", "30"))
@@ -18,14 +19,18 @@ PUBLIC_COLS = ("id, idempotency_key, payload, status, attempt, worker_id, lease_
                "cancel_requested, created_at, updated_at, finished_at")
 
 
+def _configure(conn):
+    # Correctness was designed for READ COMMITTED; do not depend on the database default.
+    conn.isolation_level = psycopg.IsolationLevel.READ_COMMITTED
+
+
 def make_pool(max_size: int = 10) -> ConnectionPool:
-    # Default isolation level is READ COMMITTED. Every state change below is a single
-    # conditional UPDATE, so correctness relies on row locks, not on isolation level.
     pool = ConnectionPool(
         DATABASE_URL,
         min_size=1,
         max_size=max_size,
         kwargs={"row_factory": dict_row},
+        configure=_configure,
         timeout=30,
         open=True,
     )
