@@ -1,0 +1,18 @@
+ZOMBIE TEST 05 started 2026-11-11T12:09:50  freeze_s=25.0 duration_ms=9000
+*** MUTATION ACTIVE: no_attempt_check  (deliberately broken worker; a FAIL is the expected result) ***
+label: mutation no_attempt_check
+created job e154a196-799a-4e83-87da-6a1ed60681d8
+[t=  0.0s] status=running attempt=1 worker=12f6cba361ae-1-32e56c
+[t= 30.5s] status=running attempt=2 worker=03eecc4d23e3-1-839bbc
+[t= 34.6s] status=succeeded attempt=2 worker=03eecc4d23e3-1-839bbc
+
+worker log lines mentioning this job:
+   worker-5  | 2026-11-11 06:10:24,561 INFO job=e154a196-799a-4e83-87da-6a1ed60681d8 attempt=1 -> succeeded
+   worker-8  | 2026-11-11 06:10:29,974 WARNING ZOMBIE write rejected job=e154a196-799a-4e83-87da-6a1ed60681d8 attempt=2
+
+effect rows for this job: [['1', '12f6cba361ae-1-32e56c']]
+
+RESULT: FAIL
+  - effect came from attempt 1, final attempt is 2 (stale write won)
+  - the CURRENT attempt (2) was the one rejected: the stale write had already won
+  - no 'ZOMBIE write rejected ... attempt=1' line: the old worker's write was not seen being rejected

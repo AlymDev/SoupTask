@@ -1,0 +1,65 @@
+CHAOS RUN 11  started 2026-11-11T12:14:15
+args: {'jobs': 1000, 'workers': 8, 'kill_interval': 2.0, 'kill_mode': 'mixed', 'cancels': 1000, 'dup_threads': 2, 'producers': 16, 'parallel_dup_fraction': 0.2, 'max_attempts': 5, 'timeout': 1200, 'base_url': 'http://localhost:8000', 'seed': None, 'no_kill': True, 'allow_worker_mismatch': False}  seed=24194691
+*** MUTATION ACTIVE: ignore_cancel  (deliberately broken worker; a FAIL is the expected result) ***
+python 3.14.2; git commit: 2968218
+NAME                IMAGE             COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+souptask-api-1      souptask-api      "uvicorn app.main:ap…"   api       16 seconds ago   Up 11 seconds             0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+souptask-db-1       postgres:16       "docker-entrypoint.s…"   db        20 hours ago     Up 54 minutes (healthy)   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+souptask-worker-1   souptask-worker   "python -m app.worker"   worker    16 seconds ago   Up 10 seconds             
+souptask-worker-2   souptask-worker   "python -m app.worker"   worker    16 seconds ago   Up 11 seconds             
+souptask-worker-3   souptask-worker   "python -m app.worker"   worker    16 seconds ago   Up 11 seconds             
+souptask-worker-4   souptask-worker   "python -m app.worker"   worker    16 seconds ago   Up 10 seconds             
+souptask-worker-5   souptask-worker   "python -m app.worker"   worker    16 seconds ago   Up 9 seconds              
+souptask-worker-6   souptask-worker   "python -m app.worker"   worker    16 seconds ago   Up 11 seconds             
+souptask-worker-7   souptask-worker   "python -m app.worker"   worker    16 seconds ago   Up 10 seconds             
+souptask-worker-8   souptask-worker   "python -m app.worker"   worker    16 seconds ago   Up 9 seconds
+running worker containers: 8 (expected 8)
+resetting tables (TRUNCATE effects, jobs)
+[t=   6.7s] created=904/1000 queued=742 running=8 succeeded=145 cancelled=7 failed=0 kills=0 cancels=13 dups=80
+[t=  12.0s] created=1000/1000 queued=671 running=8 succeeded=303 cancelled=18 failed=0 kills=0 cancels=33 dups=234
+[t=  17.3s] created=1000/1000 queued=503 running=7 succeeded=468 cancelled=22 failed=0 kills=0 cancels=53 dups=394
+[t=  22.6s] created=1000/1000 queued=345 running=8 succeeded=621 cancelled=26 failed=0 kills=0 cancels=72 dups=554
+[t=  27.9s] created=1000/1000 queued=190 running=8 succeeded=774 cancelled=28 failed=0 kills=0 cancels=89 dups=712
+[t=  33.1s] created=1000/1000 queued=41 running=8 succeeded=920 cancelled=31 failed=0 kills=0 cancels=108 dups=868
+[t=  38.5s] created=1000/1000 queued=0 running=0 succeeded=969 cancelled=31 failed=0 kills=0 cancels=124 dups=1029
+[t=  41.8s] chaos stopped, checking invariants
+
+=== INVARIANTS ===
+[PASS] no_job_lost: 0 violation(s). every key the API confirmed exists in the DB with the same id
+[INFO] rows in DB the harness never got a 2xx for: 0 (possible only if every retry of a create timed out)
+[PASS] row_count: DB has 1000 jobs, harness confirmed 1000
+[PASS] idempotent_create: 0 violation(s). one key => one id, and at most one 201 (includes the parallel-duplicate keys)
+[PASS] duplicate_posts_behave: 0 violation(s). 1029 repeated POSTs: same payload => 200 + same id, other payload => 409
+[PASS] no_double_effect: 0 violation(s). no job has more than one effect row
+[PASS] none_stuck: 0 violation(s). after settling nothing is queued or running
+[PASS] succeeded_has_effect: 0 violation(s). every succeeded job has exactly one effect
+[PASS] effect_only_if_succeeded: 0 violation(s). cancelled / failed jobs have no effect
+[PASS] effect_from_final_attempt: 0 violation(s). the effect was written by the job's last attempt (fencing)
+[PASS] failed_only_if_exhausted: 0 violation(s). no job fails unless it used all 5 attempts
+[PASS] terminal_has_no_lease: 0 violation(s). finished jobs hold no lease
+[FAIL] cancel_is_honoured: 50 violation(s). accepted cancels end 'cancelled'; terminal jobs never change afterwards
+        22ef30fc-2bd9-43e2-9d0e-ec754b82bdf1: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        0f70b559-ec25-404f-9657-5ea6c87b57d7: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        533d82b9-46f7-4826-bdf5-36530157ed34: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        b5e70ebd-8c9a-4e69-98d8-756d128aaadd: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        1ce4f68a-91a2-47ab-be51-9e14386981a0: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        e454e8b4-4a23-4d6e-ad47-8456e15f9544: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        87238287-1079-4c5b-844a-bd515c59a03d: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        49801fcd-b50b-49fc-b384-9a7990484678: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        62bab167-d24d-47f1-8336-68c9b14685b5: API said cancel accepted (HTTP 202, running) but final status is succeeded
+        fcfdfce0-b95e-4563-a52b-db12b9bf4368: API said cancel accepted (HTTP 202, running) but final status is succeeded
+[PASS] no_double_claim_without_kills: 0 violation(s). in a run without kills no job may be claimed more than once
+
+=== STATS (to judge whether the chaos actually did anything) ===
+final status counts : cancelled=31, succeeded=969
+attempts per job    : 0x=31, 1x=969
+jobs claimed more than once (killed/expired and retried): 0
+kills performed      : 0  (picked busy worker=0, random=0; restarted by harness instead of docker: 0)
+cancel responses    : HTTP 200/cancelled=31, HTTP 200/succeeded=44, HTTP 202/running=50
+repeated POSTs sent  : 1029
+transport/unexpected errors: none
+timed out waiting to settle: False
+worker logs since 2026-11-11T06:14:16Z saved to chaos-11-worker-logs.txt: ZOMBIE rejections=0, lost lease=0, reaper actions (requeue OR cancel-finish OR fail)=0, worker loop errors=0, worker (re)starts=0
+
+RESULT: FAIL (cancel_is_honoured)
+Do not edit or delete this file. Describe what happened in DESIGN.md section 10.

@@ -57,6 +57,12 @@ def ts():
     return f"[t={time.time() - T0:6.1f}s]"
 
 
+def mutation_active():
+    """chaos/mutate.py leaves app/.mutation behind while the worker is deliberately broken."""
+    f = ROOT / "app" / ".mutation"
+    return f.read_text().strip() if f.exists() else None
+
+
 # ---------- helpers: HTTP, shell, SQL ----------
 def http(method, path, body=None, headers=None, timeout=15):
     data = json.dumps(body).encode() if body is not None else None
@@ -329,6 +335,13 @@ def run_checks(args):
             bad.append(f"{c['id']}: API said already {c['status']} but final status is {f}")
     check_py(results, "cancel_is_honoured",
              "accepted cancels end 'cancelled'; terminal jobs never change afterwards", bad)
+
+    if args.no_kill:
+        # With no kills and 0.05-0.5s jobs, nothing can make a lease expire, so attempt > 1 can only
+        # mean two workers claimed the same job (a double claim).
+        check_sql(results, "no_double_claim_without_kills",
+                  "in a run without kills no job may be claimed more than once",
+                  "SELECT id, attempt, status FROM jobs WHERE attempt > 1")
     return results
 
 
@@ -367,6 +380,7 @@ def save_worker_logs(path, since):
         f"ZOMBIE rejections={out.count('ZOMBIE write rejected')}, lost lease={out.count('lost lease')}, "
         f"reaper actions (requeue OR cancel-finish OR fail)={out.count('reaper handled')}, "
         f"worker loop errors={out.count('worker loop error')}, worker (re)starts={out.count('starting (lease')}")
+    return out.count("ZOMBIE write rejected")
 
 
 def main():
@@ -386,6 +400,8 @@ def main():
     ap.add_argument("--base-url", default="http://localhost:8000")
     ap.add_argument("--seed", type=int, default=None)
     ap.add_argument("--no-kill", action="store_true", help="control run without kill -9")
+    ap.add_argument("--allow-worker-mismatch", action="store_true",
+                    help="run even if the number of running worker containers is not --workers")
     args = ap.parse_args()
     BASE = args.base_url
 
@@ -400,6 +416,8 @@ def main():
 
     log(f"CHAOS RUN {n:02d}  started {datetime.now().isoformat(timespec='seconds')}")
     log(f"args: {vars(args)}  seed={seed}")
+    if mutation_active():
+        log(f"*** MUTATION ACTIVE: {mutation_active()}  (deliberately broken worker; a FAIL is the expected result) ***")
     log(f"python {sys.version.split()[0]}; git commit: {sh(['git', 'rev-parse', '--short', 'HEAD'])[1] or 'n/a'}")
     log(sh(["docker", "compose", "ps"])[1])
 
@@ -415,7 +433,12 @@ def main():
     n_workers = len(sh(["docker", "compose", "ps", "-q", "worker"])[1].split())
     log(f"running worker containers: {n_workers} (expected {args.workers})")
     if n_workers != args.workers:
-        log("WARNING: worker count differs from --workers")
+        msg = f"{n_workers} worker containers are running, expected {args.workers}"
+        if not args.allow_worker_mismatch:
+            log(f"ERROR: {msg}. Run `docker compose up -d` to start the stopped ones, "
+                f"or pass --allow-worker-mismatch. Aborting so the run is not mislabelled.")
+            sys.exit(2)
+        log(f"WARNING: {msg} (continuing because of --allow-worker-mismatch)")
 
     log("resetting tables (TRUNCATE effects, jobs)")
     psql("TRUNCATE effects, jobs;")
@@ -465,7 +488,12 @@ def main():
 
     results = run_checks(args)
     report_stats(args, timed_out)
-    save_worker_logs(RUNS / f"chaos-{n:02d}-worker-logs.txt", since)
+    zombies = save_worker_logs(RUNS / f"chaos-{n:02d}-worker-logs.txt", since)
+    fenced_ok = zombies == 0
+    log(f"[{'PASS' if fenced_ok else 'FAIL'}] no_fenced_writes: {zombies} stale write(s) rejected by the attempt check. "
+        f"This run freezes no worker, so a rejection means a double claim (or a lease that expired on a live worker).")
+    if not fenced_ok:
+        results.append(("no_fenced_writes", False))
 
     failed = [name for name, ok in results if not ok]
     if timed_out:

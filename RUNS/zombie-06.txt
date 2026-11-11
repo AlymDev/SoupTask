@@ -1,0 +1,17 @@
+ZOMBIE TEST 06 started 2026-11-11T12:11:31  freeze_s=25.0 duration_ms=9000
+*** MUTATION ACTIVE: no_fencing_at_all  (deliberately broken worker; a FAIL is the expected result) ***
+label: mutation no_fencing_at_all
+created job c5add933-eab8-4816-b794-993041130d80
+[t=  0.0s] status=running attempt=1 worker=f5c9b15be9cc-1-2e884b
+[t= 30.6s] status=running attempt=2 worker=39024cf936bd-1-056c38
+[t= 34.7s] status=succeeded attempt=2 worker=39024cf936bd-1-056c38
+
+worker log lines mentioning this job:
+   worker-2  | 2026-11-11 06:12:05,535 INFO job=c5add933-eab8-4816-b794-993041130d80 attempt=1 -> succeeded
+   worker-6  | 2026-11-11 06:12:10,941 INFO job=c5add933-eab8-4816-b794-993041130d80 attempt=2 -> succeeded
+
+effect rows for this job: [['1', 'f5c9b15be9cc-1-2e884b'], ['2', '39024cf936bd-1-056c38']]
+
+RESULT: FAIL
+  - 2 effect rows, expected exactly 1
+  - no 'ZOMBIE write rejected ... attempt=1' line: the old worker's write was not seen being rejected

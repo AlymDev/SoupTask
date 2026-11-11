@@ -1,0 +1,1081 @@
+worker-5  | 2026-11-11 06:12:51,658 INFO job=3b12104a-7a0e-43af-9919-1bae66e5dcfe attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:51,827 WARNING ZOMBIE write rejected job=8acd48ab-d61a-4904-bcc8-ce0a44fdbd45 attempt=1
+worker-5  | 2026-11-11 06:12:52,039 INFO job=283b4a00-e29a-4c55-9c22-dc8b800f4fdf attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:52,359 INFO job=5a2926dc-1b06-40ae-9f38-4e5cb1a2495e attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:52,800 INFO job=68de0d5f-8a29-4870-9320-04bab279e446 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:12:52,957 INFO job=fb9f7782-aab6-4a58-8485-5c606601613d attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:53,433 INFO job=651a1de2-ab1d-4661-b95c-c431c9b8f42a attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:53,610 WARNING ZOMBIE write rejected job=5f6903f3-88cf-4c8a-b6b9-43f583c09019 attempt=2
+worker-5  | 2026-11-11 06:12:53,713 INFO job=44f2d4de-e95f-490d-98fa-236d24983456 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:53,950 INFO job=6e595775-1fc5-4925-befd-7d5684091931 attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:12:54,393 INFO job=d20f20d6-2a89-4e38-baae-b96a82da51b3 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:54,568 INFO job=49a39b7f-fba0-4375-abde-85dfc390b021 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:12:54,949 INFO job=45ae05cd-fa8c-4a23-bad2-2b434e400d6c attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:55,244 INFO job=d1abafd4-c8dc-4d9b-b460-18d5eac716e9 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:55,520 INFO job=5a54d330-d87a-476b-8e23-0b0f13c7fd37 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:55,712 INFO job=2c1c0cef-21ee-4881-a80b-18c7d2ca9644 attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:12:55,783 INFO job=3d46a9a2-49f1-42cb-934f-38ab26785fb4 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:55,897 INFO job=7f29462d-3eff-4980-be9e-60768a3f58b8 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:56,356 INFO job=7ccaa135-566f-4dae-9fae-5f30fcfbef8f attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:56,871 INFO job=e82faf44-584d-437e-aef9-eeabe6e85602 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:57,093 INFO job=62ba7795-ebb7-4729-bba4-e73c99838983 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:57,323 INFO job=0106fe65-ad77-4fa0-9a3f-237ce1609aaf attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:57,469 INFO job=3a577b67-1b47-4486-beda-80c9b2706d35 attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:12:57,596 INFO job=47872767-0855-40dd-8dc2-9ae3ee5835d5 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:57,931 INFO job=4ee0a024-fcb7-4235-b7d3-e7695cce54c5 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:12:58,279 INFO job=0876c503-e7d0-4539-8f9c-5722a570d2e6 attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:12:58,427 WARNING ZOMBIE write rejected job=4cf85767-965e-4193-8c5e-e5f3788d1984 attempt=1
+worker-5  | 2026-11-11 06:12:58,737 INFO job=57a0b98b-3f85-4ed6-91e7-a0d21557f96b attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:58,994 INFO job=2fbb0d3f-6d98-41fe-bb53-1264c58f0851 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:59,094 INFO job=16724195-0b0d-464d-aa7e-cdef7df288f3 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:12:59,479 INFO job=2d12bc7e-c5d5-4dcd-8144-d0d85bd6b0de attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:12:59,971 INFO job=7f23c73c-afb2-49b1-a61d-e948c9a64160 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:00,109 INFO job=b9f4c71a-9538-4716-b646-fbf57eaa4518 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:00,286 INFO job=7b5e429a-202a-4724-aa1a-2f3a283fd8f2 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:00,657 WARNING ZOMBIE write rejected job=f1ac2f42-c28f-4081-a254-04b6bec95fb8 attempt=1
+worker-5  | 2026-11-11 06:13:01,083 INFO job=3699371e-6e57-4d0d-a2b9-185ca15bb7ee attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:01,311 WARNING ZOMBIE write rejected job=27988f56-a860-410a-94c2-49324f7a67cf attempt=1
+worker-5  | 2026-11-11 06:13:01,678 INFO job=737365f2-a30d-4cfb-adfc-961843cf373e attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:01,897 INFO job=0a3b83ca-6301-4568-a6a5-3e6651987308 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:02,175 INFO job=934ca2a7-5535-4853-9731-6c6f6f671fcc attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:02,287 INFO job=32b74ad3-8a85-47c6-9b8f-a4fa1c48ecae attempt=3 -> cancelled
+worker-5  | 2026-11-11 06:13:02,552 INFO job=89aec9ef-218d-474d-ada8-e19aa5c999fb attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:02,928 INFO job=1592a5e2-8640-424b-a349-80dd0fef5f68 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:03,113 INFO job=5438c64e-2b09-412d-a1ad-0426b824c8c4 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:03,197 INFO job=711e33b7-2402-41b5-b8ea-7217c6c874f7 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:03,576 INFO job=044a3569-3c7a-49ed-8eec-89bb69b20c96 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:03,993 INFO job=a3105be5-1f06-4af1-98fb-a88a23d07b7e attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:04,463 INFO job=6efb2365-2561-4abc-8735-e824f6eb1f50 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:04,711 INFO job=c5c2c575-e858-430c-8e17-60179c77ad36 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:04,784 INFO job=862cf684-8649-42ad-ac63-d43d6ea7ae94 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:05,231 INFO job=00933d1b-f619-437a-b09b-3f165ab69352 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:05,489 WARNING ZOMBIE write rejected job=40e68b1f-5789-48aa-9125-a3687a02e413 attempt=1
+worker-5  | 2026-11-11 06:13:05,917 INFO job=cba839fb-251f-43b0-aa36-bc2c195ad40a attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:06,352 INFO job=d55014bd-a433-4649-b60b-549963a7e6d6 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:06,634 INFO job=f2033507-e223-4ee7-8709-e76b509f732d attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:06,700 INFO job=b5b959bf-e7f6-44eb-a2e4-45b4b02aef2d attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:07,176 INFO job=47177710-dd07-4011-a2e0-5d3d51e8650e attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:07,452 INFO job=0ca8be94-6037-4357-a929-56e7a9529603 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:07,705 INFO job=2a74a0be-bde1-4c5d-9f3f-9b7ed3a19c90 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:08,019 INFO job=7047348d-3ac0-4027-b1b7-ce0d19d252ad attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:13:08,434 INFO job=cc974611-ac88-4d55-b07b-1251310c13db attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:08,667 INFO job=e7159a07-0d83-4457-9ae7-337678b4b6b4 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:08,872 INFO job=1ed4806c-df2e-4a75-a25a-636d43efb870 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:09,244 INFO job=9736b2c4-58d1-4697-937a-29001f979e9f attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:09,565 INFO job=10e65c56-66c5-44bf-9ec5-14d64c7d9080 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:09,882 INFO job=96711431-c5d7-4d36-bdc6-d9c094cb871c attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:10,148 WARNING ZOMBIE write rejected job=30501171-4114-43e6-a928-d8a805b636ec attempt=1
+worker-5  | 2026-11-11 06:13:10,623 INFO job=5485e973-35a5-433d-816c-0a6d7f7a9912 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:10,910 INFO job=0d18b831-bdf6-4b15-b0ea-2922d086660b attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:11,409 INFO job=a34a4967-e1fb-4b4c-93ac-ab73cc186cde attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:11,624 INFO job=897c8bc9-018f-42a1-82c9-b262957ca28d attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:11,743 INFO job=6ce4bf74-a23c-4dda-a46d-917019f216e1 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:11,807 INFO job=c6c003e5-5934-4650-a61e-cf2633bd9480 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:12,011 INFO job=c2e81259-5c37-4304-832b-015658b35c28 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:12,460 INFO job=d3abcc78-df6d-4ac7-a412-f074fbef5209 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:12,685 INFO job=2e463752-b4b9-4f1f-9c42-593b7c756962 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:12,915 INFO job=1b6380b9-6b5c-4c98-96bb-e09fe4ffc8e5 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:13,147 INFO job=acfebbe1-3fd8-4991-b168-2bff4619fe03 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:13,352 INFO job=71ddf4f6-f2a0-4913-8850-bfc5676c1209 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:13,472 INFO job=f099cccd-3060-4763-978e-346504514c28 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:13,657 INFO job=a8ef1f42-233d-4417-a4b3-cb9576afe9e6 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:13,742 INFO job=f353476a-d2ea-4683-9129-7c0a6adff164 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:13,838 INFO job=9ae1a1d4-27a0-472c-9d36-4d96d6225004 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:14,308 WARNING ZOMBIE write rejected job=55c5dfcf-196c-4aea-a4dd-07d190b29612 attempt=1
+worker-5  | 2026-11-11 06:13:14,737 INFO job=6413d265-07c8-492f-835e-fb3f477d49ea attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:14,949 INFO job=a81645fa-2c78-4489-9ab5-2c8f6d69b26e attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:15,326 INFO job=4710b021-e5a9-4a8c-b3bd-8435523575ae attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:15,609 INFO job=74f2bfae-b467-46fc-b16a-79657631e5bd attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:15,770 INFO job=b9c0a045-5f71-4910-920f-961e24adc608 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:16,183 INFO job=6e998e95-5c7a-4998-baeb-026833cac2bf attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:16,571 INFO job=7fab21f0-386e-459e-aeed-458746aba82e attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:17,067 INFO job=3761050b-2fd6-4936-a007-992e46c83033 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:17,574 INFO job=4a6c5649-32b1-46b1-a1bd-5ec12fe20733 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:17,898 INFO job=b63eb503-ac4b-407b-8c03-f1cb8eb71bd1 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:18,338 INFO job=456859ac-16f7-4b8c-9588-227973f8c537 attempt=2 -> succeeded
+worker-5  | 2026-11-11 06:13:18,612 INFO job=82c3339f-1c64-4b54-b1b0-6efc3ddd9309 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:18,710 WARNING ZOMBIE write rejected job=9ded14ad-fa5e-4b15-b936-4ab35d695ea0 attempt=1
+worker-5  | 2026-11-11 06:13:18,928 INFO job=c19b439c-811d-459a-b28c-9c6c16a90bb2 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:19,401 INFO job=593d5816-3b0a-44e3-834d-5954702eb54b attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:19,834 INFO job=bea1354f-9767-42f2-b840-2d6a7d3914bd attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:13:19,950 INFO job=8cfa8f2f-43e5-4cb3-b29b-dd205eb964bb attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:20,455 INFO job=89498008-1400-4f92-bf99-50fe2fcd3160 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:20,717 INFO job=23480e5f-101e-4827-9fb3-e63bc6830eb1 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:20,965 INFO job=8b7e2a1f-9e71-499d-aebb-b985b1a2ab5a attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:13:21,135 INFO job=af74552c-5e4a-4423-9264-a7e48bec2850 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:21,275 INFO job=ab2d8c9b-a8df-41a3-b76e-d019afea8c1f attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:21,498 INFO job=11249566-1975-41cf-8d9f-ff788c226ab7 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:21,562 INFO job=4004eded-ff3a-4750-940a-d73a6950ccb7 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:21,948 INFO job=ddf4f8fa-18a8-4207-86af-8fb7bccdce4a attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:22,359 INFO job=7332dd62-48e3-4959-bf82-325d50318390 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:22,695 INFO job=cc06dd73-af3f-48a5-8e84-a925bdf89a58 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:22,944 WARNING ZOMBIE write rejected job=9ae13833-0263-428a-a2b8-1e8d8e243b22 attempt=1
+worker-5  | 2026-11-11 06:13:23,212 INFO job=ac0802f3-59ff-464b-9a8f-44856d753592 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:23,482 INFO job=1e5dd30d-f574-4ed7-bb44-a73fb773eb6b attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:23,731 INFO job=98318372-f796-4dcd-84ab-237e24144f76 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:24,068 INFO job=7c1d04b5-87cb-4d57-8b54-35818a235821 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:24,405 INFO job=84a06a96-74af-4c2a-85aa-ad4b315a48d0 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:24,558 INFO job=d47d08ce-4d57-43b1-9c82-834ab60389af attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:24,948 INFO job=5fe549ba-dcef-464b-a73b-4467ff884a09 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:25,206 INFO job=3b27a0a4-41c9-493f-b3cd-4d672556708c attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:25,316 INFO job=b7aa1fa8-c5c3-458e-a1fa-e47e28b347d5 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:25,499 WARNING ZOMBIE write rejected job=cfdc5ee1-d35a-4954-b9b0-d33feac4ff7a attempt=1
+worker-5  | 2026-11-11 06:13:25,932 INFO job=9c591125-4932-4dbe-8810-7a3873bb96c8 attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:13:26,256 INFO job=2677275b-10cd-4865-b4a8-c84549e4f2ab attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:26,492 INFO job=8349343c-6c58-4c2f-81c6-b41f0bb17748 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:26,984 WARNING ZOMBIE write rejected job=a6ad8656-82c7-46de-bd49-2313e7ac39b5 attempt=1
+worker-5  | 2026-11-11 06:13:27,401 INFO job=84f97fa6-ac27-418b-8272-c62b3ec042bf attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:27,833 WARNING ZOMBIE write rejected job=c5d79316-18db-4b2d-93bb-cd16f4a4314d attempt=1
+worker-5  | 2026-11-11 06:13:28,284 INFO job=dd299ac3-221f-4189-8f81-d6e74f313ad8 attempt=1 -> cancelled
+worker-5  | 2026-11-11 06:13:28,402 INFO job=2bec4ef4-c3d3-465f-bfad-1dc34c834176 attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:28,534 INFO job=d8019131-fb19-4722-81bf-e15148d953dc attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:28,810 INFO job=caf5a807-b802-46dd-9ad0-76417e753cde attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:29,213 INFO job=0909061c-8e3b-4f62-8487-1c12a77c0b9c attempt=1 -> succeeded
+worker-5  | 2026-11-11 06:13:29,514 WARNING ZOMBIE write rejected job=58aa992d-5f4b-4284-be19-098f22f5d38e attempt=1
+worker-5  | 2026-11-11 06:13:29,677 INFO job=541696fe-7457-4b85-8edf-aa5c6e1b80e2 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:51,789 INFO job=96ca22c7-b4df-4423-83ac-4776f834e715 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:51,703 INFO job=2376e5f2-99ca-4717-9b33-f74f14f47d5f attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:52,035 INFO job=37e58bf6-57de-4641-ba46-9c978f8d9f28 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:52,249 WARNING ZOMBIE write rejected job=a5749cb5-9a62-4359-9f42-97238f4dd96a attempt=1
+worker-2  | 2026-11-11 06:12:52,356 WARNING ZOMBIE write rejected job=eba0be38-5fab-4709-b8c4-9f96b2ec6133 attempt=1
+worker-2  | 2026-11-11 06:12:52,616 WARNING ZOMBIE write rejected job=68de0d5f-8a29-4870-9320-04bab279e446 attempt=1
+worker-2  | 2026-11-11 06:12:53,028 INFO job=45f63b9d-25c0-46ee-95bf-73f411be3ce8 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:53,169 INFO job=bc8b1616-f815-41ab-a66f-514d047e8242 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:53,433 INFO job=14d4c7d1-95ad-4402-b04a-dec7791d47e1 attempt=1 -> cancelled
+worker-7  | 2026-11-11 06:12:51,322 INFO job=4ff7fa02-2d07-41e5-ac90-01eca4c77f56 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:51,586 INFO job=87fd1c47-c6e4-4d8b-ac48-5a183669f853 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:51,769 INFO job=175dd18d-58e7-4454-a31f-038d65c7557a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:52,094 INFO job=2eebdbcb-1b8f-401c-9b30-43e4d22f3057 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:52,425 INFO job=da251daf-17a9-4ec1-bcd5-78c9e886cfb5 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:52,528 INFO job=2bcdb10c-330b-44be-8abc-29aaea03fb8a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:52,940 INFO job=ddffde48-8144-45a2-b140-43d7f82696d5 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:12:53,307 INFO job=38cb0c5d-c02d-4b99-a745-d7664fd89e85 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:53,428 INFO job=3860d9ed-45b7-4d04-8360-2962a38d6402 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:53,529 WARNING ZOMBIE write rejected job=5f6903f3-88cf-4c8a-b6b9-43f583c09019 attempt=1
+worker-7  | 2026-11-11 06:12:53,794 INFO job=d5da12c6-6ac9-422b-9f6e-fd6fdbfc1e46 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:54,026 INFO job=bf3203f0-57be-4a95-aba9-6d6ce364c610 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:12:54,153 INFO job=3333a317-6b61-4c93-bdc0-1d8e47411f76 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:12:54,342 INFO job=82af05c1-f134-4ece-8b9c-5c68b21e1b0c attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:54,508 INFO job=b0f09fe6-ec7b-4f6f-a9a6-b88455d6d1ff attempt=1 -> cancelled
+worker-7  | 2026-11-11 06:12:54,642 INFO job=d29b88ef-2a16-4027-a360-2cb64074bafb attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:55,109 INFO job=27d4ad60-2325-434f-af6e-27260dbfffc2 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:55,555 INFO job=b9839dd3-312a-4731-b47b-05101eb21f07 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:55,928 INFO job=88dd8878-92b2-48e9-ab72-fb0938a330d1 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:56,177 INFO job=87c662ca-a939-4fc4-8e35-45e4938f1fda attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:56,398 INFO job=b3a8ce78-972b-4c9d-b3f2-e2aca6103030 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:51,797 INFO job=3d1a8a50-918c-4db8-9300-40c6df575974 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:52,293 INFO job=a455e73b-e62d-4f2d-b309-8199a1265c70 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:52,525 INFO job=292301d4-0403-4030-9664-09d3e1df995c attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:53,904 INFO job=5f6903f3-88cf-4c8a-b6b9-43f583c09019 attempt=3 -> succeeded
+worker-2  | 2026-11-11 06:12:54,090 INFO job=d3327481-a0f8-4543-863a-06a53e6e53de attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:54,393 INFO job=53d52e19-d09e-4ce1-92f9-25aff07abfcb attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:54,786 WARNING ZOMBIE write rejected job=49a39b7f-fba0-4375-abde-85dfc390b021 attempt=1
+worker-2  | 2026-11-11 06:12:55,234 INFO job=09607c33-67b7-4b27-b668-278eb584f323 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:55,483 INFO job=ed266ca6-1306-41c7-be26-fb721b7af589 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:55,693 INFO job=d8c4ec4f-d3c0-425a-b4a5-095e452294bc attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:55,999 INFO job=019bff42-2e4a-43ca-bb13-0c4f84402bea attempt=1 -> cancelled
+worker-2  | 2026-11-11 06:12:56,439 INFO job=2aad10cd-fd85-4bf1-a67c-53b5458b15ee attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:56,920 INFO job=157009ac-5c3d-4d00-83ba-ffa51f9db978 attempt=1 -> cancelled
+worker-2  | 2026-11-11 06:12:57,031 INFO job=ca4b8939-a57a-42bb-914b-42ce3a990f30 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:57,438 INFO job=2074903d-ae9b-4921-b938-7321be61e333 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:57,729 INFO job=19f7d71d-d3bb-49cb-9492-cd49b9070a9f attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:58,088 INFO job=d29409c3-b307-4147-a774-820a1cdf8ba8 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:58,485 INFO job=a0ec2696-ff7e-4bec-a45e-9c502d1c6a44 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:58,559 INFO job=56b17383-7f5c-4e11-b758-97249d545bc6 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:59,063 INFO job=a9a4705a-1635-4463-978a-2163a4d491f3 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:59,496 INFO job=2cfb8254-8697-4014-9186-f1fbfabd48e6 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:12:59,868 INFO job=b2129b0e-a2ee-4835-981d-740657639987 attempt=1 -> cancelled
+worker-2  | 2026-11-11 06:13:00,363 INFO job=72d90f77-80f9-44a1-baee-c7a2af2ee6a2 attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:12:52,994 WARNING ZOMBIE write rejected job=ddffde48-8144-45a2-b140-43d7f82696d5 attempt=1
+worker-1  | 2026-11-11 06:12:53,399 INFO job=ce7527c7-4eb0-4f93-b8cc-13164951feef attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:53,833 INFO job=64c75321-f912-415f-bc27-4ac945a54a6f attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:54,023 INFO job=44b46849-c01b-4c6b-88d7-c1e77a4e1d31 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:54,471 WARNING ZOMBIE write rejected job=3333a317-6b61-4c93-bdc0-1d8e47411f76 attempt=1
+worker-1  | 2026-11-11 06:12:54,822 INFO job=c180aec3-5d4a-4a4e-8884-cdf01e384838 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:55,034 INFO job=0ff03e14-5c35-4553-956b-d9a8f16140b5 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:00,532 INFO job=fd9b8ecf-ffac-4a66-a81a-08dc54604477 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:00,762 INFO job=34c60457-a6ef-4f84-8106-5b5af80b4f4c attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:01,003 INFO job=bc5396c5-f824-45a5-8633-37be859798a2 attempt=1 -> cancelled
+worker-2  | 2026-11-11 06:13:01,210 INFO job=eb05ea64-7ba2-41ea-821c-6bb4f854f29c attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:01,556 INFO job=15c110b3-47c9-4cbf-a9e3-c1ec270e31c2 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:01,751 INFO job=bba63166-1abe-422b-8b3f-81ab9ae8e245 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:02,125 INFO job=53137b0b-622e-4a13-a09d-c7f938d0817c attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:02,497 INFO job=36cd0237-d14e-4701-95c5-0bd283cb8e6c attempt=1 -> cancelled
+worker-2  | 2026-11-11 06:13:02,665 INFO job=2b8fc9a9-ccbc-4d36-b0c9-5348965fd462 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:02,776 INFO job=d650a9e3-4660-4cd0-bcfa-419bc35aa361 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:02,878 INFO job=c7f31867-1689-429e-9f64-60bf775d3560 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:02,954 INFO job=398461dd-aabf-4bb6-b1b8-5d27312f295d attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:03,313 INFO job=7b895312-f678-47a1-971f-194d6590bf38 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:03,816 INFO job=9797dae0-36d6-420d-b8c3-46951840c9cd attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:04,196 INFO job=37c090ab-2433-4c52-b2e5-398d5e097049 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:04,513 INFO job=26407a7d-c7f5-49e8-ba87-d5ecb8b2005b attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:04,658 INFO job=ee61f977-6558-4fa1-ad57-098a6c95b9b8 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:56,855 INFO job=bcd30da2-1e77-4359-94a8-d5a01fcf69f5 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:57,149 INFO job=88805f8a-e04b-4301-ab6b-6e126b6ec6bd attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:12:57,397 INFO job=3261f0dc-015e-47b8-8eb0-1ffc99aff288 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:57,804 INFO job=52ba75a2-62b7-4962-be38-a752205ec39c attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:57,987 INFO job=0ac614ae-2eb9-461f-aae3-63f4d2c08277 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:58,161 INFO job=8303f229-4d27-4d51-923c-9cefb25c3db0 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:58,625 WARNING ZOMBIE write rejected job=473c876b-b94a-4215-a3c9-470d1d835797 attempt=2
+worker-2  | 2026-11-11 06:13:05,063 INFO job=e24f4273-ee08-4903-9845-9a448bb08fa9 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:05,153 INFO job=6114abae-cd75-4044-b58f-f6d300aa1651 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:05,234 INFO job=9345ae3d-65b5-4e84-adb3-603839047cd8 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:05,473 INFO job=40e68b1f-5789-48aa-9125-a3687a02e413 attempt=2 -> succeeded
+worker-2  | 2026-11-11 06:13:05,593 INFO job=bd020613-b5fa-4306-912d-5434ab7677eb attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:05,928 INFO job=61c9d093-0ad6-4cfc-ad80-f0e6ae053e45 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:06,213 INFO job=d039a60b-df7c-48e4-92e1-70886c82b15b attempt=1 -> cancelled
+worker-2  | 2026-11-11 06:13:06,508 INFO job=039a5a8a-2b42-4361-a35b-742e8a3388c7 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:06,737 INFO job=56ba1cdb-4e52-46e3-b1a6-3b21d4591d88 attempt=2 -> succeeded
+worker-2  | 2026-11-11 06:13:07,173 INFO job=88263f7c-9411-4bcc-b418-173248409d2a attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:07,451 WARNING ZOMBIE write rejected job=0ca8be94-6037-4357-a929-56e7a9529603 attempt=1
+worker-2  | 2026-11-11 06:13:07,620 WARNING ZOMBIE write rejected job=2a74a0be-bde1-4c5d-9f3f-9b7ed3a19c90 attempt=1
+worker-2  | 2026-11-11 06:13:07,764 INFO job=563fedcb-62bb-4920-93d8-8f4e41459f36 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:08,140 INFO job=8591744b-f998-4bd4-b112-dd1689d1cb53 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:08,247 INFO job=10454212-9104-4b49-8d9b-65a259d58151 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:08,517 INFO job=4a026069-a8a5-4e13-ac6c-f66e3e9f3af5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:55,221 INFO job=66fd9cf7-31bf-42f7-b77c-3e97579fac22 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:58,730 INFO job=80bb72a7-aa14-4a15-be55-7c383b0dd066 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:55,536 INFO job=15eeec91-e6c7-43b5-b0d6-ba229b28b0da attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:55,987 WARNING ZOMBIE write rejected job=6ead7018-cc5c-46f6-8251-86e2c1368411 attempt=1
+worker-2  | 2026-11-11 06:13:08,687 INFO job=a472513b-9c4c-4cbb-b743-52268f856466 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:08,814 INFO job=a21e7010-ace7-4fc9-82bb-c85c59e88bf3 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:09,010 INFO job=c215a5a9-e686-43f6-8b97-d37fbda96d1c attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:09,112 INFO job=7e1a9685-8f12-4f51-b601-26acc71bba91 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:58,806 INFO job=28e775cb-8052-4dc2-94c0-a76bb465b820 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:59,294 INFO job=694fba66-209a-49f8-89ae-962fd1342448 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:12:59,639 WARNING ZOMBIE write rejected job=7b1f3ddd-0206-4949-b67f-2a9bf773bdfb attempt=1
+worker-8  | 2026-11-11 06:12:52,025 INFO job=b6dddb54-b78d-473a-a5af-e9c7e8636463 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:52,278 INFO job=a48d98a9-53fb-4e9d-b259-e89cdd4ccd68 attempt=2 -> succeeded
+worker-8  | 2026-11-11 06:12:52,517 INFO job=d127f4e2-b6e3-4b49-ac07-afa7bb02ea32 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:52,765 INFO job=03f82b8a-a8dd-4995-b407-899b55dfd3c8 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:52,979 WARNING ZOMBIE write rejected job=3a95632d-c1f1-4d82-b0c3-80a68e6eae62 attempt=1
+worker-8  | 2026-11-11 06:12:53,195 INFO job=904c1786-8dbc-41a7-b57f-6714d78606a1 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:53,623 WARNING ZOMBIE write rejected job=b8f77e54-d85c-417e-98bb-9fdf1d1d7e35 attempt=1
+worker-7  | 2026-11-11 06:13:00,012 INFO job=37d3217f-66e1-4a2c-958b-8acc276f481b attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:00,084 INFO job=5ec83da6-59db-4532-a59a-b6d92f19c3d5 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:00,563 INFO job=d2bdb664-ec98-4347-bacb-39da05f0020c attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:00,668 INFO job=7f84be4a-b420-416d-aefc-728cdba202da attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:00,729 INFO job=b7663480-7d93-47ee-996e-c83bfd0b0d2a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:00,823 INFO job=9999f202-6a1e-42df-b707-d66decb0a829 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:01,242 INFO job=32119c0c-5487-47ca-8101-427ca04a84ac attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:01,515 INFO job=08c4816f-f695-43ec-8ed5-b05fbd679d8b attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:01,719 INFO job=739065be-0f6a-4993-92aa-f28fcad0377e attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:12:56,218 INFO job=36eaefaf-3a52-475d-8ea5-45d9ee3ad0d6 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:54,120 INFO job=6a8ba582-283f-472d-b7d9-ce33b16ff27a attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:02,008 INFO job=b6f3453c-964f-433d-a99b-45d6380f2576 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:02,404 INFO job=99d5514a-f133-4adc-9fed-64e34238336c attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:02,546 INFO job=5f0604de-a468-4db4-b525-b871f358157c attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:02,639 INFO job=0c7e2ca3-ab67-451d-b539-acbf44960806 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:02,921 INFO job=ad165c98-ebf5-41e5-862e-e6932b404ed6 attempt=1 -> cancelled
+worker-7  | 2026-11-11 06:13:03,152 INFO job=d2856033-cd25-4372-8fb3-0040364d1aa6 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:03,382 INFO job=113a2ac1-5a57-43c9-8f0f-22591d85da65 attempt=1 -> cancelled
+worker-7  | 2026-11-11 06:13:03,569 INFO job=bc80eeed-b7b0-442f-8065-68cf21590ad7 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:03,969 INFO job=a620cf49-739b-4bb7-87f7-ba7b4809f80e attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:56,493 INFO job=b60270d5-05a6-4a02-802e-d03194ed25d3 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:54,379 INFO job=5b03ce81-f05a-476b-917e-696ed98720b9 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:09,474 INFO job=136286ac-54fe-46a4-b1c4-d2d3cf8f4e98 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:09,536 INFO job=ba072e59-8bd1-474e-b743-27e475a7a07f attempt=3 -> succeeded
+worker-2  | 2026-11-11 06:13:09,836 INFO job=65a6bf76-d591-4f31-8c92-fb6735837e70 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:09,901 INFO job=3572bd29-02f5-4e89-9632-3c6f0d430b28 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:10,222 INFO job=b0d3bf0f-4632-43cf-8f70-af743b597be4 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:10,458 INFO job=b717d186-46dd-4ba0-990a-f9575a33846a attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:10,774 WARNING ZOMBIE write rejected job=2b380b1f-fa16-4aaf-8ffe-43983679197e attempt=1
+worker-8  | 2026-11-11 06:12:54,812 INFO job=9bfbb222-99a6-4277-990f-9c8251571702 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:56,852 INFO job=3574c764-b9e0-44f8-a268-1ea307184627 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:56,941 WARNING ZOMBIE write rejected job=88805f8a-e04b-4301-ab6b-6e126b6ec6bd attempt=1
+worker-1  | 2026-11-11 06:12:57,248 INFO job=b5821991-16fd-4501-8227-795518e13592 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:10,976 WARNING ZOMBIE write rejected job=c61ca629-8879-433b-bd6e-20301c89d80d attempt=1
+worker-2  | 2026-11-11 06:13:11,054 INFO job=8395989c-e131-4511-9126-f7f96ff7a1e9 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:57,594 INFO job=4e34aa49-7101-482e-898a-9dfe9639d326 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:57,721 WARNING ZOMBIE write rejected job=4ee0a024-fcb7-4235-b7d3-e7695cce54c5 attempt=1
+worker-1  | 2026-11-11 06:12:58,165 INFO job=af2e43c3-7a3f-4730-9417-a73116d0b35a attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:58,457 INFO job=473c876b-b94a-4215-a3c9-470d1d835797 attempt=3 -> succeeded
+worker-1  | 2026-11-11 06:12:58,945 INFO job=0454bbeb-3a82-426f-8f10-e0e6e5a44ffd attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:04,074 WARNING ZOMBIE write rejected job=356568a0-52be-4a54-bbb1-f67956bbb687 attempt=1
+worker-7  | 2026-11-11 06:13:04,442 INFO job=ef658e96-d3b5-4344-8293-b897f65a1914 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:55,143 INFO job=baf18736-3d25-4731-ab5a-f32b721aed28 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:55,508 INFO job=a8af0430-4a21-41ee-8220-14492bd57474 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:55,621 INFO job=a4f2f341-4a77-454f-81ce-980316025f2e attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:56,069 INFO job=c7df82db-f39a-4125-9c1f-48f4b910df4b attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:56,312 WARNING ZOMBIE write rejected job=f8fcbf15-c8c7-4e8c-bc28-aaf6e258ec7d attempt=1
+worker-8  | 2026-11-11 06:12:56,535 INFO job=6ee6718f-d610-4462-ab34-cc085b6fe5cc attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:56,858 INFO job=61886c1a-4b23-44ab-b9bd-89c555af10c9 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:57,053 INFO job=05e54d28-8e5c-4d31-aa10-2e2b0646925b attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:57,334 INFO job=825fc813-f794-4b3a-9d19-296c25322ab9 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:57,586 INFO job=406f110e-e893-4b8f-a31a-da6f5ccfb111 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:57,668 INFO job=47e6b896-64ee-45aa-a7de-c04f3a9b1f52 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:57,746 INFO job=f77b0101-8864-40a4-a31c-c835982e32ec attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:58,158 INFO job=43f61c8b-a833-4b25-9f91-2013db88dddc attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:11,294 INFO job=bc521c95-3b0f-4b0f-83fd-d2c0d623ba5a attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:11,697 INFO job=6de2b392-b829-42d0-ab78-119aa8879c48 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:58,282 WARNING ZOMBIE write rejected job=473c876b-b94a-4215-a3c9-470d1d835797 attempt=1
+worker-8  | 2026-11-11 06:12:58,566 INFO job=4cf85767-965e-4193-8c5e-e5f3788d1984 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:04,821 INFO job=2bc9b825-1c1d-463c-806f-e12e1e17a9cb attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:05,147 INFO job=e1fb9176-2a64-48d6-b804-69519b6bd678 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:05,586 INFO job=6c410fad-5e62-451a-aa9c-ffcea7ad34e6 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:58,813 INFO job=8ea40f80-11af-4d00-be8f-aea1b2526f3a attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:59,178 INFO job=4901a027-9d18-40b6-8356-adb77efecae7 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:59,296 INFO job=3bf653fb-dae7-4ef3-9905-1037841fedcc attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:59,587 INFO job=7b1f3ddd-0206-4949-b67f-2a9bf773bdfb attempt=3 -> succeeded
+worker-1  | 2026-11-11 06:12:59,726 INFO job=4a1c6397-713f-4be8-bc3b-1dd5208d2e74 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:12:59,865 INFO job=5a0049cf-d7db-4de3-b847-a19079fda0e2 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:12,152 INFO job=082e09fc-d9f1-4ed4-bb59-74baa9e7af3e attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:59,324 INFO job=931e9e31-cd06-4dcd-aa21-17e9dbfae524 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:12,226 INFO job=e5caf638-f857-49c5-a931-3522a616cf59 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:12,534 INFO job=f9b993e9-7747-4b2d-a938-2b0949b2952e attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:12,820 WARNING ZOMBIE write rejected job=d3896cff-d580-4d9a-888f-b71532a0adf6 attempt=1
+worker-7  | 2026-11-11 06:13:05,961 INFO job=ae47c5dc-2654-49be-9310-99f39120284f attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:06,110 INFO job=293fbd3c-fd82-46e4-aa8f-a394bc9b6c9f attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:13,263 INFO job=815acbb3-8b1c-4e6f-bdc5-d033196fda6d attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:59,385 INFO job=31fd4828-13ca-4d22-9f7b-f88df2403d6d attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:12:59,549 INFO job=632688de-836b-4b1f-a3aa-1b592b634229 attempt=2 -> cancelled
+worker-8  | 2026-11-11 06:12:59,957 INFO job=1040b487-64bb-4c87-ac37-3fc95c433410 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:00,033 INFO job=2692c013-be8c-41fd-a26c-28949bcd2ca7 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:00,287 WARNING ZOMBIE write rejected job=a63fce32-dc55-48e8-ab99-90abf7cd3140 attempt=1
+worker-7  | 2026-11-11 06:13:06,283 INFO job=0fa9b159-2244-42f6-b738-ebdbc2cf9250 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:51,730 INFO job=c74d1800-275c-4d63-978a-d644ed0e0b98 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:52,035 INFO job=967d07f1-a805-4320-a380-4dc5c08a04b4 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:52,491 INFO job=a5749cb5-9a62-4359-9f42-97238f4dd96a attempt=2 -> succeeded
+worker-8  | 2026-11-11 06:13:00,793 INFO job=f1ac2f42-c28f-4081-a254-04b6bec95fb8 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:06,410 INFO job=0c88b0d2-431f-47d8-81e2-3d26f49bb1f6 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:06,505 INFO job=c24801b8-0a3b-4974-80a5-7bc84abb160a attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:00,195 WARNING ZOMBIE write rejected job=72d90f77-80f9-44a1-baee-c7a2af2ee6a2 attempt=1
+worker-7  | 2026-11-11 06:13:06,929 WARNING ZOMBIE write rejected job=56ba1cdb-4e52-46e3-b1a6-3b21d4591d88 attempt=1
+worker-1  | 2026-11-11 06:13:00,652 INFO job=f0005d28-d405-4560-b747-33f55aa4abf6 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:52,600 INFO job=076f93ef-f1bc-4cd9-82bb-8e504b6b13bf attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:52,815 INFO job=fdd17d8b-faa9-462f-9653-8f77407e7745 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:52,922 INFO job=85d568fd-7f79-4644-b949-2afc492f8851 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:53,364 WARNING ZOMBIE write rejected job=a5aadc21-256e-49a4-9790-cd60a636f354 attempt=1
+worker-6  | 2026-11-11 06:12:53,792 INFO job=e0ffd8d7-d29f-47b6-b7c1-4f0829dd56ca attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:54,249 WARNING ZOMBIE write rejected job=bf3203f0-57be-4a95-aba9-6d6ce364c610 attempt=1
+worker-2  | 2026-11-11 06:13:13,700 INFO job=c53c6ffb-55ea-4059-8e60-d31b8fe62675 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:14,124 INFO job=36116158-88c2-4350-9bd8-1e23666268c3 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:01,086 INFO job=c7773e9d-d630-41a2-9ec0-a883b2a59094 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:01,503 INFO job=27988f56-a860-410a-94c2-49324f7a67cf attempt=2 -> succeeded
+worker-8  | 2026-11-11 06:13:01,843 WARNING ZOMBIE write rejected job=739065be-0f6a-4993-92aa-f28fcad0377e attempt=1
+worker-8  | 2026-11-11 06:13:02,222 INFO job=14384309-93b4-4cdb-8746-c53fe999ae50 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:54,680 INFO job=15c4ddc6-e312-484e-a7a8-768e8b178a55 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:55,161 INFO job=6c5628e9-b1fb-4ab1-aaed-763df50b7916 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:02,509 INFO job=75d05122-2f24-4b84-b705-70a58739dd96 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:14,543 INFO job=cda4a2d3-e16a-459f-8aca-8b6843105b64 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:15,034 INFO job=065f1503-b7c7-48c0-8dc7-d6fd0e70c47d attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:07,429 INFO job=cd953d47-fb52-455e-bbb4-554f7714acda attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:02,752 INFO job=4793099b-5d4c-421c-9d79-6e9c52eea654 attempt=1 -> cancelled
+worker-6  | 2026-11-11 06:12:55,335 INFO job=59352625-b222-4d41-8a0c-c2d634c26378 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:55,628 INFO job=b9831981-3cfc-4b61-b55b-6b1ae9c0fd75 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:07,827 WARNING ZOMBIE write rejected job=5852ea55-89f0-48de-8d45-bd456bcf1e81 attempt=1
+worker-7  | 2026-11-11 06:13:08,124 INFO job=bdcd3bc3-ab4f-44d2-bd59-1c07d549cd8a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:08,404 WARNING ZOMBIE write rejected job=7c020f11-c5d4-43f2-a782-d206b7d85ab8 attempt=1
+worker-2  | 2026-11-11 06:13:15,445 INFO job=6176a0b7-feef-4f2e-b73c-e94b85f143fa attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:15,850 INFO job=12e2f640-ace9-44fd-8337-50023dcdf47e attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:16,341 INFO job=a3928f92-4109-4046-8c9f-1785b0e9e43e attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:16,823 INFO job=2e065f25-2145-47a6-8cdc-09685084dedd attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:55,862 INFO job=a0e0b420-4d5a-4007-88d3-573e3c5e2e2a attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:17,011 INFO job=33a9d4ea-1afd-4b5c-8aa9-7baf0d072fd4 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:17,520 INFO job=78ddcf3e-b2aa-44e4-8c2b-6d99e5a9df42 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:18,022 INFO job=4482b461-bf19-48dd-999c-3ba4959b312a attempt=2 -> succeeded
+worker-2  | 2026-11-11 06:13:18,420 INFO job=729b684a-c42e-4613-976b-e490a8fa2228 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:18,795 INFO job=6580a34a-70a6-4864-b7f4-fe5cb60854ce attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:19,067 INFO job=0d4dd83b-1a1e-466c-941b-407e765db43e attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:19,492 INFO job=1a523063-dae7-4f09-81cc-13f459141342 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:56,077 INFO job=a00cadee-bfa2-4acf-b025-1a56c1d30386 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:56,575 INFO job=f8fcbf15-c8c7-4e8c-bc28-aaf6e258ec7d attempt=2 -> succeeded
+worker-6  | 2026-11-11 06:12:56,644 INFO job=8ba1e146-01be-4b56-bdbb-98b88d99b9b6 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:02,888 INFO job=3fbb1a38-fafe-487d-af90-90761437bbee attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:03,089 INFO job=f72695f5-7682-4a81-8e49-085bf0809a93 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:03,194 INFO job=1cc4da5f-1e66-4fd4-8a19-39698278b4de attempt=2 -> succeeded
+worker-8  | 2026-11-11 06:13:03,366 WARNING ZOMBIE write rejected job=044a3569-3c7a-49ed-8eec-89bb69b20c96 attempt=1
+worker-8  | 2026-11-11 06:13:03,693 INFO job=3454293a-9f48-4fc4-b799-52ef62bf6c0a attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:56,970 INFO job=f849769a-5975-446e-bd65-82177e03ee41 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:57,419 INFO job=d04bd3f7-e270-48db-92bb-95a28140e693 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:08,511 INFO job=1c3bb667-d337-4ca4-a3a9-09e0645e0c4a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:08,880 INFO job=622d0e47-fe21-4ff3-bd33-de780159b2d9 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:09,136 INFO job=29672091-9345-4717-81dd-2dfbe26d2edb attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:09,524 INFO job=36ca2549-09dc-4a77-b571-b225df38a248 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:09,884 INFO job=437e94f5-c6c1-4234-abb4-bc10ff6d313e attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:04,092 INFO job=ec21dad6-6217-46b0-b392-8468b59fbf3b attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:04,499 INFO job=8f19c434-0e14-45c5-bdb9-a2f061b0e93f attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:04,763 INFO job=dc92949a-adc9-4146-a544-26a52e7d120c attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:05,194 INFO job=77d962cc-0719-420d-b454-f0808d0114a3 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:05,399 INFO job=a320f212-5b41-4d99-92b8-8a250a568a75 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:05,558 INFO job=f70ceda0-2f92-460d-8937-0da97c90ce24 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:05,645 INFO job=e69a89e4-5260-4e88-880d-95d41daebd28 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:05,856 INFO job=9ca02420-ea4d-49b3-8bf9-416f58aa443d attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:06,146 INFO job=11c4a758-0de8-4bfa-b1a8-05cce6c4b6b7 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:00,944 INFO job=9daff24a-dee3-4905-8449-ac80ec7e2aed attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:06,225 INFO job=001d759f-9f9a-4706-b293-df2785802c0f attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:06,452 INFO job=bf21792d-4ee0-49c5-b5a1-bd1991523584 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:06,803 INFO job=4e5b14eb-8277-4b8a-86b6-aec670abb074 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:07,204 INFO job=d93d5b5a-fcd3-4f85-b9fc-37c4228731a3 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:07,278 INFO job=b346e2cc-72bf-4b4e-af36-c8e40f90f27a attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:10,244 INFO job=30501171-4114-43e6-a928-d8a805b636ec attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:10,663 INFO job=cc8f65a1-6e27-4b0d-a493-75ddfabc4d8d attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:19,679 INFO job=a22f9389-5cc5-4b29-b7c1-d0f68a2146d5 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:20,066 INFO job=7006458b-e2f5-4382-90c0-0bf67d1062fd attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:20,164 INFO job=a80dd9f8-50c9-4efd-bd45-c2c362fb2cb7 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:20,617 INFO job=32bf8960-e9e9-401d-9b53-85b98cf5f971 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:20,957 INFO job=25e53360-9acb-4647-a4b1-88c32fd6b1ff attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:01,429 INFO job=2fb48a8c-08e3-45cf-9a8b-bd2fda136a96 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:01,931 INFO job=de50eab6-cc5e-4008-a90f-77c2bf442b58 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:02,151 INFO job=5227d5e4-2436-4e16-a5e2-acec6529937b attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:02,520 INFO job=37687d1c-5483-477a-a67c-cf9cffab12c6 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:02,843 INFO job=ad26a1c4-0099-465d-8dee-ab79a2894ce9 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:02,908 INFO job=09d4e132-8070-4505-824f-908949524952 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:03,087 INFO job=0ead0eea-8e0f-4383-87ee-0755c9075c4e attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:03,490 WARNING ZOMBIE write rejected job=1cc4da5f-1e66-4fd4-8a19-39698278b4de attempt=1
+worker-1  | 2026-11-11 06:13:03,875 INFO job=2be9c8ef-7e67-429b-ad5e-de73eaa6ae97 attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:13:04,137 INFO job=326065e5-ff2e-4ff0-bc54-7b0afe5b722f attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:10,778 INFO job=558252e5-8d32-44c1-a1cb-2bea80422edd attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:11,116 INFO job=c61ca629-8879-433b-bd6e-20301c89d80d attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:11,543 INFO job=52b9e9c5-2d9b-41a2-8324-1bf811d09d3f attempt=1 -> cancelled
+worker-7  | 2026-11-11 06:13:11,819 INFO job=b336f9ce-87f1-4023-b3c5-b8800ca1ac41 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:12,116 INFO job=923c15c9-fa95-481d-8b34-f9b2afb9a8c9 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:12,366 INFO job=35c35b62-63c8-4e12-b483-f1870166db22 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:12,650 INFO job=db6fc406-2a37-4f7c-826d-fa3b8eb88b84 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:12,755 INFO job=4a1e190f-f1a5-4827-b23f-e5b629cfcc7a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:12,871 WARNING ZOMBIE write rejected job=44a310f1-6cae-4e20-851e-b9ae136cf43e attempt=1
+worker-7  | 2026-11-11 06:13:13,050 INFO job=0dffde72-1855-4200-8164-a4514bda6443 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:57,549 INFO job=8ab0997a-eee9-4113-8799-2a6a1f3d53fa attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:13,220 WARNING ZOMBIE write rejected job=10c16e3a-2d11-4213-b108-d4aeca26cc2b attempt=1
+worker-7  | 2026-11-11 06:13:13,601 INFO job=cae384e5-25d2-4e7f-8aee-0badd93220d0 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:14,010 INFO job=b97369a1-b93a-4e82-a54b-c389ecf70699 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:14,241 INFO job=2f660512-2494-4de5-8562-681d0aee2305 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:14,612 INFO job=c1e2db3d-f3c2-478f-945c-2942ee2abf2b attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:14,870 INFO job=5620feac-8710-4ab0-83b1-79709b1bfa3a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:15,084 INFO job=a1dac6b6-8f1e-48ad-95c4-40d421f27ddc attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:58,050 WARNING ZOMBIE write rejected job=51e29a80-f0aa-4ac6-bd42-5ae6427a3e37 attempt=1
+worker-6  | 2026-11-11 06:12:58,419 INFO job=02135ff1-d1a2-4d42-bace-7e5b02aab063 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:58,699 INFO job=287ec2b3-fe6c-4e6e-aad9-b0e7230a1db6 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:21,412 INFO job=9a2054f6-df6b-4f78-9355-caaa79af7f24 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:21,575 INFO job=32b9d0ed-0e0f-475e-85fc-64f2206440ae attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:21,971 INFO job=2b0dd534-0b04-459f-ae79-d691ac089e72 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:07,780 INFO job=0b063163-f44a-4fba-b544-e926667ace7f attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:08,027 INFO job=c0a5b538-b8fe-4b94-a853-e794afb3cba8 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:04,216 INFO job=ef284bd2-0b44-4a54-838d-02397869156b attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:08,279 WARNING ZOMBIE write rejected job=e451f69e-bc75-4c40-901c-929c3ba2b153 attempt=1
+worker-8  | 2026-11-11 06:13:08,367 INFO job=c4388f8c-e100-46ef-8391-587d5137428d attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:15,560 INFO job=43fef575-ca29-4dfd-960d-7754f4750be1 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:15,886 INFO job=7c9aeda3-8108-4fdd-8865-a73873bd4840 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:16,043 INFO job=b4ca1c60-be94-4ba2-bbfd-2d9705918827 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:12:59,090 INFO job=894d0892-7e3a-45bb-a00d-89a5f0d1279f attempt=2 -> succeeded
+worker-6  | 2026-11-11 06:12:59,436 WARNING ZOMBIE write rejected job=2d12bc7e-c5d5-4dcd-8144-d0d85bd6b0de attempt=1
+worker-6  | 2026-11-11 06:12:59,692 INFO job=8177ca26-d5e6-4b9d-a2ff-bcfec6d3979a attempt=2 -> cancelled
+worker-6  | 2026-11-11 06:13:00,009 INFO job=a133d330-7eb1-4ce1-9ba0-3672f3e0f381 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:16,449 INFO job=9152bf6e-71a6-4256-bdf3-b14d2f2ddc53 attempt=1 -> cancelled
+worker-6  | 2026-11-11 06:13:00,279 WARNING ZOMBIE write rejected job=5ec83da6-59db-4532-a59a-b6d92f19c3d5 attempt=1
+worker-1  | 2026-11-11 06:13:04,621 INFO job=89625255-afd3-4da2-877a-12862b16c194 attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:13:05,031 INFO job=9c0ba1a1-3c06-413d-ad17-c44ada5bea0b attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:05,253 INFO job=bafd96ac-7b7f-4d2a-b5d4-4cd15200d8e9 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:05,628 INFO job=3a55a262-8b00-4ec5-bc1b-2097d03ab09e attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:06,019 INFO job=49f38ee8-ddd3-4394-a04d-84ffc32853db attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:16,741 INFO job=cd5c26a5-4477-42f0-8d64-f9d274223ea3 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:17,193 INFO job=6a62b8f1-17c0-4dd4-a91b-22eed091d02d attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:17,518 INFO job=2b398288-5952-4d35-8c1c-431ed4a31fdf attempt=1 -> cancelled
+worker-6  | 2026-11-11 06:13:00,745 INFO job=0678f089-a012-4b67-84b1-45723fff0494 attempt=1 -> cancelled
+worker-2  | 2026-11-11 06:13:22,183 INFO job=e2df96cb-5d42-4cd7-a760-238a086f4cef attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:22,429 INFO job=7bfb4d1f-cfdb-4c2c-a22e-38150b6335bc attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:22,618 INFO job=8d2d86ff-76d0-4b88-bb90-4b716e6b90fd attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:22,882 INFO job=c6821b19-9e88-40d7-9f86-e5613622cb1d attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:23,313 WARNING ZOMBIE write rejected job=d9313a49-6bd0-4c20-a778-81ce0699bc0f attempt=1
+worker-7  | 2026-11-11 06:13:17,649 WARNING ZOMBIE write rejected job=4482b461-bf19-48dd-999c-3ba4959b312a attempt=1
+worker-2  | 2026-11-11 06:13:23,580 INFO job=0cb22223-75e4-4127-9278-70710fcd840a attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:24,078 INFO job=39e24891-2ff5-4416-9c25-5260506c24d2 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:06,245 INFO job=755c0a96-302a-457a-9f1e-97d52836d2a5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:06,612 INFO job=d571512c-ee89-4334-bfcc-8ba48a3fa08e attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:06,689 INFO job=2b1dcf64-59a2-47bb-8e88-fdce563a7b43 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:18,129 INFO job=219cc105-aa43-4cc7-8d60-6a2167f52e68 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:18,437 INFO job=ffb0e293-737c-49d2-8b73-cb6291ed74a3 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:00,911 INFO job=effe4059-2ff7-41a3-8579-ca3e0774dd23 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:01,286 INFO job=933813db-a7b7-4bd2-91c3-3a7969ee0d85 attempt=2 -> succeeded
+worker-6  | 2026-11-11 06:13:01,686 INFO job=62d05023-6032-419a-aabb-9e5a8ecc7d5a attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:02,172 INFO job=a4ecf237-4d0f-4dbf-8269-356626b611cb attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:18,751 INFO job=0b4140e8-a10d-4d74-8f40-b54e0ba3a0be attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:19,153 INFO job=7321729c-67a4-4378-a93c-f6dc699ffb29 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:07,124 INFO job=80ff991d-8693-47f0-868e-c1f81817eb26 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:02,503 WARNING ZOMBIE write rejected job=32b74ad3-8a85-47c6-9b8f-a4fa1c48ecae attempt=1
+worker-1  | 2026-11-11 06:13:07,213 INFO job=b38b520f-3764-4a0a-bdb5-b10376c3c36b attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:07,432 INFO job=1cd0695b-e306-4c5d-a57a-16d2757cfaee attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:07,667 INFO job=5852ea55-89f0-48de-8d45-bd456bcf1e81 attempt=2 -> succeeded
+worker-2  | 2026-11-11 06:13:24,190 INFO job=ecfe1acc-b4f1-40a1-bdf7-d90f67cd9a96 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:07,901 INFO job=3322b080-123c-4806-89d6-228783da9bdc attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:08,382 INFO job=34e191ea-77d8-4a9f-94ee-28c074368729 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:08,729 INFO job=f3a233f0-3172-43e5-8e17-21a403817de8 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:09,145 INFO job=1c9575fb-e297-40a5-9ce3-2314f7d740a5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:09,388 INFO job=a05cc28c-bd59-4309-b070-745d210cd94e attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:09,502 INFO job=549b8863-4b0e-4c79-8b6c-45efeab221f4 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:02,914 INFO job=96f7ea8a-a3c2-42d8-afa1-868c87aac840 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:08,765 INFO job=7a530637-86d8-4c3c-8dda-37b585844204 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:03,353 INFO job=a9c96ca5-2d78-47a8-968b-dfe781ef6362 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:08,843 INFO job=712c11fd-f118-4a0f-87b3-d559647b49f4 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:03,667 INFO job=461630c6-4130-48da-9ea8-2cdd1c461a2b attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:24,616 INFO job=50197c77-d974-4acb-9831-ad4fbfd93226 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:03,794 INFO job=baf9131e-013e-4ac7-af2a-c743df1dbd57 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:03,977 INFO job=416b059e-5aa8-42ab-98a5-1debba6092b2 attempt=1 -> cancelled
+worker-1  | 2026-11-11 06:13:09,602 INFO job=e5a9e81b-8126-4000-99b7-301fc0768425 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:09,796 INFO job=6214eaba-4416-4e31-9f38-d75ff00f0e80 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:10,083 INFO job=30fd7d2b-edf5-47de-b675-3d80e3a200f3 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:19,224 INFO job=0f915b1c-0fe7-4e71-8bd2-ae1c352b73b1 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:24,774 INFO job=e80135a0-15c9-4d47-b7cd-b0c2308c7d8c attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:19,324 INFO job=6d7d4528-cd92-43af-8135-839391c201fb attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:25,247 INFO job=8d8805e1-f778-417f-ac43-519273d06bdd attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:10,382 INFO job=92a77c18-93a7-4bd6-86c0-4394f90de53e attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:19,578 INFO job=cb3757ce-f009-4416-bf01-452e4d5d83c2 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:19,766 INFO job=dd687a3e-5856-4307-bc2b-172479a47ac1 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:19,921 INFO job=00d2e230-b6c6-4031-b62f-ae32eac547da attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:20,060 WARNING ZOMBIE write rejected job=0ef0d2ca-3242-4f22-91a1-0431e69e3827 attempt=1
+worker-7  | 2026-11-11 06:13:20,524 INFO job=3f7ff5f5-2452-4431-87bc-9781f21f2be6 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:20,597 INFO job=b0738371-5434-460c-bc34-dfef33389df3 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:25,427 INFO job=33b095f7-ac88-4bbc-9e52-97ce055259ea attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:25,889 INFO job=115c4c30-19e1-40ed-8a5b-eb7571b06051 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:04,080 INFO job=ce5cd392-1ba6-487d-bf14-197fc57e6498 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:08,948 INFO job=f6a48d26-1754-45b4-acd5-e190008e9e88 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:04,277 INFO job=937d5c36-ee75-40a3-adfb-90395613226d attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:09,151 INFO job=6fb179ba-c84e-4d37-9746-af1e824eab15 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:04,522 INFO job=60d1418d-6562-42ff-bae0-f715628d5881 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:09,471 INFO job=fdc56ec8-6e8a-4551-98bf-680de45356f9 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:04,877 INFO job=1272af82-57ec-4685-b521-99802657be85 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:25,957 INFO job=36d037e7-3e89-45d9-88e2-28a7f9611e0e attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:05,304 INFO job=2c6e0ab3-0fc9-4102-b512-9a9fa93da297 attempt=1 -> cancelled
+worker-2  | 2026-11-11 06:13:26,336 INFO job=0b0d02aa-9f59-47b2-a45c-cde1850f4977 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:05,546 INFO job=57a3e20b-3669-4609-9bd8-475cc5b26758 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:26,474 INFO job=0b4f4890-2122-4c68-95f8-3026efc384d5 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:26,661 INFO job=836ef868-09d6-4e3b-93a9-8619a4a7db82 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:27,081 INFO job=bbc7975c-d488-4681-8bdf-c2d4fe92963c attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:27,429 INFO job=2e6b408e-e3d1-4834-b708-f35d6e5e439b attempt=2 -> succeeded
+worker-2  | 2026-11-11 06:13:27,521 INFO job=28d1fa87-e78f-4981-9045-10e7cf0ec7f5 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:27,946 INFO job=549a1e52-175e-4555-9b30-67c71c29d0ee attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:05,749 INFO job=e13afcf1-e1f4-4ad5-84b2-ab2446cdbb13 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:06,192 INFO job=8bf440c9-b7a8-4273-a857-4f120b649696 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:06,291 INFO job=786355e0-9041-4476-aad7-54eaf8264612 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:28,100 INFO job=db607f5c-2f7d-42a2-83ee-6e1aa1603291 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:28,362 INFO job=adc3fed0-cfe8-421a-bb0f-6b304c345270 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:28,582 INFO job=9a18bddf-0c64-4f20-a23e-3f2670116276 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:29,034 INFO job=400a42b3-f934-4797-9e43-d5dae2f5ba4d attempt=2 -> succeeded
+worker-2  | 2026-11-11 06:13:29,433 INFO job=6cab2844-7e50-4932-8dd1-1afc9c6e9640 attempt=1 -> succeeded
+worker-2  | 2026-11-11 06:13:29,762 INFO job=e606005e-c233-44fb-9a8b-296d45ed1d19 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:06,604 INFO job=9ea80367-60f8-4161-8804-ee3601e157f8 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:09,818 WARNING ZOMBIE write rejected job=ba072e59-8bd1-474e-b743-27e475a7a07f attempt=1
+worker-6  | 2026-11-11 06:13:07,107 INFO job=4ff74fb4-695a-40cf-be61-761e50b97e8d attempt=1 -> cancelled
+worker-6  | 2026-11-11 06:13:07,201 INFO job=cc69c744-3ff2-4992-b8d1-ca6328ffbb24 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:07,443 WARNING ZOMBIE write rejected job=b346e2cc-72bf-4b4e-af36-c8e40f90f27a attempt=1
+worker-8  | 2026-11-11 06:13:10,014 INFO job=5b4063d2-4151-4f22-9746-d337fe2d43c2 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:10,620 INFO job=8c506704-9d69-4790-b291-ebcfda0da874 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:10,440 WARNING ZOMBIE write rejected job=e06e7914-da36-410d-9da2-f85c750230a5 attempt=1
+worker-8  | 2026-11-11 06:13:10,556 INFO job=60e29321-97f7-424d-87d9-fb7ee63edb75 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:20,930 INFO job=64512f2d-6ee9-4dc4-adca-e3b4d94e7df2 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:10,983 INFO job=8321d26b-75c9-4acd-9106-db225bf48161 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:11,403 INFO job=37bb29f7-08be-4949-a143-dcd152249598 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:11,493 INFO job=c34ce3b7-2602-493b-a800-674088c051e6 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:11,691 INFO job=22ed87fd-f166-4610-bd9b-74b9afa153b9 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:11,974 INFO job=66ab0631-7d57-4452-a569-36fc75741eae attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:07,719 INFO job=57c68c69-60c1-4028-813b-ef7a4c2a31a0 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:07,966 INFO job=4ee74e58-f2a6-47da-812c-35ce6807644a attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:08,445 INFO job=0c676096-9776-4658-8f74-108f57a4b2b0 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:21,152 INFO job=ef22377a-6f04-404e-b30f-6da4b83250a1 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:12,081 INFO job=36a99ed0-c6c7-488a-a807-46027beeedc6 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:12,171 INFO job=64ef8b3b-6151-4df9-895e-fbda8babb20c attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:12,612 INFO job=7443ede9-41d3-4e6a-b228-f353f5731605 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:12,893 WARNING ZOMBIE write rejected job=af32da2a-15ab-45f8-a662-f212122f9d7f attempt=1
+worker-8  | 2026-11-11 06:13:13,358 INFO job=fe32da38-70de-472d-9b8c-8dfe264bea74 attempt=1 -> cancelled
+worker-8  | 2026-11-11 06:13:13,607 INFO job=977b77be-cbce-48e5-abaa-fa005727dfd2 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:13,927 INFO job=4877cb84-1c1b-4c69-bbc9-3e21421b9ecc attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:13,993 INFO job=e7279d88-df02-440e-b7fd-8994ed473cbe attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:08,722 INFO job=4012c4c6-0cdd-45a2-a61f-4bfaf7a66b5b attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:09,127 INFO job=266f80ef-724e-40e6-8413-f81ee855f834 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:09,374 INFO job=ef23714c-f8ac-445d-96b5-6d97adf1658a attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:09,474 INFO job=c10b4a50-a86a-47a9-8ee1-c97938a47ab0 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:14,395 INFO job=34899a1e-bd52-42f9-b7c9-70ea9219f9f7 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:14,829 INFO job=fa2528f6-38fd-47d4-a39e-93eeef676f39 attempt=1 -> cancelled
+worker-7  | 2026-11-11 06:13:21,542 WARNING ZOMBIE write rejected job=d848d787-8866-47d0-bdcf-2c86b6376e9a attempt=1
+worker-8  | 2026-11-11 06:13:15,067 INFO job=4d413a83-1e8d-42d7-a922-5c294e53ca19 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:15,312 INFO job=6b8bf042-5ef1-42d8-98fa-c24b92624290 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:09,639 WARNING ZOMBIE write rejected job=ba072e59-8bd1-474e-b743-27e475a7a07f attempt=2
+worker-6  | 2026-11-11 06:13:09,726 INFO job=1ec0011b-5ecb-4754-b1c3-4f7f0453a34b attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:15,527 INFO job=75fd8ed8-66d7-4542-89b4-142ecdd93e18 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:21,660 INFO job=f420eda5-cd08-4427-961b-d70a7df75555 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:22,151 INFO job=ed340412-2b6e-4bb3-af0e-40da4893777a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:22,583 INFO job=68d46d1e-3bbe-4f3c-b9d9-9458c6b17639 attempt=1 -> cancelled
+worker-7  | 2026-11-11 06:13:22,833 INFO job=ccb20787-3319-4fad-97de-0b3d24cdb263 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:23,154 INFO job=6ac169f4-0098-4885-8f75-930fcd918c59 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:23,359 INFO job=7712982f-ecee-40fe-a20c-cc08e41fd555 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:23,498 INFO job=462bc081-4337-4331-a52d-5a8215338c73 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:23,987 INFO job=8c46d769-a13f-46f1-9524-ebd23dce376e attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:10,018 INFO job=31fbf031-cd38-4a69-9b10-6d104955dcda attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:10,464 INFO job=e06e7914-da36-410d-9da2-f85c750230a5 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:24,465 INFO job=15439f19-b4da-448f-93ba-322ccb236dbd attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:24,656 INFO job=7308c84b-df5a-4d7b-9902-521b438f9c70 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:24,796 INFO job=9777ad89-8def-484a-b7d8-e3237217469a attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:24,935 INFO job=1fd6ec17-d56d-4d16-99c9-509fe08f3da8 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:25,014 INFO job=f24d54b0-43a2-4f5c-855a-be6120858b6b attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:25,480 WARNING ZOMBIE write rejected job=44683251-2376-4ee3-bcdd-aec7416a50b6 attempt=1
+worker-7  | 2026-11-11 06:13:25,747 INFO job=7e34e5e1-7c20-4f57-b218-1c3fa33510ae attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:26,035 INFO job=04c332da-b887-4046-80a0-80c50f83a410 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:26,494 INFO job=4e8b8bc7-1167-4c69-8e6c-cfbd61049b99 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:26,666 INFO job=a6ad8656-82c7-46de-bd49-2313e7ac39b5 attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:26,826 INFO job=15235369-fc67-499c-a55a-dac16e047d55 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:10,748 WARNING ZOMBIE write rejected job=0d18b831-bdf6-4b15-b0ea-2922d086660b attempt=1
+worker-1  | 2026-11-11 06:13:11,225 INFO job=77dfd307-9faf-47cc-9c7d-bb8870f094e7 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:11,619 INFO job=caf10104-b7e2-4f13-b64a-e58cbeedfb93 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:11,924 INFO job=9a58b563-b8f8-4b3c-87bb-f5f05762bbed attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:10,891 INFO job=2b380b1f-fa16-4aaf-8ffe-43983679197e attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:13:12,353 INFO job=2d85a339-f502-4026-a658-5aed488319cd attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:12,536 INFO job=9751ea7d-633e-4a75-8aaa-f49fbad5179b attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:12,624 INFO job=d3896cff-d580-4d9a-888f-b71532a0adf6 attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:13:12,763 INFO job=b2b18e98-ca28-4db3-a633-0016e0c82839 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:11,014 INFO job=09a5a441-088f-4a64-b2c5-4e9af736ba19 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:11,099 INFO job=69b5c94d-745e-4cac-a989-482c92a920dc attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:11,577 INFO job=8ff212f9-94a2-4272-9431-deb6c8b3caf3 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:11,749 INFO job=b7eba096-cb6c-47e1-9d93-b212b267ffcd attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:12,179 INFO job=ecc82ba5-7ef9-4a44-9db8-4273fef9e7b4 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:12,667 INFO job=c5e2333e-c5d7-42c9-929f-ca8f266adcab attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:13,052 INFO job=f8d6b6b2-375c-4445-aba5-1f2e4472d2fb attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:13,436 INFO job=10c16e3a-2d11-4213-b108-d4aeca26cc2b attempt=2 -> succeeded
+worker-7  | 2026-11-11 06:13:26,970 INFO job=001312d2-ab8f-486e-8a63-a6fbb33006cf attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:27,299 INFO job=dc83f63d-4e4a-4fd4-b85a-59dd7ca035cb attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:27,765 INFO job=c3472706-ad38-4608-9f40-21fb65323691 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:28,247 INFO job=25ccb18e-8dc3-4ffc-a553-045911a6c5b0 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:28,484 INFO job=6123e8cd-70ec-48d3-929b-6514ad41e4f2 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:13,181 INFO job=ed617cc4-e55c-43bf-a645-d3bc5f10f8a2 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:28,913 INFO job=05cfa6c1-72ef-4b55-9fc5-1c9baff0e3c2 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:29,216 INFO job=07fb7771-d313-4e0f-9e9a-c52bbb484419 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:13,841 INFO job=fbbe85fa-ee90-4666-926c-53e68bde5d62 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:14,075 INFO job=55c5dfcf-196c-4aea-a4dd-07d190b29612 attempt=2 -> succeeded
+worker-6  | 2026-11-11 06:13:14,133 WARNING ZOMBIE write rejected job=5753e091-31e9-43f8-833d-fa4687c8f085 attempt=1
+worker-6  | 2026-11-11 06:13:14,541 INFO job=1a03d81e-7f8d-4c76-9592-3c497914760a attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:15,044 WARNING ZOMBIE write rejected job=065f1503-b7c7-48c0-8dc7-d6fd0e70c47d attempt=1
+worker-6  | 2026-11-11 06:13:15,158 WARNING ZOMBIE write rejected job=e3357951-5760-4ad8-8dba-5a79ba8fa3c2 attempt=1
+worker-6  | 2026-11-11 06:13:15,407 INFO job=40645058-907b-4fce-ac01-309d085095f0 attempt=1 -> succeeded
+worker-7  | 2026-11-11 06:13:29,625 INFO job=58aa992d-5f4b-4284-be19-098f22f5d38e attempt=2 -> cancelled
+worker-7  | 2026-11-11 06:13:29,718 INFO job=52d19a5b-a5c8-4cae-83d6-2113b7cc169d attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:15,871 INFO job=49c43a61-2d3a-4200-be02-d5581339b30b attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:16,083 INFO job=c5a223e3-8fea-4d7f-97a3-148b6832ad0c attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:16,491 INFO job=f2ca9a7a-05d0-490c-b143-cf902f4888ea attempt=1 -> cancelled
+worker-8  | 2026-11-11 06:13:16,899 INFO job=3ba32ebe-f457-47ac-827a-b4e8170c4337 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:17,122 INFO job=c241f7a7-4ac3-4b3a-900e-3f29376b61e7 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:17,379 INFO job=ae59818a-8f28-4c84-a23d-e146f7ea9217 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:17,539 INFO job=0a4051cc-f243-4ea1-b193-cad78281dddb attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:17,828 INFO job=62a50ae3-7eae-40cf-acfd-7051896db5f6 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:18,123 INFO job=fe8a267a-0248-4b26-8598-3fb4e9c095d9 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:18,203 INFO job=ec6ae7cc-dc2e-484c-bd8b-f5f3b51372a3 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:18,541 INFO job=75bbbfc0-96e6-4677-937b-386e358fee08 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:18,615 INFO job=ea127b55-3add-42c3-84e4-be01a53d07cf attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:19,079 INFO job=9ded14ad-fa5e-4b15-b936-4ab35d695ea0 attempt=2 -> succeeded
+worker-8  | 2026-11-11 06:13:19,311 INFO job=ddfde995-2541-4f32-a11e-74cac4730f6b attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:19,641 INFO job=d1a92c62-653f-4181-b226-93271f869ae4 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:13,325 INFO job=5d1b6e70-3842-4771-ad6c-7db5ee1e8aa6 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:15,789 INFO job=9d975222-6aef-4b0b-a783-62ffab8ec3c0 attempt=2 -> succeeded
+worker-6  | 2026-11-11 06:13:15,975 INFO job=c719cfd7-5af8-4446-886f-3db118fec6ca attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:16,061 INFO job=c861b0fd-613f-48ed-a94e-2231f38d48a1 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:16,547 INFO job=6f728aa9-2445-4077-bef6-e4c59d65bd29 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:16,733 WARNING ZOMBIE write rejected job=bafe5473-a542-4b97-a92c-5984a680b7df attempt=1
+worker-1  | 2026-11-11 06:13:13,467 INFO job=7a3adcbf-a057-450f-be3f-ef44f2d0b775 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:13,888 INFO job=56b9ad01-52b4-4381-81a5-92cfe116184e attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:14,055 INFO job=bc71d0e9-f892-4684-8d64-b4dd85fe882b attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:14,461 INFO job=e0f72206-9c36-4c00-a81c-49a9163873e3 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:14,782 INFO job=1d53b82f-6fda-4841-bade-baa0a015618d attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:15,045 INFO job=2b7d2489-4b0d-4ea0-ba8e-cbfdf21f2d95 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:20,131 INFO job=04f49150-a77e-4ab9-8292-b9e2c2a1d139 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:20,591 INFO job=ffac532e-f78d-4d55-8200-f861eed13a7a attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:20,919 INFO job=d9809c20-c22b-4416-8b4f-f6120a6369a7 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:21,353 INFO job=59bcba57-8670-4cb2-86da-8aed1b85d7c5 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:21,755 INFO job=76a29a95-8a25-47de-a67a-c3c5448cd19e attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:22,003 INFO job=26cd6417-7233-4ae3-a127-baa28953eaf4 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:22,484 INFO job=70ecdfc6-4cac-4684-952d-ab008861832b attempt=2 -> succeeded
+worker-8  | 2026-11-11 06:13:22,799 INFO job=5d50011d-0018-45a6-a0e9-edb2956fe402 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:22,977 INFO job=06ffccd3-0e7f-40ad-9b95-2a4c4a92a876 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:23,038 INFO job=da3d01e3-23e9-42e3-898d-488461680f00 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:17,176 INFO job=9d446088-b4b0-4436-9a41-3c02c2ab2e11 attempt=1 -> cancelled
+worker-8  | 2026-11-11 06:13:23,432 WARNING ZOMBIE write rejected job=b5091765-9d08-45f4-bc44-26e12153bece attempt=1
+worker-8  | 2026-11-11 06:13:23,927 WARNING ZOMBIE write rejected job=78c7f89b-71cb-4b80-80f9-5d752ef57f7d attempt=1
+worker-1  | 2026-11-11 06:13:15,202 INFO job=e3357951-5760-4ad8-8dba-5a79ba8fa3c2 attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:13:15,641 INFO job=b6fad179-0b2c-4cb5-9787-8d3e7276e34f attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:15,925 INFO job=4c5b2057-7d8c-49e5-bcda-067814dda667 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:16,074 INFO job=da8759f3-973a-45ad-b9d6-63caddcf81c2 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:16,459 INFO job=eae9f542-ba39-45d6-a3e7-3de630a79c73 attempt=1 -> cancelled
+worker-8  | 2026-11-11 06:13:24,147 WARNING ZOMBIE write rejected job=12bb76fe-2394-467d-ba48-034799628e85 attempt=1
+worker-8  | 2026-11-11 06:13:24,528 INFO job=141bc711-ba9d-4f06-b004-e5317abd7b1e attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:24,877 INFO job=481dc4c3-f365-42e0-8d9a-afccb557d2ca attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:25,124 INFO job=d81d2f32-f7e9-475e-af87-aca1f5555f0f attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:25,383 INFO job=8bd12283-0f5d-48f6-a55d-c1ab2210373c attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:25,706 INFO job=a02fb39c-6cba-401c-ab51-0e3891965065 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:26,056 INFO job=009534ce-08ae-4780-aa45-e04138aad705 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:17,278 INFO job=ce924877-b955-423f-9895-7af98a47d5f9 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:17,474 INFO job=b85f11c7-6fe8-48bc-bc42-f2fdc21b7edf attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:17,746 INFO job=9358866f-97ea-40ab-99c7-66f900b40988 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:18,103 INFO job=7da1d64a-6168-407d-b2e8-d3cffded3dfe attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:18,210 INFO job=80f5aede-e0af-4448-bbd7-98a9ce148c08 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:18,649 INFO job=62be1dec-0784-47fb-a3e3-8fbd3733d9a0 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:16,767 INFO job=16c9c9e2-a833-49b5-856b-daf43355a231 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:16,858 INFO job=75736736-9757-45ce-89bb-0e5f81be3810 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:19,094 INFO job=811ddb71-fcff-4add-9949-0c0e2c4c2e5e attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:19,497 INFO job=59cb5554-2395-43f4-b87c-986eb02b2260 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:19,865 WARNING ZOMBIE write rejected job=72398f96-7ec5-4ad4-a8f9-3ec20cae158e attempt=1
+worker-1  | 2026-11-11 06:13:17,328 INFO job=7acdf750-2d6b-4dd6-92dd-6f878bae46a9 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:20,073 INFO job=dd0cc1d7-7502-4cbe-a497-1d09feb1ca83 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:20,360 INFO job=e998d1e1-31dc-4613-8ab3-faaddf71395b attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:20,647 INFO job=47502943-122c-466f-ac87-fcceb5d849bc attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:17,620 INFO job=870d9604-a1f4-458b-a429-4ebab2dd8653 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:17,958 INFO job=52be6b83-742e-473f-b3d6-6180f6842792 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:20,730 INFO job=58e7ba55-8d7a-4d41-99a6-7dbb2f736b3b attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:21,155 INFO job=7d864f6f-7a34-4f0a-acc9-86e6128af10e attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:26,330 INFO job=5fd21330-1e4f-4384-821c-f5fbc0fdc7d1 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:26,681 INFO job=186ddc06-1e9f-4dc1-9211-22bb27be43b9 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:26,814 INFO job=50fa7ccf-1543-479e-a774-d9f0f82f1c1c attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:21,595 INFO job=d848d787-8866-47d0-bdcf-2c86b6376e9a attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:13:18,315 INFO job=258d9278-e459-472e-a9d0-26e93d650fd2 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:22,056 INFO job=d1bbe667-0405-4519-9f02-04ec58776e35 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:22,515 INFO job=da72ac0e-8122-4354-b97c-d926133875f3 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:26,898 INFO job=5ac619c3-1cca-4ab2-8339-5e3d1417e93f attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:22,951 INFO job=de9f712b-02be-4ca1-bf79-4ffb708cefd3 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:23,380 INFO job=d87f0156-3869-4885-9687-70956c2b3230 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:23,795 INFO job=05e90592-f880-4b64-9fde-a0eaf297e302 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:24,214 INFO job=c4b83ebc-cb4e-4f8e-b766-0a3ca24eb445 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:18,635 INFO job=a442f90d-0149-4fef-abcd-98c02439daf7 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:18,947 INFO job=631827c3-13ce-4cca-966b-1ef94345b205 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:19,005 INFO job=61cb4fad-5269-4b37-be86-fda188fddd75 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:19,140 INFO job=99ccdac4-0c91-48b1-97e5-eafcf5588d9e attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:19,342 INFO job=7be8d5b3-c8bf-47e3-88ae-58b01900af78 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:24,364 INFO job=9e90cd09-ba29-4705-b89d-21f742ea1081 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:24,690 INFO job=c0b487e5-8d26-4f22-bf98-7341bd84417a attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:24,766 INFO job=e81c33a7-d91b-46e8-b124-10ff07fbe26c attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:51,611 INFO job=c911e71d-34f6-4828-a135-238e2dcdb6b5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:19,773 INFO job=0feddbc6-8230-48bb-a805-6e9b58569344 attempt=1 -> cancelled
+worker-1  | 2026-11-11 06:13:20,147 INFO job=01131957-fc7e-494d-8a77-0f2f239959a1 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:20,256 INFO job=8fce32c1-97f9-4810-9ee9-3c196506b481 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:27,355 INFO job=74b09b5f-82c4-428c-bec3-ada6a39bbf5c attempt=1 -> cancelled
+worker-8  | 2026-11-11 06:13:27,501 INFO job=d64d5767-e8d8-4968-9f94-451a9406c535 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:27,897 INFO job=45cab534-48ec-4d60-915d-87c8c856dce0 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:28,084 INFO job=ea2edde2-0e7a-46f7-a903-54afae6fc3ea attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:28,526 INFO job=cfdd816d-89e0-4a3f-96bc-adefcd72e9cd attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:28,798 INFO job=c9f213a0-39f4-447e-8ea2-3969feb7f3ae attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:12:51,692 INFO job=7015b657-5b64-4504-a958-142f55a7c8bf attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:51,842 INFO job=018e80ad-bf09-4dda-a9a2-c9e9fdfe7ba0 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:52,250 INFO job=517e66bb-0d1d-4af4-8a4a-93fc331a3dd6 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:52,765 INFO job=eba0be38-5fab-4709-b8c4-9f96b2ec6133 attempt=2 -> cancelled
+worker-3  | 2026-11-11 06:12:53,054 INFO job=3a95632d-c1f1-4d82-b0c3-80a68e6eae62 attempt=2 -> succeeded
+worker-8  | 2026-11-11 06:13:29,168 INFO job=679e531a-283c-4788-bb17-6578a20709e4 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:24,909 INFO job=8be96c56-f33d-49c7-a121-31701019f8cb attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:29,296 INFO job=9ea6ec9e-3c09-4f01-a3ec-8ffa7c78f7bc attempt=2 -> succeeded
+worker-6  | 2026-11-11 06:13:25,225 INFO job=b6385281-58ca-4c07-b856-c73a9b4959f0 attempt=1 -> cancelled
+worker-6  | 2026-11-11 06:13:25,322 WARNING ZOMBIE write rejected job=8cb458e2-d439-49e9-9fd0-c68c58c52138 attempt=2
+worker-3  | 2026-11-11 06:12:53,197 INFO job=521a93ff-13c9-4481-b15d-93f9c1da2bc8 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:20,654 INFO job=02d36cfa-2dfe-4535-ad9a-f929b756aea8 attempt=1 -> cancelled
+worker-3  | 2026-11-11 06:12:53,390 INFO job=b8f77e54-d85c-417e-98bb-9fdf1d1d7e35 attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:13:20,936 INFO job=c0ec331e-f656-4659-88b7-f5bd22985674 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:53,624 INFO job=d343bb8c-fe4a-4e5a-93b5-98c55bc8d786 attempt=1 -> succeeded
+worker-8  | 2026-11-11 06:13:29,449 INFO job=9facfcc8-01e4-4846-bf74-6f107d57a609 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:53,995 WARNING ZOMBIE write rejected job=6a8ba582-283f-472d-b7d9-ce33b16ff27a attempt=1
+worker-8  | 2026-11-11 06:13:29,806 INFO job=c26dd871-5f99-40f4-b2ff-9b9726a6c933 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:54,128 INFO job=39ea5160-9eb3-47d1-aa60-532a444abeba attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:54,211 INFO job=e43e1e2e-f5a6-45dc-b76a-2300da52e9db attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:54,441 INFO job=11789c87-012a-4766-bb87-f028e2d510a9 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:25,761 INFO job=3be9f12e-88e5-4bec-be46-ab8f252a5489 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:54,806 INFO job=3a3eb6d1-8513-4dfc-ac0d-90d50a7ec8a0 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:55,075 WARNING ZOMBIE write rejected job=519dc013-5820-4a81-b552-7c5c8770dc2f attempt=1
+worker-3  | 2026-11-11 06:12:55,272 INFO job=ae95c7f4-0ba9-497d-acf1-523cbd64b6e6 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:55,462 INFO job=3a662734-098b-4692-aeec-7adbdd82cc82 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:21,228 INFO job=218d7017-df25-4a20-92d3-1d80eddf32f0 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:26,046 INFO job=1c1f3b10-d241-4d03-9d7e-2b101a1bc796 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:21,552 INFO job=d51c6a72-8b57-4baa-8b59-6a71080e582d attempt=1 -> cancelled
+worker-1  | 2026-11-11 06:13:22,027 INFO job=026662f5-f585-4381-b8fb-0f9ed9430828 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:22,344 INFO job=1a2c8d78-c291-43d4-b52a-e7e4e086cb8e attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:55,828 INFO job=cef217d6-e217-4802-96f2-769cd0115990 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:56,187 INFO job=10de746b-3ccf-453b-a08d-8771d9661bb6 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:22,707 INFO job=aae86e9c-0d52-45fb-9d63-ce0b9072dc10 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:22,839 INFO job=c1058878-25fa-49bf-87d4-dd7c72fa13fb attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:23,092 INFO job=dd837301-006d-4efd-80a9-14a6d4f925b3 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:23,543 INFO job=746c2c5d-698a-447c-a47f-7277f652d99b attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:24,013 INFO job=2708de47-d997-48e5-972e-2c5750a96ee9 attempt=1 -> cancelled
+worker-1  | 2026-11-11 06:13:24,139 INFO job=9cc04d71-78e6-4c8f-b291-069928425e63 attempt=1 -> cancelled
+worker-1  | 2026-11-11 06:13:24,392 INFO job=c97cf694-eeba-4c8b-a5c2-e6f2f1edd799 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:56,379 INFO job=0dc9c6f3-470c-432b-b3ca-f2512fd58101 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:56,826 INFO job=88ceb297-af93-4a68-befc-ce6be9996d75 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:57,124 INFO job=fd370bed-9c44-4e2f-ad6e-8e21156a9ad7 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:57,431 INFO job=3fdd6f14-f917-4e6d-8f68-6c20d5307a33 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:57,552 INFO job=8bb56f61-8588-4b63-a0fc-a6765c75ea2f attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:57,974 INFO job=51e29a80-f0aa-4ac6-bd42-5ae6427a3e37 attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:12:58,224 INFO job=09087b11-9cc8-4dac-8c18-f69380d90850 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:58,696 INFO job=bab63fce-acf4-4463-b6fe-74d3bf3ee2f8 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:58,912 WARNING ZOMBIE write rejected job=894d0892-7e3a-45bb-a00d-89a5f0d1279f attempt=1
+worker-3  | 2026-11-11 06:12:59,296 INFO job=e533be10-fb3b-42c9-8b09-5e774608bce6 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:12:59,432 WARNING ZOMBIE write rejected job=7b1f3ddd-0206-4949-b67f-2a9bf773bdfb attempt=2
+worker-3  | 2026-11-11 06:12:59,802 WARNING ZOMBIE write rejected job=8177ca26-d5e6-4b9d-a2ff-bcfec6d3979a attempt=1
+worker-3  | 2026-11-11 06:13:00,296 INFO job=1c0451f4-0d21-4dcc-b187-a0d34dce82ff attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:00,522 INFO job=d9791674-e0be-4cf1-b8ce-5caadcf5c76b attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:24,759 INFO job=4b0b567d-526f-4b87-b399-8d66840fdf11 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:26,239 INFO job=e7dc545e-5e94-41fe-835c-e721a6c30bb4 attempt=1 -> cancelled
+worker-3  | 2026-11-11 06:13:00,850 INFO job=edb54d13-f351-42fc-89fa-d40ce62eb37a attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:25,225 INFO job=2d1f7643-bdcb-4301-9af5-a4b626495792 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:26,689 INFO job=510c490b-e4ef-4595-b0fd-47f78fefd2d3 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:27,078 INFO job=861f6854-6347-4918-97f2-55d4ca24a523 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:27,333 WARNING ZOMBIE write rejected job=2e6b408e-e3d1-4834-b708-f35d6e5e439b attempt=1
+worker-6  | 2026-11-11 06:13:27,702 INFO job=0cb10592-c733-408a-9f87-153262550ed1 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:28,058 INFO job=869d3166-9a71-462f-86e2-5ba9e314dad6 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:28,122 INFO job=42384b8a-ad67-48b2-926a-463da2c9d35b attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:28,548 INFO job=56880bb3-ddf0-4ac3-9d69-1eacadd6a8d9 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:28,733 INFO job=fb6811c3-ead2-4850-941d-5181075a73ee attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:29,073 INFO job=fb08fefa-e0f3-45e8-b448-b9297c342146 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:51,370 INFO job=6be5d5aa-3c14-4d4a-9548-508b12586021 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:51,662 INFO job=ae151208-b593-45ff-a0e7-9ab5222530bd attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:52,020 INFO job=8acd48ab-d61a-4904-bcc8-ce0a44fdbd45 attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:00,964 INFO job=58924464-e88a-4361-b504-648204f9e270 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:52,257 WARNING ZOMBIE write rejected job=a48d98a9-53fb-4e9d-b259-e89cdd4ccd68 attempt=1
+worker-3  | 2026-11-11 06:13:01,342 INFO job=66143154-8ff2-4fdd-98e1-4c5156770402 attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:29,178 INFO job=5c857903-3fad-4b0c-849c-af4148d4e661 attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:01,438 INFO job=5b1ed1be-5759-4313-8fbb-0e0fe4261985 attempt=1 -> cancelled
+worker-6  | 2026-11-11 06:13:29,547 INFO job=d529acf2-c897-4320-af5f-a2dff3927b4b attempt=1 -> cancelled
+worker-4  | 2026-11-11 06:12:52,364 INFO job=b5a0ad70-84d3-444f-9abb-8851ef87ca98 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:25,358 INFO job=8cb458e2-d439-49e9-9fd0-c68c58c52138 attempt=3 -> succeeded
+worker-4  | 2026-11-11 06:12:52,667 INFO job=858d3392-c0e0-41f4-b403-f0c04f090625 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:52,925 INFO job=b79bac03-ead7-44e6-9704-cc579e8800f9 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:25,641 INFO job=2d74bbeb-7f43-4c68-a7e7-1ccb0f1ff00d attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:26,041 INFO job=3bee91f7-73ed-4221-ba07-166094ceeb91 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:01,670 INFO job=400bbe84-cc04-4fce-bf93-90a6e4aa2c31 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:53,435 INFO job=a5aadc21-256e-49a4-9790-cd60a636f354 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:12:53,666 INFO job=fb5d6b38-7db1-4b6d-b6f4-cfccc5dcb6b9 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:53,855 INFO job=e2ca7447-5b81-4269-9bbc-0e6d1d15aaee attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:54,063 INFO job=a8858d2d-0fce-4aba-b3c1-873d2f575615 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:02,174 WARNING ZOMBIE write rejected job=48547c3e-a916-42fb-86bc-1995b20ec8c7 attempt=1
+worker-3  | 2026-11-11 06:13:02,545 WARNING ZOMBIE write rejected job=32b74ad3-8a85-47c6-9b8f-a4fa1c48ecae attempt=2
+worker-3  | 2026-11-11 06:13:02,616 WARNING ZOMBIE write rejected job=0c7e2ca3-ab67-451d-b539-acbf44960806 attempt=1
+worker-4  | 2026-11-11 06:12:54,228 INFO job=eb5787d5-4846-4c61-a3da-cd4d8b339db8 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:54,692 INFO job=511aaeed-30ef-42dc-b958-0492a0370a33 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:54,809 INFO job=b41246b2-2a4c-49c8-86e7-df3b7555c4c6 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:02,994 INFO job=8cc427f6-9468-49dd-bd36-83952b36d869 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:26,298 INFO job=6a023485-9859-4bb0-9140-b0f79f1bbbb3 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:26,788 INFO job=cf450cb5-d45c-444e-b38c-679317383550 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:26,954 INFO job=b9c43bcb-d32e-4bc7-a946-885240c72ef5 attempt=1 -> cancelled
+worker-3  | 2026-11-11 06:13:03,491 INFO job=8b091786-31fe-410e-b5f0-68f035804838 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:03,970 WARNING ZOMBIE write rejected job=2be9c8ef-7e67-429b-ad5e-de73eaa6ae97 attempt=1
+worker-3  | 2026-11-11 06:13:04,471 INFO job=356568a0-52be-4a54-bbb1-f67956bbb687 attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:04,709 INFO job=0844312b-0770-4686-bbbb-1319b355db7d attempt=1 -> succeeded
+worker-6  | 2026-11-11 06:13:29,849 INFO job=b6fbce1c-eee3-4a35-aacd-84ec78a8c818 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:27,215 INFO job=ef3ebd80-71b9-46b1-9b4d-9bd375c80bf2 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:27,348 WARNING ZOMBIE write rejected job=5b6717cc-9292-4eb2-a9cb-fb5095b7c8a2 attempt=1
+worker-1  | 2026-11-11 06:13:27,626 INFO job=7197c5a1-2028-4ef9-a3e2-69af0b3e4783 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:27,884 INFO job=9430aee3-4e31-43ae-a16d-76c31fa23b79 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:28,038 INFO job=269973d0-c2e9-4c7f-b663-ad4fa2d26abf attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:28,522 INFO job=bc0df2f3-f3fa-4080-9146-54163d62b0a8 attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:28,581 WARNING ZOMBIE write rejected job=c9f213a0-39f4-447e-8ea2-3969feb7f3ae attempt=1
+worker-3  | 2026-11-11 06:13:04,863 WARNING ZOMBIE write rejected job=862cf684-8649-42ad-ac63-d43d6ea7ae94 attempt=1
+worker-1  | 2026-11-11 06:13:28,775 WARNING ZOMBIE write rejected job=400a42b3-f934-4797-9e43-d5dae2f5ba4d attempt=1
+worker-4  | 2026-11-11 06:12:55,172 INFO job=519dc013-5820-4a81-b552-7c5c8770dc2f attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:12:55,539 INFO job=a3e69aa4-1dfa-4066-8c8c-5b13e163e7f8 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:55,721 INFO job=6ead7018-cc5c-46f6-8251-86e2c1368411 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:12:56,125 INFO job=3e8b7de9-106d-4af5-bfab-b5b90f735416 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:05,245 INFO job=308ea643-2aa2-45ab-ad4f-6dd595fe35f2 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:05,616 WARNING ZOMBIE write rejected job=ad4042e9-66d8-4138-80b1-d66706a49ef5 attempt=1
+worker-4  | 2026-11-11 06:12:56,481 INFO job=64819624-4f2a-4efd-9730-db9428b17a15 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:05,874 INFO job=572e5a1e-a983-4a60-b419-37acc8107c9f attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:06,302 INFO job=63cb3b74-30d7-4c98-87e1-10c5b014efee attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:06,658 INFO job=bda1e1e9-ffb0-41af-ba9f-aeeddcf87742 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:06,798 INFO job=312617cf-dedb-4421-9696-b88fafa066e8 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:06,944 INFO job=6a0a8856-8fb3-4bd9-b61a-48a3efa4e717 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:07,010 INFO job=1caac472-c7a2-4355-807c-e106d081cc9d attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:07,294 INFO job=6445c732-6dba-49db-bc77-fc75c71bebca attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:07,589 INFO job=6dcda962-e2df-4c1b-827e-ab5bfe5f0de8 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:07,686 INFO job=447889c1-717b-4111-b665-e244ccd16631 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:08,029 INFO job=31e1b8a0-5a37-4664-861d-a363ef7fd0d6 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:08,275 INFO job=e451f69e-bc75-4c40-901c-929c3ba2b153 attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:08,679 INFO job=cfe3b1c2-75e1-49f0-b095-c13be50061cc attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:09,023 INFO job=af93be95-357b-46bc-ac5f-5ddc57779aab attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:09,512 INFO job=e4e8159b-3c39-43db-8491-9981a71de31e attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:28,834 INFO job=bd5fd8c3-6ee4-4270-9ab4-0bff4deb7abb attempt=2 -> succeeded
+worker-1  | 2026-11-11 06:13:29,154 INFO job=7b8d2c33-44c5-47e0-90ea-90b82ad12828 attempt=1 -> cancelled
+worker-1  | 2026-11-11 06:13:29,487 INFO job=69e0fa0d-0928-400e-a463-c547d03ece4c attempt=1 -> succeeded
+worker-1  | 2026-11-11 06:13:29,708 WARNING ZOMBIE write rejected job=6ffa072b-1ac0-4dc2-bc9c-1119ab146769 attempt=1
+worker-4  | 2026-11-11 06:12:56,886 INFO job=4084e29b-906a-4f75-8592-7670e5dec099 attempt=1 -> cancelled
+worker-4  | 2026-11-11 06:12:56,951 INFO job=2a5da4d5-0ead-416f-ac2e-0532ae0db330 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:09,891 INFO job=b8c88c2d-39f4-47f1-8acf-6aacd0065c6c attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:10,307 INFO job=cf47ef1e-2f7f-4d4a-9270-64b3451c588f attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:10,685 INFO job=cb56004e-4fbd-4c22-9d9c-288a43b0052c attempt=1 -> cancelled
+worker-3  | 2026-11-11 06:13:10,803 INFO job=aab61215-5719-44f2-b6bf-3d0d00a159fe attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:11,274 INFO job=08b5496c-fb22-4252-8538-3dbb9011834e attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:57,452 INFO job=5619eb62-1be7-4c24-ba0e-f6e2c6d13f42 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:57,944 INFO job=6d5e6808-2904-44f0-9d1c-605c56650a2f attempt=1 -> cancelled
+worker-4  | 2026-11-11 06:12:58,270 INFO job=b6aa081c-fdfe-43de-ae50-a583069fb537 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:58,496 INFO job=7d9e1280-67c0-459f-b02c-cc5bb354f867 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:11,475 INFO job=7c68d3c8-344c-4c1c-a880-28ae3f562379 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:11,776 INFO job=e207b0f2-4475-43ce-9116-74c24cac8406 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:58,876 INFO job=3aa55645-c347-45ce-98bc-ba4e146841e3 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:59,382 INFO job=00839bc9-e69c-4db8-be1a-e291f63f4393 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:12:59,438 WARNING ZOMBIE write rejected job=632688de-836b-4b1f-a3aa-1b592b634229 attempt=1
+worker-4  | 2026-11-11 06:12:59,713 INFO job=0e7eb20c-2fb7-4c1f-a0e8-8df15e780efe attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:00,032 INFO job=bd00f9ce-8ddb-4c98-b0d3-48f866c1785e attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:00,326 INFO job=a63fce32-dc55-48e8-ab99-90abf7cd3140 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:00,820 INFO job=6b482fd7-c0e7-4784-b750-83419d7aaa21 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:00,908 WARNING ZOMBIE write rejected job=32119c0c-5487-47ca-8101-427ca04a84ac attempt=1
+worker-4  | 2026-11-11 06:13:01,351 WARNING ZOMBIE write rejected job=933813db-a7b7-4bd2-91c3-3a7969ee0d85 attempt=1
+worker-4  | 2026-11-11 06:13:01,672 INFO job=aa08f524-30fe-4faf-8a3c-faf0171b3491 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:02,005 INFO job=48547c3e-a916-42fb-86bc-1995b20ec8c7 attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:12,185 INFO job=5f2bd14c-3f7a-412b-b763-0156c804be4f attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:12,614 INFO job=ba5fd934-fadc-49e2-b8ce-734aa50dec1d attempt=1 -> cancelled
+worker-3  | 2026-11-11 06:13:12,837 INFO job=af32da2a-15ab-45f8-a662-f212122f9d7f attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:13,267 WARNING ZOMBIE write rejected job=5012f86b-7671-4ab6-b811-5dfccbd8f9da attempt=1
+worker-3  | 2026-11-11 06:13:13,370 INFO job=2c1cdca6-5b71-4e11-934b-76ef0809e088 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:13,490 INFO job=9cf1b7ed-9a71-456f-b374-d2023c8491ce attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:13,655 INFO job=dbc2d02d-11bd-4923-ab8d-8812b19f272f attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:13,960 WARNING ZOMBIE write rejected job=f353476a-d2ea-4683-9129-7c0a6adff164 attempt=1
+worker-4  | 2026-11-11 06:13:02,360 WARNING ZOMBIE write rejected job=99d5514a-f133-4adc-9fed-64e34238336c attempt=1
+worker-4  | 2026-11-11 06:13:02,474 INFO job=1825ba47-0923-4ba8-b3b4-d3424c4f239c attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:02,898 INFO job=2f2615f6-4998-4402-b952-2667a064f853 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:03,372 INFO job=01241b72-85dd-4c0b-9641-5e4eda4668a3 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:03,519 INFO job=767caec7-b6d9-409e-8f15-3302f96418de attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:03,638 INFO job=326243ab-c0a6-4e7b-9c9b-a4e2a6f6094f attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:04,043 INFO job=76abfd73-d27f-4ffc-aab9-006e47dd22ca attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:14,213 INFO job=211ef29e-5b78-4e41-abb9-33e478106111 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:04,214 INFO job=9d038700-a982-47f0-ac0d-6c321f7939e8 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:14,571 INFO job=b3105bf9-1b6a-4c3d-9f81-1a1d201d88e5 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:04,270 WARNING ZOMBIE write rejected job=89625255-afd3-4da2-877a-12862b16c194 attempt=1
+worker-4  | 2026-11-11 06:13:04,385 INFO job=e7f7c11e-9b4f-470e-9b6d-14fee39f3ed4 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:04,448 INFO job=8bd70282-59db-456f-bec3-8a59c4447f66 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:04,890 INFO job=0a7a9697-ae49-4c4e-8b12-71518be3acb2 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:05,159 INFO job=a867108a-298c-4e88-a253-1ad31e1c2f97 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:14,942 INFO job=2d85410d-2656-4e29-9ebd-124d9af63ee0 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:05,248 INFO job=abb6de1d-5bad-4656-b88a-0fa361773287 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:05,667 INFO job=ad4042e9-66d8-4138-80b1-d66706a49ef5 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:05,986 INFO job=9fdca891-d467-4009-9fbf-95f5d7e3e533 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:15,403 INFO job=b78b8231-ae8a-475d-9613-8cc0da7f2c13 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:15,800 WARNING ZOMBIE write rejected job=9d975222-6aef-4b0b-a783-62ffab8ec3c0 attempt=1
+worker-3  | 2026-11-11 06:13:16,010 INFO job=1203576b-5f82-4844-829d-2ced235d993d attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:16,137 INFO job=7769e9a7-4161-42c6-8da8-5a7d41195af3 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:16,550 INFO job=2e12a325-2ca2-4140-be92-b1ccfd364587 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:06,155 INFO job=83b302a6-41ed-475d-a70a-f61fdc2182fd attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:06,367 INFO job=e85f7b74-0b3b-45b5-aa9a-37746079e6b3 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:16,933 INFO job=bafe5473-a542-4b97-a92c-5984a680b7df attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:17,003 INFO job=eccf3556-7dfd-4f3a-a143-0d215c9a31d4 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:17,361 INFO job=95d7399b-24a3-4801-a383-68be7f3491a8 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:17,419 INFO job=b3338730-25d0-47ff-a281-c737d6cb5198 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:06,696 INFO job=778fd709-6f1b-426c-8227-0237dfb5ca14 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:17,773 INFO job=5184fb5b-c925-46e7-9744-e2c6ffdff795 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:18,148 INFO job=bd6aa3fb-3007-4a25-9a6b-369e25735b13 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:18,483 INFO job=39928eac-1690-46dd-a588-306f87f0a5bb attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:18,574 INFO job=17b385aa-3f1f-4c99-bcfa-30c371ecca3f attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:18,661 INFO job=e5a6495b-11f4-4419-9ee7-00e682aed5c1 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:07,047 WARNING ZOMBIE write rejected job=47177710-dd07-4011-a2e0-5d3d51e8650e attempt=1
+worker-4  | 2026-11-11 06:13:07,220 INFO job=73287d03-c534-4a75-84de-f7a48b085661 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:07,505 INFO job=5b33f4f4-f540-4104-87dc-eaf815934910 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:07,567 INFO job=adcf714c-07c0-4738-b296-e76a5e4fb316 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:07,648 INFO job=d5aa5586-88ad-4b62-b9a5-771772f20b60 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:08,127 INFO job=9b3bd223-8897-4719-b71d-4a0962efd9d9 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:18,896 INFO job=fdfb9d6c-e80f-437f-97b7-e5639d7a6e4a attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:08,530 INFO job=7c020f11-c5d4-43f2-a782-d206b7d85ab8 attempt=2 -> cancelled
+worker-3  | 2026-11-11 06:13:19,059 INFO job=bc26d789-8038-4b63-9576-8b99175b4b80 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:19,499 INFO job=8131e43d-001a-4134-b88c-3e71e84383e5 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:19,657 INFO job=72398f96-7ec5-4ad4-a8f9-3ec20cae158e attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:20,022 INFO job=9e9684ab-6940-4dff-8571-f9c639ef35a8 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:08,928 INFO job=30fd2320-4d2a-466c-b7e5-acd459007dc0 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:09,330 INFO job=a1249095-9fb5-4501-9563-1ce31d01a1bd attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:09,425 INFO job=b3a3d1c0-710d-4630-8126-00a54e7d1e44 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:09,780 INFO job=541f46a8-445f-4124-837a-488aed032907 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:10,288 INFO job=10eab23b-4343-412d-9610-c01a006caf7c attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:10,601 INFO job=808fc0f7-8f64-4971-ae05-09620eea513b attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:11,022 INFO job=3a847fec-92c7-4c6d-a60b-1f4a92313bd6 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:11,124 INFO job=458dfbe0-7b7d-4857-b8e2-4953af91be01 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:11,609 INFO job=3bcd37e9-cdf8-42c5-af8a-347e2f51446d attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:11,947 INFO job=f46f4c73-8dc7-4f33-a504-56308f233bdc attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:12,385 INFO job=3561b622-dd1d-4428-8618-5b8abaca374e attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:12,756 INFO job=f8a132b9-f52e-4de4-8466-798b730d3052 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:12,840 INFO job=44a310f1-6cae-4e20-851e-b9ae136cf43e attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:13,145 INFO job=5012f86b-7671-4ab6-b811-5dfccbd8f9da attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:20,381 INFO job=d382826f-740a-40b2-8c4d-a5a258dbcc84 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:20,546 INFO job=d73bffc0-1338-49c1-a293-1716a727899c attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:13,502 WARNING ZOMBIE write rejected job=71ddf4f6-f2a0-4913-8850-bfc5676c1209 attempt=1
+worker-4  | 2026-11-11 06:13:13,786 INFO job=34864236-ce4c-42d5-8bca-b668f3f71cbb attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:14,078 INFO job=847957e5-b88e-4b17-ab59-99dafcabdb12 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:20,945 INFO job=478b7b09-c7b2-4f54-904b-6cd0433083df attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:21,027 INFO job=ba26f896-d01c-4361-bada-117750889981 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:21,302 INFO job=8f4e25f3-d989-4fba-9f29-ebdbfe71e95a attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:21,802 INFO job=a4744ac1-46a6-4095-b4b4-0dd8f0c78588 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:21,881 INFO job=670545e2-a34b-4f7f-9a79-d4512f61aa4b attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:22,244 INFO job=7ca39c17-dec2-49c0-aacc-115a291c8802 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:22,604 INFO job=8c9fe559-f926-4c8b-9ae3-5d63d10d58f6 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:22,885 INFO job=7e41f2f4-2e88-4d48-8f70-c79e26dcd546 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:14,482 INFO job=5753e091-31e9-43f8-833d-fa4687c8f085 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:14,641 INFO job=34b01199-9bc0-40db-9e06-6c23680cf550 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:14,893 INFO job=24df137f-de18-4661-824b-6bf7a8ca1db0 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:15,111 INFO job=c8239cbb-f4ea-4b00-86a7-864bf8ff60f3 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:15,263 INFO job=66d93812-fd4b-4e9d-a1af-6311eb8e76f8 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:15,369 INFO job=a6b54362-72de-4549-95c7-4359d9b4b8c2 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:15,823 INFO job=6598c038-d846-4764-b44e-1810a4a2338f attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:16,191 INFO job=d7f9bb71-eb93-42e8-9432-df61b5925830 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:16,651 INFO job=35e386ff-7e31-4105-82ed-7bbec05c38f3 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:23,279 INFO job=d9313a49-6bd0-4c20-a778-81ce0699bc0f attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:23,522 INFO job=fc1b0258-a30c-4966-9162-fd3a02def173 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:23,584 WARNING ZOMBIE write rejected job=55b00315-f27e-43cc-99aa-d7b4e6c95dfa attempt=1
+worker-4  | 2026-11-11 06:13:16,867 INFO job=932564e0-3d46-45e7-9f35-71b260607c8f attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:16,946 INFO job=9000dc1b-449a-4b35-896c-e93e34b47be0 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:17,295 INFO job=7ba0ce3c-766a-4f8a-93ca-f9b17df08963 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:17,493 INFO job=23105bbf-a285-4b13-ba76-8eb9c7d312f7 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:23,676 INFO job=fbc510db-b6ac-4957-a79a-129093d72b0f attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:17,900 INFO job=fd7ad477-597d-469e-b517-9c7104d8fd0d attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:18,110 WARNING ZOMBIE write rejected job=456859ac-16f7-4b8c-9588-227973f8c537 attempt=1
+worker-4  | 2026-11-11 06:13:18,234 INFO job=99c41b91-5ab2-4211-bde5-a2bfb936965d attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:18,296 INFO job=50a63fdd-96c8-4958-849b-039b310206ab attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:18,643 INFO job=582680c9-e4f5-431a-996b-5393c367e747 attempt=1 -> cancelled
+worker-4  | 2026-11-11 06:13:18,726 INFO job=41dd32f9-c856-4ec3-9959-a1699a7178b1 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:23,788 INFO job=b6f15ca4-db38-412f-8b4c-6f22aafaecf0 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:18,901 INFO job=fc6cf7b2-e214-4117-932f-0b23b1b16466 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:24,283 INFO job=1fee60d6-4059-4e7f-ab95-ec3d9d96d754 attempt=1 -> cancelled
+worker-3  | 2026-11-11 06:13:24,675 INFO job=0014be49-e88c-4b57-9472-fac6303d5801 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:25,016 INFO job=d9428c9d-dec8-47f0-950c-7b1fdbb83078 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:25,319 INFO job=44683251-2376-4ee3-bcdd-aec7416a50b6 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:19,287 INFO job=01343806-5ecf-4f78-8488-083087e4c6e6 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:25,556 INFO job=cfdc5ee1-d35a-4954-b9b0-d33feac4ff7a attempt=2 -> cancelled
+worker-4  | 2026-11-11 06:13:19,748 INFO job=ae949034-5a58-461b-bc28-7ca56d8814e4 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:25,839 INFO job=037108cd-b1bb-469e-aa50-86ca8030e2b0 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:25,984 INFO job=af0605ac-36a4-4eba-840a-6dc98ad4d7ba attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:26,115 INFO job=7814dee4-fc2b-442f-ad92-91043ec61cb7 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:26,514 INFO job=af70260a-dc56-4cc6-9c38-a94d56cfb87e attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:19,924 INFO job=91c54e4e-b64b-42d5-8fce-6d9736c2b4e1 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:26,648 INFO job=67e64a29-62e7-47db-8d5c-79a02a28b841 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:26,996 INFO job=807e637f-7de4-4a2c-bf37-622125ff62ff attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:27,118 INFO job=cdce2cdf-bec8-475d-bbd7-8feda9c9b41a attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:27,602 INFO job=0d27be1a-de45-4850-8fc7-6547e235ab3a attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:20,409 INFO job=0ef0d2ca-3242-4f22-91a1-0431e69e3827 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:20,768 INFO job=c4d3589f-cf75-449a-a7b0-9495ad252fcb attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:28,073 INFO job=fca2ecf8-c63d-45c7-853a-3c72da04fa27 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:21,024 INFO job=b6639ff1-7998-4a11-8bde-8e0c30117cb4 attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:28,158 INFO job=051c80d8-9af2-4787-be25-ac890b0d3d25 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:21,269 WARNING ZOMBIE write rejected job=8f4e25f3-d989-4fba-9f29-ebdbfe71e95a attempt=1
+worker-3  | 2026-11-11 06:13:28,607 INFO job=2bb6c58d-b873-43e4-842a-672ea0a163d4 attempt=2 -> succeeded
+worker-3  | 2026-11-11 06:13:29,076 INFO job=5809c212-8082-4bcd-baec-4492ad8ba56d attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:29,361 INFO job=d1e595d1-212f-45cd-b263-c0b188afaf8e attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:21,646 INFO job=ecedc0eb-6b2a-4ff4-98d3-5b966f5679cd attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:29,489 INFO job=f8de239e-8173-4619-9f47-39b73071c710 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:22,001 INFO job=60377168-354a-4f0e-a9bb-5d5b6953755c attempt=1 -> succeeded
+worker-3  | 2026-11-11 06:13:29,809 INFO job=6ffa072b-1ac0-4dc2-bc9c-1119ab146769 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:22,464 WARNING ZOMBIE write rejected job=70ecdfc6-4cac-4684-952d-ab008861832b attempt=1
+worker-4  | 2026-11-11 06:13:22,698 INFO job=54cc1513-ebef-44f8-93e0-e643cce789bc attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:23,041 INFO job=9ae13833-0263-428a-a2b8-1e8d8e243b22 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:23,108 INFO job=b5091765-9d08-45f4-bc44-26e12153bece attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:23,258 INFO job=9604b104-dc57-4f6f-b54a-aaac8a7f37a3 attempt=1 -> cancelled
+worker-4  | 2026-11-11 06:13:23,435 INFO job=38e92ddc-3f31-49ee-839f-9049310ae65b attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:23,525 INFO job=78c7f89b-71cb-4b80-80f9-5d752ef57f7d attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:23,591 INFO job=55b00315-f27e-43cc-99aa-d7b4e6c95dfa attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:23,782 INFO job=b106fc6f-ae43-48ad-84b8-d5d3ce1132e4 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:23,928 INFO job=f223f057-ee20-40c5-9306-d9fdf19cafbb attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:24,219 INFO job=12bb76fe-2394-467d-ba48-034799628e85 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:24,567 INFO job=3124c702-3efb-40e2-a2fd-dff8884d8646 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:24,667 INFO job=941b83bd-9693-4bdf-8fa8-83a206e2ff3e attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:24,730 INFO job=2474a17d-4920-492c-b6e3-1d1b8af7a3cd attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:24,982 INFO job=69a426a0-a3c1-4787-bcf7-dbee553fe081 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:25,088 INFO job=50e4aff3-fcb4-4c41-9dba-985c52cb653c attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:25,223 INFO job=84e47f71-81e7-4a3a-9e08-820d9d96e040 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:25,520 WARNING ZOMBIE write rejected job=8cb458e2-d439-49e9-9fd0-c68c58c52138 attempt=1
+worker-4  | 2026-11-11 06:13:25,952 INFO job=ac470370-89be-4181-8157-6388e41f34b4 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:26,367 INFO job=73822935-022f-4a6a-a4a1-e36dbacd1083 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:26,636 INFO job=92c4947e-cde9-49e3-ae54-0b4618344fa6 attempt=1 -> cancelled
+worker-4  | 2026-11-11 06:13:26,904 INFO job=b12f6ada-b9b1-44a4-86c5-8cec3c0c1d45 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:27,217 INFO job=ead67221-e526-4d3f-b6ad-b931b5e5901a attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:27,403 INFO job=5b6717cc-9292-4eb2-a9cb-fb5095b7c8a2 attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:27,907 INFO job=c5d79316-18db-4b2d-93bb-cd16f4a4314d attempt=2 -> succeeded
+worker-4  | 2026-11-11 06:13:28,051 INFO job=7d0808d8-79ec-4d13-afeb-ff1919bd1c26 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:28,155 INFO job=20b22152-fc2e-4e1d-bc9b-59dd74828dfd attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:28,394 WARNING ZOMBIE write rejected job=2bb6c58d-b873-43e4-842a-672ea0a163d4 attempt=1
+worker-4  | 2026-11-11 06:13:28,774 INFO job=c25dc75b-43a2-48df-a5a9-81f4f00aa45d attempt=1 -> cancelled
+worker-4  | 2026-11-11 06:13:29,069 WARNING ZOMBIE write rejected job=bd5fd8c3-6ee4-4270-9ab4-0bff4deb7abb attempt=1
+worker-4  | 2026-11-11 06:13:29,166 WARNING ZOMBIE write rejected job=5c857903-3fad-4b0c-849c-af4148d4e661 attempt=1
+worker-4  | 2026-11-11 06:13:29,238 WARNING ZOMBIE write rejected job=9ea6ec9e-3c09-4f01-a3ec-8ffa7c78f7bc attempt=1
+worker-4  | 2026-11-11 06:13:29,460 INFO job=eacbe696-52d4-4c56-9a43-2edf00a77551 attempt=1 -> succeeded
+worker-4  | 2026-11-11 06:13:29,841 INFO job=eaccbb8c-6f14-47e8-804c-dabba8fe5a71 attempt=1 -> succeeded

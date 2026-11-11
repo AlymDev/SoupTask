@@ -1,0 +1,15 @@
+ZOMBIE TEST 03 started 2026-11-11T11:58:29  freeze_s=25.0 duration_ms=9000
+label: baseline, clean code
+created job 8f217f19-1f20-46f5-99ef-e6cf2a1cae10
+[t=  0.0s] status=queued attempt=0 worker=-
+[t=  1.0s] status=running attempt=1 worker=0b2b13c53d39-1-dccb23
+[t= 30.6s] status=running attempt=2 worker=c2ffc2e1d98d-1-558b70
+[t= 39.8s] status=succeeded attempt=2 worker=c2ffc2e1d98d-1-558b70
+
+worker log lines mentioning this job:
+   worker-6  | 2026-11-11 05:59:09,237 INFO job=8f217f19-1f20-46f5-99ef-e6cf2a1cae10 attempt=2 -> succeeded
+   worker-2  | 2026-11-11 05:59:03,926 WARNING ZOMBIE write rejected job=8f217f19-1f20-46f5-99ef-e6cf2a1cae10 attempt=1
+
+effect rows for this job: [['2', 'c2ffc2e1d98d-1-558b70']]
+
+RESULT: PASS (stale attempt 1 was rejected by the attempt check, one effect from attempt 2)
