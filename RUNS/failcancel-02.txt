@@ -1,0 +1,5 @@
+FAIL+CANCEL TEST 02 started 2026-11-11T14:48:03
+cancel -> HTTP 202, status in response: running
+final status: failed, attempt 1, effects: []
+
+RESULT: FAIL (accepted cancel did not end 'cancelled', or an effect exists)
