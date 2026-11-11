@@ -1,0 +1,544 @@
+worker-4  | 2026-11-11 08:15:18,380 INFO job=56a64997-8c78-4d83-acad-d3e79adcdfa5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:18,657 INFO job=8ac86be4-189f-4f63-915f-b55ca5fdc3fa attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:18,965 INFO job=68629c8c-d810-4a09-9649-b42f1286ee21 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:19,173 INFO job=db1851c0-9f0e-402d-8c73-6c3c8ad7a4f8 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:19,281 INFO job=7e5be1d0-5db9-45ca-a781-d7eec8ebd469 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:18,476 INFO job=31b2be1a-049f-423b-b9ed-5a0153d36e55 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:19,508 INFO job=c5734520-2946-4104-b96d-41e792ac0d30 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:19,758 INFO job=1ac93304-c371-4cb5-a5d9-b976945be5e9 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:18,954 INFO job=eec5a730-6135-4ed7-a3a8-0f973990b5f9 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:19,926 INFO job=88b27305-a36d-4784-b4c5-25e0de3e0dd3 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:19,992 INFO job=c38d60d9-a3a7-457a-800d-434827b824dc attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:19,106 INFO job=9b381dde-fc11-479f-b31f-906c38eb2aa5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:20,447 INFO job=2d2accb9-1fca-4f5b-9288-78617622bf15 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:19,187 INFO job=004de16e-725c-4e72-910a-ef1b3d607620 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:20,859 INFO job=fc135724-6fb6-4b30-b8cf-52d1b8cc34db attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:19,690 INFO job=1df3f798-9cf3-41b2-98bf-723769ebf683 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:21,318 INFO job=419ccafb-fe7a-44df-874f-2b3aa4da6572 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:19,839 INFO job=3cdd11c0-85a3-4898-9887-33c282cb3dac attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:21,573 INFO job=de9ea2cc-4e4a-4817-9366-0e20bb9eab8f attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:19,942 INFO job=4aafee49-e903-4b83-abd8-cea82884aeea attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:20,408 INFO job=ef6d9a59-79aa-4c81-9432-1b41baf2f998 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:20,685 INFO job=52ac66a1-7250-44a4-a63b-6434abe1567c attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:21,097 INFO job=9cf9b412-f2f3-426f-a9ba-f8af44bbccd4 attempt=1 -> cancelled
+worker-4  | 2026-11-11 08:15:21,161 INFO job=bbf6fae9-489d-451a-be93-44ae312e7bb5 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:21,510 INFO job=ab572ca3-6542-43ae-8e4d-57d812b40068 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:21,890 INFO job=352a451e-326a-4cef-842d-468c29754cba attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:21,637 INFO job=a76562a2-7da5-4caa-a9bb-f3ed0d9a7e27 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:21,892 INFO job=6048957f-b292-4aa2-9a6d-9e38922006a5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:22,348 INFO job=b46a7187-b1c8-4d28-89a7-06739f65a367 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:22,647 INFO job=a2fcdbbd-7083-44e7-b43b-7d80e6e35d9d attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:22,845 INFO job=448ab7ba-3cc4-419c-a2c0-0645afe35b36 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:23,009 INFO job=734effd0-d385-4f49-83b3-b3bfed0ccd51 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:23,247 INFO job=0e7fa205-7c04-4b7a-b3e9-873e9b2bebf3 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:23,340 INFO job=c84ef1e7-5c59-40ca-b7ce-4d2451e785c8 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:23,672 INFO job=3c578549-91ea-438e-8a18-8ffcfc1fdb1d attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:21,998 INFO job=02eabe0c-1631-436c-bec5-1e8875f0478d attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:22,316 INFO job=51b4236e-2123-49f5-8e6f-92cc566eaab0 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:22,476 INFO job=447e797e-a9cd-4f48-84af-b60e9e529b92 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:22,982 INFO job=475b92d9-c961-48a6-a875-dfebe38a9576 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:23,154 INFO job=b94506be-9538-4677-95a1-9a01c930038c attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:23,577 INFO job=db397289-aa28-4558-a191-550d10db0e53 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:24,044 INFO job=e6a60811-624f-4844-9810-417a592a086c attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:24,185 INFO job=e9c94008-32b1-4aa8-9b97-81c970e64056 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:23,769 INFO job=1f5bbf74-4a1c-4425-b4a9-7c92cbcd2ba7 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:23,944 INFO job=474eda1d-5ae4-4c53-ac58-ea965a5ec23f attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:24,114 INFO job=f40a597f-b7f2-490a-bfba-73dac503767a attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:24,260 INFO job=04d4a0e0-be87-4fff-81cb-8d8fd1fb45bb attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:24,727 INFO job=56cd86b1-8f61-4f35-b52c-ddd02f613328 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:25,134 INFO job=8ef31858-ac68-40c9-af87-a60208ccd9a5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:25,211 INFO job=215801bb-0d9e-476d-992e-0a29762ca107 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:25,416 INFO job=2af47ec4-dbe2-4f15-b9d1-d3b595987316 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:25,675 INFO job=60126a73-8e8a-42ce-88ae-9e2c60e700dc attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:25,760 INFO job=830d06e2-4d4c-46c9-97e7-d0a222230805 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:24,510 INFO job=b1534c03-3a34-4f3d-9983-197986139a4b attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:24,882 INFO job=76c6d20a-fa5e-4dc3-acd7-4675818fc80e attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:25,828 INFO job=b58cf677-cfd1-45cc-850c-057b89372c11 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:26,201 INFO job=4e17530c-7d60-4480-a95a-0992ed8f7f6a attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:26,600 INFO job=f4de6c0c-f49f-4d8b-8ce2-e7bfcc6538d0 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:26,866 INFO job=fbefe6fc-a06f-46da-b189-f076a6440c06 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:27,266 INFO job=298baba4-1d95-4bbd-8a32-1e57ddf446eb attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:27,756 INFO job=238529c4-2094-4d96-8f2e-3c1769185339 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:28,113 INFO job=bd6ce9de-9522-4021-abfb-d3d11f43db90 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:28,185 INFO job=3f596a08-9cb9-4027-bfd9-e1434ebd1e7f attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:28,536 INFO job=65d87e12-0ea4-473e-a924-615ad9859cfe attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:28,934 INFO job=fc57cb45-50ed-4cce-a42e-b2571d6306e1 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:29,176 INFO job=f8024d51-3244-4eca-be29-c2fcb0606b1d attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:29,367 INFO job=9969ee8c-b120-4a26-96e4-8015e474fb17 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:29,529 INFO job=99b0da3b-6d5c-4666-b116-cdbbd6970dd6 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:29,953 INFO job=beb5a0c3-708f-4822-8259-9bb2e014ccd6 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:30,170 INFO job=0f2a9c60-b6cb-4531-bb31-1b915b0d04ec attempt=1 -> cancelled
+worker-4  | 2026-11-11 08:15:25,300 INFO job=ab60b295-057c-485e-a5ac-60000edd80a4 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:30,441 INFO job=a66a9e1e-115b-4d9f-b130-6762db0d6c72 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:25,400 INFO job=f5a7f436-eff3-4dc0-a75f-18293bf904c6 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:30,583 INFO job=84b01c3b-580f-4acf-9750-f8de2483f69c attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:30,671 INFO job=e22b296c-e880-42d2-ae3c-25781b7cc4d3 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:31,132 INFO job=3770ad29-e465-4ef6-aef1-bda624800b9f attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:31,380 INFO job=70911504-f396-481b-b7d3-b88cc0142d9a attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:31,767 INFO job=2091a751-55e7-47d0-8bee-fac70d6514a5 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:25,807 INFO job=1e2e5014-a045-4db7-8afa-fa8221a77a51 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:26,082 INFO job=0870a318-a807-48fa-8fd5-126aa3d368a7 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:26,371 INFO job=66a24f58-3837-41de-a14b-4dded1d9e06e attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:26,829 INFO job=f86648cb-4817-40bf-b552-b2237f3f1754 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:27,148 INFO job=686aae0e-4223-483c-b121-2a54ea1f41e6 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:27,241 INFO job=16741cd5-20c9-4e9d-8e88-17dd1ead2768 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:27,325 INFO job=e9e65df8-1120-47d5-b87f-93fd51dd2a94 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:31,841 INFO job=5d60eec8-4375-49ac-a0dd-9551ea980706 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:32,277 INFO job=ae6ed768-3789-4a3d-8bb3-1a1e3c1ff7a2 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:32,564 INFO job=222fa816-c969-47bd-b5ad-3f2d8c740175 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:32,854 INFO job=4db4150c-9e12-4bd9-8bbc-da5651ce90f1 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:33,141 INFO job=4e609194-cbe4-4da5-9791-a387ca7f281a attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:33,291 INFO job=37e46e18-c584-4693-82f4-8e8bb325c702 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:27,434 INFO job=07c56a38-d520-4451-bd89-c7b753244201 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:27,533 INFO job=c3c9b9e0-bd11-40ad-a59a-dcbe5e98fe30 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:27,772 INFO job=196f35cc-4f04-4362-8b3d-10655618d9ed attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:33,622 INFO job=b1722a4f-e465-4ab4-b2c7-6f096aafc746 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:33,699 INFO job=c3f92e6f-02f8-4b40-9df4-97c74f7c6e3d attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:33,891 INFO job=3070701a-ac44-43be-97cb-8cc1efd2063c attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:34,220 INFO job=f678e469-a247-43d7-aec2-95975899edc4 attempt=1 -> cancelled
+worker-1  | 2026-11-11 08:15:34,581 INFO job=493bc707-740b-4775-9cd2-75e91f96d32f attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:34,970 INFO job=bd9c8476-e0dd-4462-a8ca-4cb88fd1aeb1 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:35,091 INFO job=2c8f2b4d-ff5b-484f-9e61-c8bf91668a50 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:35,402 INFO job=20d89907-cb5c-44de-a372-8dd9219876d5 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:35,787 INFO job=73a0d5c9-e276-4ce0-b543-6eba59318bac attempt=1 -> cancelled
+worker-1  | 2026-11-11 08:15:35,940 INFO job=4adb4b89-185a-4974-b11f-07b0419b6e13 attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:15:38,600 INFO worker 89ab037929ec-1-f3187a starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:15:46,248 INFO worker 89ab037929ec-1-2bde74 starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:15:52,462 INFO worker 89ab037929ec-1-eb75dc starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:15:56,271 INFO worker 89ab037929ec-1-15834b starting (lease=30s heartbeat=10.0s)
+worker-4  | 2026-11-11 08:15:27,866 INFO job=abb4605b-dcce-497d-9053-63d66cba017e attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:28,057 INFO job=fc3bb26f-bcf5-426d-bf0c-c0738a8efc6d attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:28,215 INFO job=ee71c8c1-fb0b-4ecd-9086-9d5c3a5c417b attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:16:04,313 INFO worker 89ab037929ec-1-2951d2 starting (lease=30s heartbeat=10.0s)
+worker-4  | 2026-11-11 08:15:28,414 INFO job=d702c01e-74f5-4c59-b468-bbdea7d759e9 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:28,849 INFO job=16f4c8de-e218-4354-ac82-8df06f6fa300 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:29,044 INFO job=795dd8c9-3947-4d24-8481-18ad5501f12e attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:29,152 INFO job=a82a1c61-63ab-4313-b0dc-3a5d903959a2 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:29,489 INFO job=735881f2-0baa-42d7-bdea-7063d29ae8b9 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:29,957 INFO job=ec45c29f-fb80-4c0d-8edb-974f21311e88 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:30,117 INFO job=12c09e48-66a1-4bd1-93c3-fb0998bb2bac attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:30,316 INFO job=63eb86ab-b824-4031-a279-4850ed0aba75 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:30,376 INFO job=6ab5351d-0204-4589-841a-023825bf9d1e attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:30,722 INFO job=7a65ada9-b2ee-4173-baa8-702e8888327e attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:16:06,655 INFO worker 89ab037929ec-1-1c8a18 starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:16:13,144 INFO worker 89ab037929ec-1-d1c47f starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:16:25,837 INFO worker 89ab037929ec-1-51291a starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:16:36,592 INFO worker 89ab037929ec-1-d8a1e5 starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:16:50,674 INFO worker 89ab037929ec-1-37f501 starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:16:55,707 INFO worker 89ab037929ec-1-a0c416 starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:17:04,757 INFO worker 89ab037929ec-1-2c3635 starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:17:07,188 INFO worker 89ab037929ec-1-d1391a starting (lease=30s heartbeat=10.0s)
+worker-4  | 2026-11-11 08:15:30,996 INFO job=dfbb73d7-360f-425b-a3a0-0be45d3f85ed attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:31,269 INFO job=09fc791b-c636-4a82-8848-5cb2d23d1323 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:31,686 INFO job=84fb9361-c942-40ac-84cf-e1b9361c9ae9 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:31,975 INFO job=6f998382-d03a-4a05-bafd-d693e4a06334 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:32,246 INFO job=4d8940be-a8aa-4cda-9fe7-9d7818d16b8f attempt=1 -> succeeded
+worker-1  | 2026-11-11 08:17:40,193 INFO worker 89ab037929ec-1-388a49 starting (lease=30s heartbeat=10.0s)
+worker-1  | 2026-11-11 08:17:44,641 INFO worker 89ab037929ec-1-301875 starting (lease=30s heartbeat=10.0s)
+worker-4  | 2026-11-11 08:15:32,318 INFO job=277e44c6-5593-47c7-a97f-ed2ef18f67f9 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:32,416 INFO job=0dfdd8cb-180b-46b7-810e-4c08571824d9 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:32,910 INFO job=8fc6e6cd-c600-42e9-af63-a6131d96399f attempt=1 -> cancelled
+worker-4  | 2026-11-11 08:15:33,022 INFO job=ce150b85-2f23-4efe-a429-aa387b95f4ef attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:33,492 INFO job=d3252f86-6025-4eb9-9ee4-d1cad253082b attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:33,757 INFO job=aa341e05-1fd4-4d74-ba09-45455123279c attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:34,113 INFO job=2a0d8218-717b-4e55-91d7-db041f23a3aa attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:34,229 INFO job=4618799d-2fac-4f85-97a7-980976b8bcaf attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:34,697 INFO job=f4c3ce6f-0c98-4247-9ed9-51f4581356db attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:35,054 INFO job=bd4a3592-ce2c-4f46-9389-4b6e6526b513 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:35,508 INFO job=18cc6376-4f8c-4cee-b5cd-cb64d3a2688e attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:36,009 INFO job=235319c7-0322-4bc6-961d-358c8351db81 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:36,265 INFO job=d2466ddc-08ba-40d4-9dce-664c72f99972 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:36,596 INFO job=639d03b1-b660-4090-add5-72bf6ec5c703 attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:37,010 INFO job=aaa9339f-b133-4bab-9a73-9be76960a7ad attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:37,425 INFO job=8592256a-fc1b-4b93-b13e-f75ba2571776 attempt=1 -> cancelled
+worker-4  | 2026-11-11 08:15:37,758 INFO job=f6bf3a3f-d52a-470b-b49d-40238075a93f attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:38,229 INFO job=21774921-d154-4da3-970e-409e480442dd attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:15:38,631 INFO job=83f57013-bb27-443c-b7de-c96f355acbcd attempt=1 -> succeeded
+worker-4  | 2026-11-11 08:16:19,232 INFO worker 5dac2a445da5-1-b2c86b starting (lease=30s heartbeat=10.0s)
+worker-4  | 2026-11-11 08:16:40,260 INFO worker 5dac2a445da5-1-6fed15 starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:15:18,490 INFO job=5deea3da-e589-461d-9bc1-21d10847506c attempt=1 -> cancelled
+worker-6  | 2026-11-11 08:15:18,688 INFO job=bee065c1-7af5-491f-9ff2-d6c401e2f6bc attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:18,756 INFO job=e1bf6045-c9f5-40c6-8ddd-e0100bbf3b09 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:18,950 INFO job=ba9fc55d-5ce6-4fbf-b59c-932cdfa0bc75 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:19,275 INFO job=c9ad3c64-29f6-4739-9715-4877a7386bb4 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:19,693 INFO job=8777cdaf-b4c8-4a37-918c-5ab4d826e563 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:20,092 INFO job=d538c5ec-4bb2-4c10-8117-b5fae98997a8 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:20,282 INFO job=7a931581-e1ec-4747-8d7e-c280182aa554 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:20,776 INFO job=6061d5c9-6848-4713-9ad9-ad473c2704b9 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:23,890 INFO worker 44707be4edce-1-915331 starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:15:24,150 INFO job=fb72b1c8-4938-4609-a63d-74b464ec1078 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:24,393 INFO job=2f344bbc-dd57-4c74-bcce-f4067cd2c98e attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:24,554 INFO job=76c247bc-d4d2-4473-bbcd-68a029791ac3 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:25,031 INFO job=863833cf-bfba-433c-907c-82aeb89c79a8 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:25,424 INFO job=17771100-90dd-4a75-9ca1-1cc8c6edc91c attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:25,831 INFO job=d28696d1-3590-443d-baf2-59c58c9fe3de attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:25,905 INFO job=6bfa86b1-45aa-4ac2-94fa-50b1a949ac2f attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:26,279 INFO job=9988a714-165b-408b-a8e2-dfbfc2fa9c2f attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:26,727 INFO job=b2bf83a4-d0f7-4609-87bf-389b70ebadde attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:26,903 INFO job=fdd491e2-ed25-4556-aa22-e28e06f1456d attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:27,371 INFO job=f5d9be76-2b7b-42ef-afee-3f4dea440392 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:27,744 INFO job=fe8d94d1-4737-47e4-bcc0-61d8df93227d attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:28,248 INFO job=8084e312-0f62-4640-9d79-491827da1acb attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:28,711 INFO job=d53b8513-1f73-47dc-a4ce-9157d29a812f attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:28,985 INFO job=cbeb38e3-b8e0-4586-8c10-92fa20959a7b attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:29,439 INFO job=e644b2b9-e453-438b-a509-3ee2d19d1a7a attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:29,907 INFO job=2a4e497c-579b-4903-bbdb-960c8fecec9e attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:30,179 INFO job=8b45af32-926d-4cc0-9d16-42994a756b7b attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:30,567 INFO job=eee815a7-1c76-4e3c-ac8d-bd183fd18857 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:30,789 INFO job=f29813bb-9ee5-4dcd-a536-64ff5143a72c attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:30,987 INFO job=caf799ee-abb9-487f-9c53-bf3c59cdc31f attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:31,161 INFO job=13016b26-10bf-4555-86a1-66bde18503e4 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:31,242 INFO job=32ab50f8-db02-46ad-b2f0-3918909e0fb7 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:31,509 INFO job=eb2e2a8e-b0dd-4967-97c8-d2c1a0a2d783 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:31,636 INFO job=59ac4001-ff32-4313-8619-d7dd88990b99 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:32,015 INFO job=fb0d016d-4c94-442f-8500-bec5d16995fd attempt=1 -> cancelled
+worker-6  | 2026-11-11 08:15:32,468 INFO job=149ec5be-6f3b-4a92-961a-b9db8bfaa13a attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:32,593 INFO job=a87f83bd-989d-451d-ada2-8e40e289277f attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:32,656 INFO job=be187a62-a428-4c7c-a032-994f035a9b0d attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:33,053 INFO job=48cac957-c980-498c-9002-78eb1b538ad1 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:33,126 INFO job=4a69fbae-e98c-4632-bf59-f1822dc88bd2 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:33,559 INFO job=4a6121c0-47c7-4c26-91b5-32359828649e attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:34,019 INFO job=e8c12b74-52bf-457c-a8d4-83630c9d5b6d attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:34,085 INFO job=6b06fc7b-79b6-471c-9266-de696d62035b attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:34,213 INFO job=f667a5e9-ab03-43f7-8025-5b3dddd27656 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:34,645 INFO job=1840d229-2096-4267-8639-e32af0a61096 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:34,784 INFO job=878ecabc-7589-42ff-9f8d-1eff16eec8ac attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:35,165 INFO job=9a05779b-42ea-432d-a3b3-fe7892d43e6f attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:35,306 INFO job=81b11a2f-cb9a-48bd-868c-a59f3f368003 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:35,643 INFO job=b107dd62-e0f1-4160-bc9c-252ab50e5353 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:35,977 INFO job=fcc588c2-0375-440f-bb85-0d5f6f2af62b attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:36,141 INFO job=a54deeaa-07fd-460e-ab64-606587de4f6c attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:36,605 INFO job=8b242a3a-0c89-4008-90ba-7181f93ec2bf attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:37,065 INFO job=5fb1a00f-e0d3-4842-b44b-1e27a5a2c360 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:37,349 INFO job=743cff7e-f206-4d26-bdd4-5ba9190cae00 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:37,624 INFO job=8785d094-b9cd-4b6e-bc20-c2e681a258f4 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:37,890 INFO job=c0c8b9a3-2153-4a86-9512-462ae035b061 attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:38,279 INFO job=6f1450d6-e9d4-479d-8679-4cfbd26e609d attempt=1 -> succeeded
+worker-6  | 2026-11-11 08:15:41,866 INFO worker 44707be4edce-1-4e31a6 starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:15:54,579 INFO worker 44707be4edce-1-6779cc starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:16:02,077 INFO worker 44707be4edce-1-32bcdc starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:16:45,203 INFO worker 44707be4edce-1-f5ec1d starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:16:48,956 INFO worker 44707be4edce-1-3cc827 starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:16:53,519 INFO worker 44707be4edce-1-684350 starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:17:01,693 INFO worker 44707be4edce-1-2708f7 starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:17:23,547 INFO worker 44707be4edce-1-e9242b starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:17:27,377 INFO worker 44707be4edce-1-37f97c starting (lease=30s heartbeat=10.0s)
+worker-6  | 2026-11-11 08:17:49,123 INFO worker 44707be4edce-1-bf701e starting (lease=30s heartbeat=10.0s)
+worker-7  | 2026-11-11 08:15:18,512 INFO job=ced93540-d00c-444c-a3b6-6dc082dbd359 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:18,639 INFO job=01bbe6a6-e383-4a53-8295-cc24a24cc0b3 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:18,789 INFO job=7c69b75b-fbe8-4ccc-8351-44e42c580c82 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:18,962 INFO job=4383dafb-ed16-4f34-a048-58393faaaed0 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:19,251 INFO job=3935122e-90df-4d78-8695-2b803681d836 attempt=1 -> cancelled
+worker-8  | 2026-11-11 08:15:19,371 INFO job=72add151-8ba6-4de1-8f25-994171038002 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:19,848 INFO job=662d5894-7f0d-4983-8ed1-e366f7779179 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:20,213 INFO job=2193a02e-34fe-47a3-a275-4a59d37b6b72 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:20,343 INFO job=10d334d9-f735-4dce-8d90-2d182d42a72c attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:20,776 INFO job=e6aea89e-ff2f-4ac1-bb09-bed43a755739 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:21,232 INFO job=ed349c5e-71ac-4360-9e4f-3ef91d40c8ab attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:21,473 INFO job=9d1dad02-c4c8-43b5-a47d-1e768b280126 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:21,699 INFO job=e1f2a4fc-e899-400a-abd9-8c02bad593be attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:18,903 INFO job=a6b04572-946a-4886-a268-1e3e027e4ccd attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:19,341 INFO job=834a15ad-56a2-421e-8cc9-e3673f56330c attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:22,194 INFO job=4c70aeb7-252d-4c97-84cc-0032b25e0942 attempt=1 -> cancelled
+worker-8  | 2026-11-11 08:15:22,280 INFO job=0d90bee4-ecc9-4ef9-85f4-a7a65ed13a27 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:19,425 INFO job=cdb63579-218f-45cd-84cf-12c4cbe497c7 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:18,735 INFO job=cc8a9f1a-61db-4e2c-923b-2a76267f0ad3 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:19,622 INFO job=a86ef24b-3f8d-48ef-8aef-112db87b955d attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:22,568 INFO job=98aeea6c-4ee0-4178-8192-0e8dba07a0c8 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:20,018 INFO job=2586a84a-1ed3-443a-8b1e-62db989d7612 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:22,972 INFO job=51ab574d-2c96-412f-b301-be3482823e9a attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:23,420 INFO job=65f080fe-05e9-401c-95c4-b62455486f01 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:23,590 INFO job=e7373fe7-5a60-46bf-9eee-1ffd47642590 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:23,773 INFO job=a1e7113d-f20f-48a7-b473-0541f0cdf723 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:23,955 INFO job=7236257f-b11a-4429-9690-7a76f87e46bd attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:24,445 INFO job=6ec82064-d8c8-4810-a02d-313d7603a7f3 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:27,043 INFO worker 403a888d93dc-1-4f0c5e starting (lease=30s heartbeat=10.0s)
+worker-8  | 2026-11-11 08:15:27,159 INFO job=909c7ce7-05b0-430a-857d-33be70bae210 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:27,660 INFO job=7121bd8d-bb9a-4a3b-94be-520e00fa6e78 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:28,059 INFO job=075669f3-2b3f-43b4-9f12-a2ac90a1489e attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:28,277 INFO job=5f721a6d-e5c8-4e3b-93af-1aa1ababa532 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:28,741 INFO job=74fbb042-52d2-40ea-8afa-06d852c88560 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:28,802 INFO job=056c28b3-4a5b-4018-a88d-49a65b579864 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:29,091 INFO job=e7c19526-8da8-4aae-bd62-c22ad589f67d attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:29,575 INFO job=734458ab-8b96-4b15-b2c3-6c0d4cdef205 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:29,679 INFO job=94dd7d7e-c097-4c96-b56e-92998a82e133 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:30,158 INFO job=14635486-2c8a-467d-ab21-7d33b8f10b4f attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:19,069 INFO job=4e5a87e6-2354-4e7f-a332-f071300f9a2e attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:19,331 INFO job=2c09d46a-c0d0-4ef5-98fb-b56b353da590 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:19,748 INFO job=6f92dbef-a659-4ac9-89bc-507f4e035ad9 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:19,816 INFO job=f23cd523-62a3-4835-ba26-f9eb237155d6 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:20,164 INFO job=dbb1e65a-7aa6-4115-80ab-8f4acb6bbd46 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:30,326 INFO job=c8bbc66a-0016-4cb2-9a7b-36dfb17b8838 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:20,237 INFO job=d81eaa85-f977-4702-bd65-8db0731c24c7 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:20,326 INFO job=6149f5ca-6448-4ecb-b042-f19b29c60ac4 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:20,491 INFO job=ffb89a06-a31e-44e9-a91a-d41033bdb8a3 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:20,653 INFO job=cc4b86cc-c2da-4f08-89ea-de4926435a38 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:21,086 INFO job=01e7cb32-d0fe-43b7-afd0-979d37d9178e attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:30,781 INFO job=fa6865b3-0db9-4c6e-876f-27d8e4bc160e attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:20,516 INFO job=b0d29a8c-2eaf-4d25-8770-5386c888bbf6 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:20,698 INFO job=abf41e0a-dbb9-4bda-a7ee-958af826d1bc attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:31,250 INFO job=df249e34-95c0-4863-b4fa-a4d730c4b7d8 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:31,314 INFO job=ecf7198b-6b5c-4aa8-9c96-b831463f1a30 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:34,154 INFO worker 403a888d93dc-1-480f9d starting (lease=30s heartbeat=10.0s)
+worker-8  | 2026-11-11 08:15:34,462 INFO job=b9c4891c-a96f-4c4d-8f8c-f246741a224b attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:34,719 INFO job=209af235-8f5d-40b1-b100-2f5b69fb4f7e attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:34,848 INFO job=43fe318d-13f9-466a-aade-7ba58794cbed attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:35,264 INFO job=956c25e6-ed28-4bed-a628-57a767620def attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:35,672 INFO job=efe01b54-a0d6-4b6e-81a2-73a67d3d5de2 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:35,815 INFO job=b270ff0e-c34c-4d0b-917c-848f66dbc9d4 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:36,095 INFO job=37f117e9-9beb-4836-92e7-074ee4a335a4 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:36,447 INFO job=8a64f23c-bbe0-46e4-966f-ea72b3627c52 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:21,001 INFO job=6fea95e2-9503-4ee1-b9b5-02df0a139697 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:21,186 INFO job=76596960-a368-4395-b733-2ca52b804e1b attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:21,260 INFO job=d099c884-ab25-4037-8209-08c73397db1a attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:21,627 INFO job=cac807a6-cefd-45c9-96f3-f5a29620119a attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:21,346 INFO job=910aa2f8-c513-41d3-aacb-e482dba6717f attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:21,719 INFO job=21e93cb6-a03b-47e0-a46d-a96efce73dc8 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:22,066 INFO job=b43cfc9b-4706-46ed-b719-14548bf3a5cc attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:22,291 INFO job=bc309ed4-8dda-49d9-b539-e977db8ce968 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:22,523 INFO job=50b6f4a9-ac23-4d2f-b297-f0fdc480a0e4 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:22,978 INFO job=7a0115ba-61cd-4cd8-9d83-7cd0b8ec83c3 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:23,079 INFO job=fed8af36-bd75-4b37-9190-ea25252fc327 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:23,553 INFO job=b544434d-546f-4c1c-abda-1c60c1346efa attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:24,049 INFO job=78330bee-10d4-446e-84d6-61338f58bc46 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:24,366 INFO job=7b33ae11-568f-4f4d-9efd-c67465cff771 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:24,782 INFO job=d2f4bbe2-b4d4-477f-9f3f-bf19679d78a4 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:22,074 INFO job=186b666f-15d7-4a1d-96f7-41db214b2b1c attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:25,034 INFO job=8ade4940-90fc-426d-b00f-f0e6572afd84 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:25,448 INFO job=13bff190-832a-4996-8bc4-eedcdbcb0252 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:25,704 INFO job=7e873524-ee08-4f66-a66a-5d66a6d21105 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:26,115 INFO job=3667ef25-f064-4221-9e46-3d567f05b8ac attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:26,235 INFO job=77b813b5-47cd-4c5d-b4b9-d584ba2ca4aa attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:26,465 INFO job=65fb653f-826d-4966-9a50-f5f0bfc01d7a attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:36,901 INFO job=831b5e18-a92f-4e5e-9650-3967fd6576d3 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:26,741 INFO job=88cf921b-51b5-45b8-bde2-01141aa029d1 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:37,359 INFO job=2926f0fb-bb0b-4713-b84c-680ad63b0f69 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:27,218 INFO job=f745e2dc-984c-44b0-9e69-0b63cfd0c8d5 attempt=1 -> cancelled
+worker-8  | 2026-11-11 08:15:37,837 INFO job=dd074b7c-1723-4611-8d40-7005b416b39a attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:22,397 INFO job=9d86bfb3-83ed-4a42-bfba-6df1434d40b3 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:22,676 INFO job=c29096d5-d0ed-498c-a104-9390423a1c69 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:22,807 INFO job=427c2395-39ae-4298-997b-15038227a866 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:23,301 INFO job=6b624af0-5c48-496e-8cd3-e2fdb340b984 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:23,773 INFO job=2f8557ca-e201-41b9-bc75-3da6fb6c8256 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:24,070 INFO job=1182a029-e547-4532-aaf1-c1b1222164cd attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:24,580 INFO job=b252fe3b-575d-4773-9ed1-3e14b7e8e494 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:27,301 INFO job=ab7e7914-f978-4313-a910-433424225951 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:30,031 INFO worker 5af414ab55f8-1-e19cd2 starting (lease=30s heartbeat=10.0s)
+worker-7  | 2026-11-11 08:15:30,185 INFO job=fa788d81-7ed4-4f89-9cce-8e423f564747 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:30,470 INFO job=d724ceae-ee5b-4026-a383-2a3f22bc0a0c attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:30,949 INFO job=ec34b99b-0cfd-439e-b164-91790e60231f attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:24,914 INFO job=fd44130e-a354-429c-9c6e-e2aa3d2f431a attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:25,137 INFO job=28b9d83f-5850-407b-8466-0aaee3e3fb2b attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:31,378 INFO job=d53802ae-f775-4a34-84cd-10ecd0641d7f attempt=1 -> cancelled
+worker-7  | 2026-11-11 08:15:31,465 INFO job=6b6ff339-5ea4-4518-9c0c-ca20dd3e4dd2 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:31,688 INFO job=7c95a03e-d4c4-48fd-b1a7-b0bb7770eeef attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:31,775 INFO job=688e3714-b1c1-4dcf-bc78-975b262b897c attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:32,122 INFO job=42068fb9-ae8f-4c5f-a53c-6df7b750ae49 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:25,617 INFO job=282479d2-5843-41de-a1e4-f1f9fc461875 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:25,802 INFO job=cac16b24-61fa-4fad-9db8-dd9a633bd59e attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:38,208 INFO job=054ca643-c276-49a0-944d-b60524b2cfce attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:15:38,450 INFO job=6b460be4-ab68-46de-8031-6f4585deccf7 attempt=1 -> cancelled
+worker-8  | 2026-11-11 08:16:16,915 INFO worker 403a888d93dc-1-b358fe starting (lease=30s heartbeat=10.0s)
+worker-8  | 2026-11-11 08:16:28,178 INFO worker 403a888d93dc-1-a93782 starting (lease=30s heartbeat=10.0s)
+worker-8  | 2026-11-11 08:16:32,050 INFO worker 403a888d93dc-1-a78a5c starting (lease=30s heartbeat=10.0s)
+worker-8  | 2026-11-11 08:16:57,818 INFO worker 403a888d93dc-1-3b826e starting (lease=30s heartbeat=10.0s)
+worker-8  | 2026-11-11 08:17:21,139 INFO worker 403a888d93dc-1-50ef91 starting (lease=30s heartbeat=10.0s)
+worker-8  | 2026-11-11 08:17:31,564 INFO worker 403a888d93dc-1-8fa0fd starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:15:18,528 INFO job=b2b88073-b1f5-4bd9-97aa-6f933f872eb4 attempt=1 -> succeeded
+worker-8  | 2026-11-11 08:17:35,768 INFO worker 403a888d93dc-1-e48e5c starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:18,642 INFO job=f56f15fe-1395-402b-b2b8-e611c5b1d9e9 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:18,717 INFO job=a738355d-f736-4acf-92e3-7df8ef03ae5c attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:19,055 INFO job=9f5beb30-599a-429c-83aa-f66e9b14ad03 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:19,496 INFO job=31cd2b80-1b3b-43ca-b6bd-a75dcd31fdf0 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:19,756 INFO job=97a574ac-5d73-458a-b925-37f7411f4c0f attempt=1 -> cancelled
+worker-5  | 2026-11-11 08:15:20,233 INFO job=4bb6d5e4-d86e-4363-a4c7-e010d2e84cb5 attempt=1 -> cancelled
+worker-5  | 2026-11-11 08:15:20,558 INFO job=b4eb338a-cf0d-469e-b683-157fab5b430c attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:20,709 INFO job=4d3f51d2-a1ee-4517-9f76-62b200c5b0b4 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:20,867 INFO job=c2058bbf-f91e-49e3-9742-1f7fcf273d21 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:21,229 INFO job=d21e5781-3e9c-4831-a3c1-dc05c47ec6ae attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:21,621 INFO job=dbbc4053-4ff5-41d1-b196-d3ddd8788eb7 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:22,007 INFO job=f09f287a-4de6-46be-bd93-3c088f097636 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:22,081 INFO job=8d6912d4-b2d4-450f-8234-2bad800fe891 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:26,258 INFO job=4e7c619b-dc20-466f-bfbd-50e8b9261f16 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:22,247 INFO job=e99251ef-de2d-4f47-9068-95c5f538a9d4 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:26,548 INFO job=e1945967-3ed2-4049-b9b7-1493a948ea38 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:32,460 INFO job=6a8a848a-abb2-434b-ae7e-544e5952d64c attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:26,694 INFO job=b04c1089-0b78-456c-a09f-5f9f09bf3f91 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:19,004 INFO job=ee0d69f5-6604-4d00-980e-eec80b6b18c2 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:19,115 INFO job=9ad5a20f-d447-4f8d-92cb-7e792fb2453e attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:19,466 INFO job=7a11c5cb-780b-4a0d-8754-9621817a4ca9 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:32,857 INFO job=2ec1467d-4325-4eca-9afb-d87b908cac05 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:33,189 INFO job=8bb80702-f0fc-4ed7-86d4-1d6064315412 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:33,310 INFO job=6bff0a6f-115d-486b-b4b4-660ac1928b5a attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:26,968 INFO job=9e49aece-c8c4-4307-bb0d-4cb0e0d9185c attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:33,548 INFO job=137ce4c3-2049-412b-9183-3bffb41a13bb attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:33,982 INFO job=4a4d1465-ef45-4a25-a38d-a16b558801c9 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:22,391 INFO job=2060fdfb-1444-46e6-a43d-e2ca4831e8b9 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:34,391 INFO job=146521f6-5ca2-4c7b-8cd9-7adf836dc024 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:19,613 INFO job=c1909496-d043-46b0-9165-17ee8935a195 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:34,758 INFO job=7cf6774a-51f0-4db0-9293-683f46b7747b attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:19,772 INFO job=91dc19d5-9e53-471a-bfd5-036e25978d7b attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:20,058 INFO job=48dbc858-7fa8-4cc1-88a2-2df648152919 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:27,166 INFO job=c4f57d72-8da5-429f-b6ff-bfda862caca6 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:27,621 INFO job=77425440-626e-4858-a2d1-cde588185344 attempt=1 -> cancelled
+worker-7  | 2026-11-11 08:15:35,010 INFO job=a88cd8cf-1609-4fae-950d-12d59322b293 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:25,212 INFO worker 1ee5c6012d7c-1-2f5c5d starting (lease=30s heartbeat=10.0s)
+worker-2  | 2026-11-11 08:15:27,778 INFO job=6474c500-e97e-4f7d-94fa-6dc88a92119e attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:28,235 INFO job=6c1e585f-e58f-4fcc-a1fb-75dfaec82ba3 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:20,356 INFO job=f39defd0-5c85-46a0-8cff-ba48b8b8b780 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:20,667 INFO job=9f152ee6-0691-4fb7-8524-998cdacc5822 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:28,444 INFO job=e85908b8-dd61-4e1e-8638-6cf63e03c08c attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:20,786 INFO job=e344916f-82c9-43a1-a53e-e971e5a0798e attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:21,112 INFO job=d327f115-92be-471c-ba82-ddc54f4d61dc attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:35,335 INFO job=65a7db5a-8537-481b-8768-c39f3e5f01c8 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:28,595 INFO job=302d4d6a-a91d-4496-89af-05b1d0a97bbf attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:35,581 INFO job=47d41668-da21-4b93-a624-df58407ee1d0 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:28,763 INFO job=6622632d-4238-430a-94b1-7d2c4efe8b90 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:21,427 INFO job=98a03daf-4add-44f2-ab25-da307c8957b8 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:21,656 INFO job=73c054e9-3895-4681-bda9-ee2f005d1a1e attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:21,850 INFO job=c9412acb-73f0-4130-93db-b878c4bbbcff attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:22,187 INFO job=b3f5ac8a-8fad-44fc-9d62-43390f3943e3 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:22,308 INFO job=6fcdb2f2-a0d9-4370-84ee-5671784213cb attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:22,791 INFO job=cba81e3b-3e9b-419b-83b3-dbad64f07c23 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:23,117 INFO job=333825b4-914e-45af-a528-1446416a0b07 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:29,102 INFO job=170231d5-6372-486a-b07a-5487d7849c15 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:29,168 INFO job=ead1f781-1e97-4c8e-80d0-95b28b343353 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:29,637 INFO job=8ed42bd3-8d1e-43a0-a691-dde48875c2c2 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:29,836 INFO job=edb6a9b9-67a9-4c65-a653-76cc8bb89d9d attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:29,909 INFO job=da89f1dc-c6fa-4763-ab8e-503f180f079c attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:30,265 INFO job=038c030b-3c39-40bc-ada6-9fe91eee85c8 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:30,719 INFO job=3d1230cc-6738-4dd6-9889-5cf7d000535a attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:23,328 INFO job=2f3c08b9-7aff-4a62-8495-113015c758b2 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:23,689 INFO job=f17d4629-f74a-4238-8461-760c04223f5a attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:24,089 INFO job=79fb9f76-6d92-4243-838f-64f3f0b42eb9 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:24,337 INFO job=30bef524-0787-4dc0-9549-ba7a25a10a03 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:24,732 INFO job=b7e2de5f-077b-491c-861a-8f86cfd7c7fb attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:25,735 INFO job=aa999639-7c44-4468-8e8b-794424de1eb5 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:35,881 INFO job=24456dc3-878a-4421-9cb3-58747ae68923 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:25,923 INFO job=a9fa44fd-77ff-46a8-8668-639db3030306 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:36,351 INFO job=e78d898e-23b7-48c8-9ca7-c0d30c23fe3c attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:31,074 INFO job=d43ec427-ee4d-40a2-8298-edc1263e6923 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:26,017 INFO job=f22021fc-0b5b-40a0-86cd-f3108b4390a3 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:31,205 INFO job=8a08febe-a1e5-4b4f-8c82-6cfcb4ddcd08 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:36,491 INFO job=f9bfe2fb-c65b-477c-a03a-a20200b6c873 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:31,619 INFO job=1a897a50-8590-46c9-9b63-5778a88cfd29 attempt=1 -> cancelled
+worker-2  | 2026-11-11 08:15:32,024 INFO job=be3897ab-7411-4671-9abb-c593225fe145 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:32,510 INFO job=42d27d84-122a-427f-99f8-9b66a9289969 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:32,996 INFO job=58473355-49eb-4868-bccc-cf0070ad15a8 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:33,418 INFO job=002927d0-7cbe-49b8-8ba4-dac7ebc51106 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:33,537 INFO job=10f4f9e1-814c-432a-8ab2-36f6a92b6d74 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:33,937 INFO job=bc4d6524-1235-4942-bd8c-d5783667ac60 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:25,140 INFO job=d7739ac3-801e-4559-b3bb-3c5caf585fb3 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:25,624 INFO job=bfb825a3-30ae-456c-92a8-b6efbba62a06 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:25,707 INFO job=e5d0c71c-fc84-48a3-aa2e-0586638882df attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:26,007 INFO job=99fbbc67-ad26-46b6-be10-edbf0b4e2a70 attempt=1 -> cancelled
+worker-3  | 2026-11-11 08:15:28,376 INFO worker 0eac431d53c2-1-43205f starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:15:28,640 INFO job=fe2f1bec-a4a6-4df0-9c65-4f5c0aed1c45 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:28,965 INFO job=b779810b-9664-4359-b9ea-9b82e4b99977 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:36,888 INFO job=0db08f89-d3e9-4ddc-839e-da65842a54ac attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:34,124 INFO job=ac595912-2f89-406b-8abd-83984b3b3d69 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:34,539 INFO job=4795d72f-8daa-4757-82fc-ee2473bbfbc7 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:34,760 INFO job=49fb99cc-0719-442b-b807-478d1bb4c4b8 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:37,201 INFO job=2d76bfe0-e92c-468b-8a2a-1cf381552b5d attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:37,513 INFO job=996b2740-3a4d-4af0-9dcb-b1b0bf5835d7 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:37,743 INFO job=cc633690-ca81-49d2-8efb-b4cb023f9226 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:38,104 INFO job=b65bc9dd-695c-41c2-8f2b-93e30ccfe7a1 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:34,976 INFO job=63a22698-34e3-4273-95e0-5f899356358e attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:35,141 INFO job=7312238e-8f3d-4811-964c-7a4efabde761 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:35,293 INFO job=ce3da54c-cb87-4879-85a8-eead83c9f78b attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:38,185 INFO job=2a6a238a-55f6-4928-a687-ca2995ff8f4a attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:38,341 INFO job=c0e70beb-3ec1-4861-b3a6-05a33935ba06 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:29,105 INFO job=8fa215fb-2871-40c6-8e84-f7bf47256a24 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:50,943 INFO worker 5af414ab55f8-1-346e0f starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:15:29,559 INFO job=a7b41b38-6a3c-415b-b59b-8d17cd1f2801 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:15:59,630 INFO worker 5af414ab55f8-1-7c7111 starting (lease=30s heartbeat=10.0s)
+worker-2  | 2026-11-11 08:15:35,440 INFO job=1f1e9d9d-4e64-4eae-8047-6c42b322ce80 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:35,599 INFO job=ee4aae7f-9b9a-4e09-8307-c4a4f7bd2781 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:16:59,064 INFO worker 5af414ab55f8-1-ff7b52 starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:26,450 INFO job=9ccb62ee-f965-4f13-a24d-7a80115b2c8f attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:36,047 INFO job=6811ea71-8800-42b0-a7de-fdbf626a773e attempt=1 -> cancelled
+worker-5  | 2026-11-11 08:15:26,854 INFO job=825539aa-fbb1-4010-adc5-d104da768309 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:26,996 INFO job=da62c46e-c032-4794-ae51-8b0a41490405 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:17:03,354 INFO worker 5af414ab55f8-1-35e49c starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:15:29,938 INFO job=42f943cd-da37-4570-8a2a-a346140559b4 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:32,271 INFO worker 0eac431d53c2-1-06555e starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:27,304 INFO job=bb495092-e658-4996-a828-6ca4e1132cde attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:27,738 INFO job=b2a434d3-5128-4338-b546-200dd7d3c4ea attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:28,158 INFO job=8c03d1ae-ad18-4af0-95cd-5c6d48ae6ec8 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:28,491 INFO job=611dafa1-3fa1-4d60-9445-cb23b45f1a7a attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:28,604 INFO job=d9355eeb-3969-49b7-a14e-116b393884f2 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:28,723 INFO job=7921db17-628c-4aad-84e3-1bf18a8f90ee attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:32,648 INFO job=b8d4ffff-96d0-4594-96e1-f101bee14a4a attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:29,165 INFO job=797d47de-7162-4c7d-82c5-4c5d6fe736f2 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:29,653 INFO job=f826d2f6-dd51-443c-92f3-61ae62390d33 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:32,983 INFO job=d1fe833a-aec5-4d9e-824b-21605cd3ddce attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:29,833 INFO job=cbf90a22-0919-4541-9945-b0c2c2583e03 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:36,517 INFO job=0b971946-acc3-4f43-9dfd-215b1095ccdd attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:36,789 INFO job=7f085b71-b72c-46ff-bfb3-875ad79a6c2f attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:17:09,396 INFO worker 5af414ab55f8-1-3c2d55 starting (lease=30s heartbeat=10.0s)
+worker-2  | 2026-11-11 08:15:37,199 INFO job=f99a71e7-a814-4086-b884-cd415776dfe9 attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:17:13,591 INFO worker 5af414ab55f8-1-bbfa43 starting (lease=30s heartbeat=10.0s)
+worker-2  | 2026-11-11 08:15:37,678 INFO job=fb9d5f51-028b-4a97-8936-8ee81838934a attempt=1 -> succeeded
+worker-7  | 2026-11-11 08:17:16,664 INFO worker 5af414ab55f8-1-7d1355 starting (lease=30s heartbeat=10.0s)
+worker-7  | 2026-11-11 08:17:29,257 INFO worker 5af414ab55f8-1-dc6ac0 starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:15:33,400 INFO job=604c0f4e-f94b-4d2d-b270-89be41a403da attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:37,956 INFO job=27cb6fef-1477-4502-b935-a1582dcbb8bc attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:15:38,309 INFO job=3e0b340d-7dfc-4307-9fc7-55e0c1ec0011 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:16:10,776 INFO worker 44641932cd51-1-49120a starting (lease=30s heartbeat=10.0s)
+worker-2  | 2026-11-11 08:17:19,206 INFO worker 44641932cd51-1-34ec98 starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:15:33,625 INFO job=3a17ee99-9da7-4dc8-af16-c413cbd79428 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:33,734 INFO job=7188a156-68f7-4766-8139-da82caf1f202 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:36,343 INFO worker 0eac431d53c2-1-526d51 starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:15:36,797 INFO job=06d8044e-ae30-42d9-98a3-ffb0ddd5a58f attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:36,988 INFO job=5f588e25-fa34-41bc-9852-3c51e074d417 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:37,281 INFO job=a7bcccdc-9b4d-4f81-99b6-40b3e419bdb5 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:37,469 INFO job=576a8eb9-d049-464c-baec-d6a33c450532 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:37,764 INFO job=2108772a-1273-4911-9f2e-ac10505e5088 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:40,183 INFO worker 0eac431d53c2-1-d2557c starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:30,166 INFO job=80830e08-0abe-4f49-b13e-adf20a7f3a2e attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:30,332 INFO job=453b72a2-165f-42a0-b719-ec1f50750ec5 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:30,505 INFO job=624641dc-4771-4d76-a0b1-0477aa14fd6f attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:30,661 INFO job=0408e13a-55f4-4663-bb91-b59b29be0273 attempt=1 -> succeeded
+worker-2  | 2026-11-11 08:17:42,506 INFO worker 44641932cd51-1-8390e9 starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:31,003 INFO job=c35fb836-6e28-4f87-bf96-8addd2ef9f25 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:31,149 INFO job=0e81cf0e-7b70-421a-b328-7d3d74ebe584 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:31,334 INFO job=e4aac229-1616-4eef-9ec2-7634143320f2 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:31,760 INFO job=d399feee-6ad7-4417-8b1b-1161375c2918 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:31,999 INFO job=e38bc452-02c7-49fa-a416-b832d2b24cad attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:15:48,514 INFO worker 0eac431d53c2-1-a5412f starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:15:58,035 INFO worker 0eac431d53c2-1-fb3b8c starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:16:08,174 INFO worker 0eac431d53c2-1-4b3a89 starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:32,321 INFO job=ce0528d1-ec5b-4429-aa21-aec4eb9ec2f3 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:32,546 INFO job=644028b7-4136-4e8e-9197-29a8a315a52b attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:16:20,760 INFO worker 0eac431d53c2-1-bdb3d3 starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:16:30,227 INFO worker 0eac431d53c2-1-22735a starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:16:38,361 INFO worker 0eac431d53c2-1-5a298d starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:16:46,819 INFO worker 0eac431d53c2-1-14aacb starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:17:14,829 INFO worker 0eac431d53c2-1-e5d022 starting (lease=30s heartbeat=10.0s)
+worker-3  | 2026-11-11 08:17:25,231 INFO worker 0eac431d53c2-1-1ae279 starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:32,993 INFO job=e5f7bd0c-fe39-4621-864d-f93c4088d670 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:33,326 INFO job=e24adc68-e766-4503-968d-aeded977467d attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:33,782 INFO job=79f8e033-f328-40a5-aa99-84eb1b6cf64e attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:17:33,922 INFO worker 0eac431d53c2-1-6873c7 starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:33,958 INFO job=d1db6d91-715f-4701-9894-075556d56a00 attempt=1 -> succeeded
+worker-3  | 2026-11-11 08:17:46,921 INFO worker 0eac431d53c2-1-89a6fe starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:15:34,116 INFO job=1d5689cb-9134-4536-89da-f4f02c5f0359 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:34,588 INFO job=a50d1249-9871-462f-ba79-a274ca042476 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:34,965 INFO job=16fd8eec-36b1-46b3-ab1d-e23eaf99e91e attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:35,244 INFO job=12c7c6b6-66d1-4886-a70c-c6ce93f42091 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:35,384 INFO job=2b009e0f-710c-488e-9b6e-bbc4b6590e8c attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:35,627 INFO job=574a9b72-dcee-4741-9de3-880c66c53341 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:36,116 INFO job=ff529b91-301d-4f0a-b072-018030b21295 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:36,298 INFO job=5b949ed5-e61f-416f-9210-f7c633ffcf77 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:36,744 INFO job=727d9e19-f2d8-43d1-bb58-b7a1ca3e3ed3 attempt=1 -> cancelled
+worker-5  | 2026-11-11 08:15:37,227 INFO job=b730dda1-6405-473e-84ea-6be00f506fac attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:37,542 INFO job=d5ad842e-5898-422e-b7ab-5c23c986043e attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:37,869 INFO job=0781ad24-69be-4fc9-9ca6-82cc0af48458 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:37,941 INFO job=8c6e95e1-b0df-4ef2-8549-0b5f7bb95880 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:38,421 INFO job=37a76c0a-7f66-40c9-bca3-e2f131a77431 attempt=1 -> succeeded
+worker-5  | 2026-11-11 08:15:44,273 INFO worker 1ee5c6012d7c-1-cf7b00 starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:16:14,673 INFO worker 1ee5c6012d7c-1-40c1ac starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:16:34,383 INFO worker 1ee5c6012d7c-1-1dca5d starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:16:42,719 INFO worker 1ee5c6012d7c-1-aa9224 starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:17:10,907 INFO worker 1ee5c6012d7c-1-46642e starting (lease=30s heartbeat=10.0s)
+worker-5  | 2026-11-11 08:17:37,927 INFO worker 1ee5c6012d7c-1-4941fc starting (lease=30s heartbeat=10.0s)

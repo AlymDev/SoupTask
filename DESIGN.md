@@ -201,3 +201,9 @@ Worker froze for 25s after a 9s job. Attempt 2 was claimed at ~31s and was still
 - Takeaway: correctness of effects does not depend on the isolation level, availability does. The code has no retry on serialization failure and relies on the database default.
 - Harness gap: HTTP 500s are only printed, not counted as a failed invariant, so this run says PASS. Found by reading the stats, not the PASS line.
 - Limits: one run, no kills, only the global default changed (not SERIALIZABLE), cause of create 500s inferred from Postgres documentation.
+
+### Reaper starvation (starvation-01, found on clean code; fixed; starvation-02)
+- The reaper ran only in the worker's main loop, between jobs. With every worker busy on an 80s job and one killed (not restarted), the dead worker's job stayed 'running' for 79.7s although its lease expired at 30s. Nobody was free to reap.
+- Chaos runs with jobs under 0.5s hid this completely.
+- Fix: the reaper runs in a background thread in every worker process. Re-test: orphan recovered at 29.9s. Chaos run 17 (2000 jobs, 60 kills): 12/12 invariants. Mutation no_reaper still fails the tests (chaos-18), so the tests did not become vacuous.
+- Still open: a frozen process freezes its reaper thread too; if all worker processes die nobody reaps; 8 reapers poll every 2s.

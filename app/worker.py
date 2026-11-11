@@ -13,6 +13,7 @@ import socket
 import sys
 import time
 import uuid
+import threading
 
 from .db import (HEARTBEAT_SECONDS, LEASE_SECONDS, MAX_ATTEMPTS, REAP_INTERVAL_SECONDS,
                  WORK_MAX_MS, WORK_MIN_MS, make_pool)
@@ -147,17 +148,24 @@ def run(pool, job):
                  " (cancel observed)" if cancelled else "")
 
 
-def main():
-    log.info("worker %s starting (lease=%ss heartbeat=%ss)", WORKER_ID, LEASE_SECONDS, HEARTBEAT_SECONDS)
-    pool = make_pool(max_size=2)
-    next_reap = 0.0
+def reaper_loop(pool):
+    """Runs in its own thread, so a worker that is busy with a long job still reaps expired leases."""
     while True:
         try:
-            if time.monotonic() >= next_reap:
-                n = reap(pool)
-                if n:
-                    log.info("reaper handled %d expired job(s)", n)
-                next_reap = time.monotonic() + REAP_INTERVAL_SECONDS
+            n = reap(pool)
+            if n:
+                log.info("reaper handled %d expired job(s)", n)
+        except Exception:
+            log.exception("reaper error")
+        time.sleep(REAP_INTERVAL_SECONDS)
+
+
+def main():
+    log.info("worker %s starting (lease=%ss heartbeat=%ss)", WORKER_ID, LEASE_SECONDS, HEARTBEAT_SECONDS)
+    pool = make_pool(max_size=3)
+    threading.Thread(target=reaper_loop, args=(pool,), daemon=True).start()
+    while True:
+        try:
             job = claim(pool)
             if job is None:
                 time.sleep(0.1 + random.random() * 0.2)

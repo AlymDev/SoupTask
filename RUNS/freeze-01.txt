@@ -1,0 +1,17 @@
+FREEZE TEST 01 started 2026-11-11T14:28:46  {'work_s': 50, 'pause_after_s': 3, 'pause_s': 40, 'lease_s': 30, 'label': 'baseline, clean code, reaper thread'}
+label: baseline, clean code, reaper thread
+running worker containers: 8
+created job 9f4182a6-f531-4afe-9622-19bf1b95b751 (work 50s)
+[t=  3.1s] PAUSED container 6a511f3b78a8 (worker 6a511f3b78a8-1-b0bafe) holding attempt 1
+[t=  3.1s] status=running attempt=1 worker=6a511f3b78a8-1-b0bafe
+[t= 31.6s] status=running attempt=2 worker=c2535d71c6ca-1-2b4599
+[t= 43.8s] UNPAUSED container 6a511f3b78a8
+[t= 81.7s] status=succeeded attempt=2 worker=c2535d71c6ca-1-2b4599
+
+worker log lines mentioning this job:
+   worker-6  | 2026-11-11 08:30:09,296 INFO job=9f4182a6-f531-4afe-9622-19bf1b95b751 attempt=2 -> succeeded
+   worker-8  | 2026-11-11 08:29:32,021 WARNING lost lease job=9f4182a6-f531-4afe-9622-19bf1b95b751 attempt=1, abandoning
+
+effect rows: [['2', 'c2535d71c6ca-1-2b4599']]
+
+RESULT: PASS (frozen worker woke mid-work, found its lease gone, abandoned; one effect from attempt 2)

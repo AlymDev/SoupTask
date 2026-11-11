@@ -101,6 +101,14 @@ MUTATIONS = {
         "test": "python chaos/run.py --jobs 1000 --no-kill",
         "expect": "hypothesis (unverified): 'could not serialize access' errors when cancel/heartbeat/finish update the same row concurrently => HTTP 500 on cancel/create, worker loop errors, jobs retried after lease expiry",
     },
+        "heartbeat_no_attempt": {
+        "desc": "heartbeat is no longer fenced by the attempt number (status='running' check stays), finish stays fenced",
+        "edits": [("WHERE id = %(id)s AND attempt = %(attempt)s AND status = 'running'\nRETURNING cancel_requested",
+                   "WHERE id = %(id)s AND status = 'running'\nRETURNING cancel_requested")],
+        "drop_unique": False,
+        "test": 'python chaos/freeze_test.py --label "mutation heartbeat_no_attempt"',
+        "expect": "hypothesis (unverified): the woken worker's heartbeat succeeds against attempt 2 (and even extends its lease), so no 'lost lease' line; the stale write is then rejected only at finish (ZOMBIE); end state should still be one effect from attempt 2",
+    },
 }
 
 RESTORE_UNIQUE_SQL = """

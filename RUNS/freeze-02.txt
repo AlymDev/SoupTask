@@ -1,0 +1,19 @@
+FREEZE TEST 02 started 2026-11-11T14:32:39  {'work_s': 50, 'pause_after_s': 3, 'pause_s': 40, 'lease_s': 30, 'label': 'mutation heartbeat_no_attempt'}
+*** MUTATION ACTIVE: heartbeat_no_attempt  (deliberately broken worker; a FAIL is the expected result) ***
+label: mutation heartbeat_no_attempt
+running worker containers: 8
+created job 8fbc4483-e6cb-4917-bf38-39f050b91a0e (work 50s)
+[t=  3.1s] PAUSED container 73e97725cc56 (worker 73e97725cc56-1-19b063) holding attempt 1
+[t=  3.1s] status=running attempt=1 worker=73e97725cc56-1-19b063
+[t= 30.6s] status=running attempt=2 worker=a4a67a3396f1-1-fc39f1
+[t= 43.8s] UNPAUSED container 73e97725cc56
+[t= 80.5s] status=succeeded attempt=2 worker=a4a67a3396f1-1-fc39f1
+
+worker log lines mentioning this job:
+   worker-7  | 2026-11-11 08:34:01,162 INFO job=8fbc4483-e6cb-4917-bf38-39f050b91a0e attempt=2 -> succeeded
+   worker-4  | 2026-11-11 08:33:30,890 WARNING ZOMBIE write rejected job=8fbc4483-e6cb-4917-bf38-39f050b91a0e attempt=1
+
+effect rows: [['2', 'a4a67a3396f1-1-fc39f1']]
+
+RESULT: FAIL
+  - no 'lost lease ... attempt=1' line: the frozen worker did not notice at its heartbeat that it lost the job (it logged ZOMBIE instead: 1 line(s))

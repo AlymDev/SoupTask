@@ -1,0 +1,16 @@
+STARVATION TEST 02 started 2026-11-11T14:11:51  {'work_s': 80, 'bound_s': 40, 'workers': 8, 'label': 'after fix: reaper in a background thread'}
+label: after fix: reaper in a background thread
+running worker containers: 8 (expected 8)
+created 8 jobs of 80s
+all 8 workers are busy
+KILL -9 container 787177894b47 (worker 787177894b47-1-b257bf) holding job d6ae1ff9-2590-47c5-b7ef-dc6c19a4f1c8 (attempt 1); NOT restarting it
+[t=kill+  0.4s] orphan job: status=running attempt=1 worker=787177894b47-1-b257bf
+[t=kill+ 29.9s] orphan job: status=queued attempt=1 worker=-
+
+reaper log lines since start: 1
+   worker-3  | 2026-11-11 08:12:23,320 INFO reaper handled 1 expired job(s)
+
+cleanup: restarting all workers, emptying tables
+
+orphan recovered 29.9s after the kill (bound 40s, lease 30s)
+RESULT: PASS (the dead worker's job was recovered while every other worker was busy)

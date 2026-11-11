@@ -44,3 +44,10 @@ chaos-14.txt	run.py --jobs 1000 --no-kill, после apply clock_behind	PASS (1
 | chaos-14.txt | run.py --jobs 1000 --no-kill | PASS (13/13) | NO mutation marker: control run, clean code |
 | chaos-15.txt | run.py --jobs 300 --no-kill, mutation clock_behind | FAIL (expected) | 199/300 claimed >1x, 437 stale writes rejected, 9 'failed' with healthy workers |
 | chaos-16.txt | run.py --jobs 1000 --no-kill, mutation isolation_rr | PASS (13/13) but 144 create + 2 cancel HTTP 500 | invariants hold, availability does not; harness does not count HTTP errors as failures |
+
+| starvation-01.txt | starvation_test.py, clean code | FAIL (real bug) | dead worker's job stayed 'running' 79.7s (lease 30s) while the other 7 workers were busy: reaper runs only between jobs |
+
+| starvation-01.txt | starvation_test.py, clean code (before fix) | FAIL (real bug) | dead worker's job stayed 'running' 79.7s while the other 7 workers were busy: reaper ran only between jobs |
+| starvation-02.txt | starvation_test.py, reaper in background thread | PASS | orphan recovered at 29.9s (lease 30s) |
+| chaos-17.txt | run.py --jobs 2000, after reaper fix | PASS (12/12) | 60 kills, 15 retried, 0 double effects |
+| chaos-18.txt | run.py --jobs 500 --timeout 150, mutation no_reaper (after fix) | FAIL (expected) | 10 jobs stuck 'running', 25 accepted cancels never completed |
