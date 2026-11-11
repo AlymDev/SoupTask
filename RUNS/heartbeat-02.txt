@@ -1,0 +1,28 @@
+HEARTBEAT TEST 02 started 2026-11-11T12:29:03  {'long_s': 45, 'cancel_after_s': 3, 'lease_s': 30, 'hb_s': 10, 'label': 'mutation no_heartbeat'}
+*** MUTATION ACTIVE: no_heartbeat  (deliberately broken worker; a FAIL is the expected result) ***
+label: mutation no_heartbeat
+created A_long: a8da4ee4-5077-45d0-aafc-07359da4bb6b  (work takes 45s)
+created B_cancel: 51540509-7e4c-4975-a3c5-2c65fa86795a  (work takes 60s)
+[t=  0.0s] A_long: status=queued attempt=0 worker=-
+[t=  0.0s] B_cancel: status=queued attempt=0 worker=-
+[t=  0.5s] A_long: status=running attempt=1 worker=6b3c0a19c653-1-88b23f
+[t=  0.5s] B_cancel: status=running attempt=1 worker=62d821b67155-1-06cf74
+[t=  3.8s] B_cancel: POST cancel -> HTTP 202
+[t= 30.4s] A_long: status=running attempt=2 worker=b585cd501800-1-77ae26
+[t= 30.4s] B_cancel: status=cancelled attempt=1 worker=-
+
+worker log lines for A_long:
+effect rows for A_long: []
+
+worker log lines for B_cancel:
+effect rows for B_cancel: []
+
+A: lease_until moved forward by 0.0s between first and last observation (heartbeat every 10s)
+B: cancel accepted at t=3.8s, job terminal at t=30.4s -> latency 26.6s (bound 13s = heartbeat + 3s)
+
+RESULT: FAIL
+  - A: lease_until never moved, so the heartbeat did not extend the lease
+  - A: final status is running, expected succeeded
+  - A: job was re-claimed (attempt 2) while its worker was alive: the lease expired during a 45s job
+  - A: 0 effect rows, expected exactly 1
+  - B: cancel took 26.6s to take effect (bound 13s): the worker did not notice the cancel at its heartbeat

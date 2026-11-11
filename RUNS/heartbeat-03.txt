@@ -1,0 +1,24 @@
+HEARTBEAT TEST 03 started 2026-11-11T12:32:07  {'long_s': 45, 'cancel_after_s': 3, 'lease_s': 30, 'hb_s': 10, 'label': 'mutation no_cancel_in_heartbeat'}
+*** MUTATION ACTIVE: no_cancel_in_heartbeat  (deliberately broken worker; a FAIL is the expected result) ***
+label: mutation no_cancel_in_heartbeat
+created A_long: 078a1978-05be-4de5-ad03-c81737b8ad78  (work takes 45s)
+created B_cancel: d60308fe-3090-4001-af0d-930c7629f2ba  (work takes 60s)
+[t=  0.0s] A_long: status=running attempt=1 worker=9453795e6bed-1-082c45
+[t=  0.0s] B_cancel: status=running attempt=1 worker=74933cef8c85-1-074ccb
+[t=  3.3s] B_cancel: POST cancel -> HTTP 202
+[t= 45.2s] A_long: status=succeeded attempt=1 worker=9453795e6bed-1-082c45
+[t= 60.2s] B_cancel: status=cancelled attempt=1 worker=74933cef8c85-1-074ccb
+
+worker log lines for A_long:
+   worker-3  | 2026-11-11 06:32:53,211 INFO job=078a1978-05be-4de5-ad03-c81737b8ad78 attempt=1 -> succeeded
+effect rows for A_long: [['1']]
+
+worker log lines for B_cancel:
+   worker-5  | 2026-11-11 06:33:08,219 INFO job=d60308fe-3090-4001-af0d-930c7629f2ba attempt=1 -> cancelled
+effect rows for B_cancel: []
+
+A: lease_until moved forward by 40.2s between first and last observation (heartbeat every 10s)
+B: cancel accepted at t=3.3s, job terminal at t=60.2s -> latency 56.9s (bound 13s = heartbeat + 3s)
+
+RESULT: FAIL
+  - B: cancel took 56.9s to take effect (bound 13s): the worker did not notice the cancel at its heartbeat

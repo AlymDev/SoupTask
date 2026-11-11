@@ -56,6 +56,21 @@ MUTATIONS = {
         "test": "python chaos/run.py --jobs 1000 --no-kill",
         "expect": "FAIL cancel_is_honoured: cancels accepted (HTTP 202) but the job ended 'succeeded'",
     },
+    "no_heartbeat": {
+        "desc": "workers never send a heartbeat: the lease is never extended and cancels are not noticed during a job",
+        "edits": [("if time.monotonic() >= next_hb:", "if False:  # MUTATION: heartbeat disabled")],
+        "drop_unique": False,
+        "test": 'python chaos/heartbeat_test.py --label "mutation no_heartbeat"',
+        "expect": "FAIL: the 45s job is re-claimed after ~30s; the cancelled 60s job is only finished by the reaper after the lease expires",
+    },
+    "no_cancel_in_heartbeat": {
+        "desc": "the heartbeat still extends the lease, but the worker ignores cancel_requested during the job",
+        "edits": [("            if cancel_requested:\n                cancelled = True\n                break",
+                   "            if False:  # MUTATION: cancel flag ignored during the job\n                cancelled = True\n                break")],
+        "drop_unique": False,
+        "test": 'python chaos/heartbeat_test.py --label "mutation no_cancel_in_heartbeat"',
+        "expect": "FAIL: a cancelled 60s job only stops when it finishes (~57s after the cancel instead of within ~13s)",
+    },
     "no_reaper": {
         "desc": "the reaper never runs, so expired leases are never recovered",
         "edits": [("n = reap(pool)", "n = 0  # MUTATION: reaper disabled")],

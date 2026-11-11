@@ -1,0 +1,24 @@
+HEARTBEAT TEST 01 started 2026-11-11T12:26:27  {'long_s': 45, 'cancel_after_s': 3, 'lease_s': 30, 'hb_s': 10, 'label': 'baseline, clean code'}
+label: baseline, clean code
+created A_long: 89c5f8bb-e536-43da-851f-34d520adcd06  (work takes 45s)
+created B_cancel: 14c4c5d3-e438-4b19-91ef-5623cdb72290  (work takes 60s)
+[t=  0.0s] A_long: status=queued attempt=0 worker=-
+[t=  0.0s] B_cancel: status=queued attempt=0 worker=-
+[t=  0.5s] A_long: status=running attempt=1 worker=e51089678ea9-1-924944
+[t=  0.5s] B_cancel: status=running attempt=1 worker=b0e2018df85f-1-94c651
+[t=  3.8s] B_cancel: POST cancel -> HTTP 202
+[t= 10.2s] B_cancel: status=cancelled attempt=1 worker=b0e2018df85f-1-94c651
+[t= 45.4s] A_long: status=succeeded attempt=1 worker=e51089678ea9-1-924944
+
+worker log lines for A_long:
+   worker-1  | 2026-11-11 06:27:13,292 INFO job=89c5f8bb-e536-43da-851f-34d520adcd06 attempt=1 -> succeeded
+effect rows for A_long: [['1']]
+
+worker log lines for B_cancel:
+   worker-8  | 2026-11-11 06:26:38,321 INFO job=14c4c5d3-e438-4b19-91ef-5623cdb72290 attempt=1 -> cancelled (cancel observed)
+effect rows for B_cancel: []
+
+A: lease_until moved forward by 40.1s between first and last observation (heartbeat every 10s)
+B: cancel accepted at t=3.8s, job terminal at t=10.2s -> latency 6.4s (bound 13s = heartbeat + 3s)
+
+RESULT: PASS (45s job survived a 30s lease; running job was cancelled within one heartbeat interval)
