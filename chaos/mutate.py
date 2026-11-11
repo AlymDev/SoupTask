@@ -93,10 +93,19 @@ MUTATIONS = {
         "test": "python chaos/run.py --jobs 1000 --no-kill",
         "expect": "hypothesis: reaper requeues jobs that are still running => attempt>1 without kills, ZOMBIE rejections (no_double_claim_without_kills / no_fenced_writes fail); effects should stay unique thanks to fencing",
     },
+     "isolation_rr": {
+        "desc": "database default isolation changed from READ COMMITTED to REPEATABLE READ (API and workers)",
+        "edits": [],
+        "drop_unique": False,
+        "db_sql": "ALTER DATABASE soup SET default_transaction_isolation = 'repeatable read';",
+        "test": "python chaos/run.py --jobs 1000 --no-kill",
+        "expect": "hypothesis (unverified): 'could not serialize access' errors when cancel/heartbeat/finish update the same row concurrently => HTTP 500 on cancel/create, worker loop errors, jobs retried after lease expiry",
+    },
 }
 
 RESTORE_UNIQUE_SQL = """
 TRUNCATE effects, jobs;
+ALTER DATABASE soup RESET default_transaction_isolation; 
 DO $$ BEGIN
   IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'effects_job_id_key') THEN
     ALTER TABLE effects ADD CONSTRAINT effects_job_id_key UNIQUE (job_id);
@@ -114,10 +123,14 @@ def mutated_source(name, src):
     return src
 
 
-def rebuild():
+def rebuild(force_restart=False):
     print("rebuilding images and restarting containers (about 1 minute)...", flush=True)
     if subprocess.run(["docker", "compose", "up", "--build", "-d"], cwd=ROOT).returncode:
         sys.exit("docker compose up --build failed")
+    if force_restart:
+        print("restarting api and workers so that they open NEW database connections...", flush=True)
+        if subprocess.run(["docker", "compose", "restart", "api", "worker"], cwd=ROOT).returncode:
+            sys.exit("docker compose restart failed")
     for _ in range(90):
         _, out, _ = h.sh(["docker", "compose", "ps", "-q", "worker"])
         if len(out.split()) == EXPECTED_WORKERS and h.http("GET", "/healthz")[0] == 200:
@@ -135,10 +148,10 @@ def restore(do_rebuild=True):
         print("app/worker.py restored from worker.py.orig")
     if MARK.exists():
         MARK.unlink()
-    h.psql(RESTORE_UNIQUE_SQL)  # also empties jobs/effects: save any evidence BEFORE running restore
-    print("database: tables emptied, UNIQUE(job_id) on effects present")
+    h.psql(RESTORE_UNIQUE_SQL)  # also empties jobs/effects and resets DB isolation: save evidence BEFORE restore
+    print("database: tables emptied, UNIQUE(job_id) present, default isolation reset")
     if do_rebuild:
-        rebuild()
+        rebuild(force_restart=True)
         print("restored. Check `git status` shows no change to app/worker.py.")
 
 
@@ -151,7 +164,10 @@ def apply(name):
     if m["drop_unique"]:
         h.psql("ALTER TABLE effects DROP CONSTRAINT IF EXISTS effects_job_id_key;")
         print("database: UNIQUE(job_id) on effects DROPPED")
-    rebuild()
+    if m.get("db_sql"):
+        h.psql(m["db_sql"])
+        print("database: " + m["db_sql"])
+    rebuild(force_restart=bool(m.get("db_sql")))
     print(f"\nMUTATION '{name}' is active: {m['desc']}")
     print(f"NEXT   : {m['test']}")
     print(f"EXPECT : {m['expect']}")

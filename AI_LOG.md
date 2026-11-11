@@ -39,3 +39,5 @@ then AI wrote chaos/run.py. I ran it with N jobs. Results are in RUNS/
 
 
 - AI wrote chaos/heartbeat_test.py and checked its logic against a simulated server before I ran it; that found a flaw (a re-claimed job's new lease was counted as a lease extension), fixed before my runs. I ran the baseline and both mutations on the real system: results matched what the AI predicted.
+
+ИИ предсказал, что clock_behind вызовет двойные захваты. Прогон показал PASS без единого retry. Вместо того чтобы объявить "гипотеза была неверна", я заметил, что в шапке нет метки мутации, и проверил, что реально выполнялось в контейнерах».

@@ -183,3 +183,13 @@ Worker froze for 25s after a 9s job. Attempt 2 was claimed at ~31s and was still
 - Heartbeat without cancel check: the lease was still extended, but a cancelled 60s job ran to the end (56.9s). Result correct (cancelled, no effect), work wasted.
 - Design consequence: cancel of a running job takes up to one heartbeat interval (10s). Heartbeat writes scale with running jobs / 10s.
 - Not covered: the "lost lease, abandon" branch has never executed; the heartbeat runs in the same loop as the work, so a real blocking job would need a heartbeat thread, which brings the opposite problem (hung job with a live heartbeat holds its lease forever).
+
+### Clock skew mutation (chaos-15)
+- Mutation: the worker computed lease_until from its own clock, set 40s behind (lease 30s), so every lease was born expired.
+- Result: 199 of 300 jobs were claimed more than once (attempt up to 5), 437 stale writes were rejected by the attempt check, 9 jobs ended 'failed' after 5 attempts although every worker was healthy and every run of the work finished.
+- No double effect: fencing and UNIQUE(job_id) held. But the work itself ran many times (437 wasted completions) and 9 jobs were lost to the retry limit. With a real external side effect these would be duplicate executions.
+- Takeaway: clock skew is silent. Safety of the effect survives, liveness and cost do not. Our rule (all lease times come from the DB now(), never from a worker) is what prevents this; this mutation violates it on purpose.
+- Limits: one run, constant 40s offset, only the claim path mutated (heartbeat still uses DB time), 300 jobs, no kills.
+
+
+ИИ предсказал двойные захваты при clock_behind. Первый прогон (chaos-14) прошёл без единого retry; я не принял это как опровержение, проверил наличие метки мутации и кода в контейнере, и повторил (chaos-15)

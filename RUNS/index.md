@@ -33,3 +33,7 @@ File	Command	Result	Note
 heartbeat-01.txt	heartbeat_test.py	PASS	baseline, clean code
 heartbeat-02.txt	heartbeat_test.py, mutation no_heartbeat	FAIL (expected)	job re-claimed at 30.4s, cancel by reaper after 26.6s
 heartbeat-03.txt	heartbeat_test.py, mutation no_cancel_in_heartbeat	FAIL (expected)	cancel took 56.9s
+
+
+Файл	Команда	Результат	Примечание
+chaos-14.txt	run.py --jobs 1000 --no-kill, после apply clock_behind	PASS (13/13), 0 retries, 0 reaper actions	Не использовать как доказательство: в шапке нет строки MUTATION ACTIVE, состояние мутации не подтверждено. Повтор см. ниже
